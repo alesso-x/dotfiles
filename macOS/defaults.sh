@@ -1,4 +1,10 @@
-#!/bin/sh
+#!/bin/bash
+
+# Set computer name
+name=$1
+sudo scutil --set ComputerName "$name"
+sudo scutil --set HostName "$name.local"
+sudo scutil --set LocalHostName "$name"
 
 #
 # Keyboard
@@ -32,7 +38,6 @@ defaults write com.apple.Dock showhidden -bool true
 
 # Change minimize window animation
 defaults write com.apple.Dock mineffect -string "scale"
-
 
 #
 # Mouse/Trackpad
@@ -110,5 +115,7 @@ defaults write com.apple.screencapture location $HOME/Pictures/screenshots
 # Finder —> Preferences —> Advanced —> Keep folders on top when sorting by name
 # iTunes —> Preferences —> Devices —> Prevent iPods, iPhones, and iPads from syncing automatically
 # Keyboard —> Modifier Keys —> Caps lock escape key
+# Mouse --> Swipe between pages
+# Photos —> Optimize for mac storage
 # Security & Privacy —> General —> Require password 5 secs
 # Sound —> Show volume in menu bar

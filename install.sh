@@ -28,7 +28,7 @@ heading "Installing Mac App Store cli (mas)"
 brew install mas
 
 heading "Installing dependencies and apps"
-brew bundle
+brew bundle --file=./macOS/Brewfile
 
 brew cleanup
 
@@ -48,5 +48,11 @@ chsh -s "$(command -v fish)"
 heading "Setting up fish config and plugins"
 chmod +x ./fish/setup.fish
 ./fish/setup.fish
+
+heading "Configuring macOS defaults"
+chmod +x ./macOS/defaults.sh
+chmod +x ./macOS/dock.sh
+./macOS/defaults.sh
+./macOS/dock.sh
 
 heading "Done!"
