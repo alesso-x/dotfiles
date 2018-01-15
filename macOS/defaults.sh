@@ -68,6 +68,9 @@ defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 # Allow text selection in QuickLook
 defaults write com.apple.finder QLEnableTextSelection -bool true
 
+# Keep folders on top when sorting by name
+defaults write com.apple.finder _FXSortFoldersFirst -bool true
+
 # Finder: new window location set to $HOME. Same as Finder > Preferences > New Finder Windows show
 # For other path use "PfLo" and "file:///foo/bar/"
 defaults write com.apple.finder NewWindowTarget -string "PfLo"
@@ -102,6 +105,12 @@ defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 # Use tabs
 defaults write NSGlobalDomain AppleWindowTabbingMode -string "always"
 
+# Show volume in the menu bar
+defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.volume" -bool true
+
+# Show Bluetooth in the menu bar
+defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.bluetooth" -int 1
+
 # Save screenshots to folder
 mkdir $HOME/Pictures/screenshots
 defaults write com.apple.screencapture location $HOME/Pictures/screenshots
@@ -111,11 +120,8 @@ defaults write com.apple.screencapture location $HOME/Pictures/screenshots
 #
 # App Store —> Install macOS updates
 # App Store —> Free Downloads —> Save password
-# Bluetooth —> Show bluetooth in menu bar
-# Finder —> Preferences —> Advanced —> Keep folders on top when sorting by name
 # iTunes —> Preferences —> Devices —> Prevent iPods, iPhones, and iPads from syncing automatically
 # Keyboard —> Modifier Keys —> Caps lock escape key
 # Mouse --> Swipe between pages
 # Photos —> Optimize for mac storage
 # Security & Privacy —> General —> Require password 5 secs
-# Sound —> Show volume in menu bar
