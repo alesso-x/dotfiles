@@ -1,5 +1,4 @@
 source $HOME/.git-prompt.sh
-GIT_PS1_SHOWDIRTYSTATE=1
 PS1="\[\e[0;31m\]\u \[\e[0;33m\]\W \[\e[0;32m\]\$(__git_ps1 '[%s]')\[\e[0;32m\]$ \[\e[0m\]"
 
 # terminal colors
@@ -26,5 +25,6 @@ fi
 
 alias ..='cd ../'
 
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 eval "$(pyenv init -)"
 eval "$(nodenv init -)"
