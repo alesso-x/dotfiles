@@ -33,7 +33,7 @@ brew bundle --file=./macOS/Brewfile
 brew cleanup
 
 heading "Setting up bash"
-/bin/bash ./bash/setup.sh
+bash ./bash/setup.sh
 
 heading "Checking if fish is in /etc/shells"
 if ! grep -Fxq "$(command -v fish)" /etc/shells; then
@@ -45,10 +45,10 @@ heading "Changing default shell to fish"
 chsh -s "$(command -v fish)"
 
 heading "Setting up fish config and plugins"
-/bin/bash ./fish/setup.fish
+bash ./fish/setup.fish
 
 heading "Configuring macOS defaults"
-/bin/bash ./macOS/defaults.sh
-/bin/bash ./macOS/dock.sh
+bash ./macOS/defaults.sh
+bash ./macOS/dock.sh
 
 heading "Done!"
