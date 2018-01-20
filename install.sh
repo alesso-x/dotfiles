@@ -31,6 +31,7 @@ heading "Installing dependencies and apps"
 brew bundle --file=./macOS/Brewfile
 
 brew cleanup
+brew cask cleanup
 
 heading "Setting up bash"
 bash ./bash/setup.sh
