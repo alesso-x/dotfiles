@@ -120,6 +120,7 @@ defaults write com.apple.screencapture location $HOME/Pictures/screenshots
 #
 # App Store —> Install macOS updates
 # App Store —> Free Downloads —> Save password
+# Desktop -> Sort by -> Snap to Grid
 # iTunes —> Preferences —> Devices —> Prevent iPods, iPhones, and iPads from syncing automatically
 # Keyboard —> Modifier Keys —> Caps lock escape key
 # Mouse --> Swipe between pages
