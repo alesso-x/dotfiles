@@ -24,6 +24,9 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 alias ..='cd ../'
+alias dk='docker'
+alias dm='docker-compose'
+alias fig='find . -type f | xargs grep'
 
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 eval "$(pyenv init -)"
