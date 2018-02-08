@@ -124,5 +124,6 @@ defaults write com.apple.screencapture location $HOME/Pictures/screenshots
 # iTunes —> Preferences —> Devices —> Prevent iPods, iPhones, and iPads from syncing automatically
 # Keyboard —> Modifier Keys —> Caps lock escape key
 # Mouse --> Swipe between pages
+# Mail --> Composing --> Send new messages from
 # Photos —> Optimize for mac storage
 # Security & Privacy —> General —> Require password 5 secs
