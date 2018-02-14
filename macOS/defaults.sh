@@ -125,5 +125,6 @@ defaults write com.apple.screencapture location $HOME/Pictures/screenshots
 # Keyboard —> Modifier Keys —> Caps lock escape key
 # Mouse --> Swipe between pages
 # Mail --> Composing --> Send new messages from
+# Mail --> Viewing --> Show most recent message at the top
 # Photos —> Optimize for mac storage
 # Security & Privacy —> General —> Require password 5 secs
