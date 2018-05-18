@@ -1,6 +1,6 @@
 # dotfiles
 
 ```
-chmod +x ./setup.sh
-./setup.sh
+chmod +x ./install.sh
+./install.sh
 ```
