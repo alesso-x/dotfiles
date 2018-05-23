@@ -1,3 +1,4 @@
+tap "buo/cask-upgrade"
 tap "homebrew/science"
 tap "homebrew/core"
 tap "homebrew/php"
@@ -5,6 +6,7 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "caskroom/fonts"
 tap "caskroom/cask"
+tap "dteoh/sqa"
 brew "amazon-ecs-cli"
 brew "aws-elasticbeanstalk"
 brew "awscli"
@@ -73,6 +75,7 @@ cask "vlc"
 cask "ynab"
 cask "caskroom/fonts/font-fira-code"
 cask "caskroom/fonts/font-mononoki"
+cask "dteoh/sqa/slowquitapps"
 mas "1Blocker", id: 1107421413
 mas "1Password", id: 443987910
 mas "Keynote", id: 409183694
