@@ -6,7 +6,7 @@
 [alias]
   co = checkout
   con = log origin/master ^master
-  delete-merged-branches = "!git co master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+  delete-merged-branches = "!git co master && git pull && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d && git remote prune origin"
   # Show changes that have been staged
   diffc = diff --cached
   # list aliases
