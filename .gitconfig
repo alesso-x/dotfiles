@@ -6,12 +6,12 @@
 [alias]
   co = checkout
   con = log origin/master ^master
-  delete-merged-branches = "!git co master && git pull && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d && git remote prune origin"
+  po = remote prune origin
+  delete-merged-branches = "!git co master && git pull && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d && git po"
   # Show changes that have been staged
   diffc = diff --cached
   # list aliases
   ll = "!git config -l | grep alias | cut -c 7-"
   lk = log --oneline --graph --decorate
   publish = "!git push -u origin $(git branch-name)"
-  po = remote prune origin
   undo = reset HEAD~
