@@ -1,5 +1,6 @@
 [core]
     excludesfile = ~/.gitexcludes
+    editor = vim
 [user]
     name = Alessandro DiMarco
     email = axdimarco@gmail.com

@@ -29,7 +29,7 @@ $(brew --prefix)/opt/fzf/install
 alias ..='cd ../'
 alias dk='docker'
 alias dm='docker-compose'
-alias fig='find . -type f | xargs grep'
+alias EDITOR=code
 
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 eval "$(pyenv init -)"
