@@ -35,6 +35,7 @@ brew "ruby"
 brew "speedtest-cli"
 brew "tldr"
 brew "tmux"
+brew "the_silver_searcher"
 brew "tree"
 brew "watchman"
 brew "yarn", args: ["without-node"]
