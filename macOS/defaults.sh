@@ -112,8 +112,8 @@ defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextr
 defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.bluetooth" -int 1
 
 # Save screenshots to folder
-mkdir $HOME/Pictures/screenshots
-defaults write com.apple.screencapture location $HOME/Pictures/screenshots
+mkdir "$HOME/Library/Mobile Documents/com~apple~CloudDocs/screenshots"
+efaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/com~apple~CloudDocs/screenshots"
 
 #
 # TODO:
