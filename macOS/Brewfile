@@ -40,7 +40,6 @@ brew "tree"
 brew "watchman"
 brew "yarn", args: ["without-node"]
 cask "1password-cli"
-cask "adium"
 cask "alfred"
 cask "appcleaner"
 cask "balsamiq-mockups"
