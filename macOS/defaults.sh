@@ -113,7 +113,7 @@ defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextr
 
 # Save screenshots to folder
 mkdir "$HOME/Library/Mobile Documents/com~apple~CloudDocs/screenshots"
-efaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/com~apple~CloudDocs/screenshots"
+defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/com~apple~CloudDocs/screenshots"
 
 #
 # TODO:
