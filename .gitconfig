@@ -5,6 +5,7 @@
     name = Alessandro DiMarco
     email = axdimarco@gmail.com
 [alias]
+    br = branch
     co = checkout
     con = log origin/master ^master
     po = remote prune origin
