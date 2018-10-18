@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
 echo "Installing fisherman"
-curl -Lo $HOME/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
+curl https://git.io/fisher --create-dirs -sLo $HOME/.config/fish/functions/fisher.fish
 
 echo "Copying config files"
 cp ./config.fish $HOME/.config/fish/

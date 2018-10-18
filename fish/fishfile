@@ -4,6 +4,7 @@ brgmnn/fish-docker-compose
 barnybug/docker-fish-completion
 jethrokuan/fzf
 fisherman/getopts
-fisherman/nodenv
 fisherman/pyenv
 fisherman/z
+pipenv
+nickeb96/pisces
