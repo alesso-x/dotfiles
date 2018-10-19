@@ -1,66 +1,77 @@
 {
-    "editor.fontFamily": "'Fira Code', 'mononoki'",
-    "editor.fontWeight": "normal",
-    "editor.fontSize": 14,
-    "editor.fontLigatures": true,
-    "editor.snippetSuggestions": "top",
-    "editor.renderWhitespace": "all",
-    "explorer.autoReveal": false,
-    "files.autoSave": "onFocusChange",
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/*.pyc": true,
-    },
-    "git.confirmSync": false,
-    // "gitlens.advanced.telemetry.enabled": false,
-    // "gitlens.blame.line.enabled": false,
-    "telemetry.enableTelemetry": false,
-    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
-    "todohighlight.defaultStyle": {
-        "color": "#A8C023",
-        "backgroundColor": "#282C34",
-    },
-    "todohighlight.keywords": [
-        "FIXME:",
-        "TODO:",
-        "Warning:",
-        "HACK",
-        "NOTE:",
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.newlineBeforeSummary": true,
+    "breadcrumbs.enabled": true,
+    "cSpell.userWords": [
+        "kombu",
+        "strftime",
+        "werkzeug"
     ],
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "boundary",
+    "editor.suggest.localityBonus": true,
+    "editor.tabSize": 2,
+    "explorer.autoReveal": false,
+    "extensions.ignoreRecommendations": false,
+    "flow.runOnEdit": false,
     "files.associations": {
+        "**/.ebextensions/*.*": "yaml",
         "*.conf": "ini",
         "*.js": "javascript",
-        "**/.ebextensions/*.*": "yaml",
-        "Jenkinsfile": "jenkins",
         ".env": "shellscript",
-        "Brewfile": "ruby"
+        ".envrc": "dotenv",
+        "Brewfile": "ruby",
+        "Jenkinsfile": "jenkins",
+        "nginx.conf": "NGINX"
     },
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/*.pyc": true,
+        "**/__pycache__": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
-    "python.formatting.provider": "yapf",
-    "python.linting.pep8Path": "pycodestyle",
-    "python.linting.pep8Enabled": true,
-    "npm-intellisense.importLinebreak": ";\n",
-    "sync.autoUpload": true,
-    "sync.anonymousGist": false,
-    "sync.askGistName": false,
-    "sync.autoDownload": false,
-    "sync.forceDownload": false,
-    "sync.gist": "bc679d76ae465b331e087bb8f37199f1",
-    "sync.host": "",
-    "sync.lastUpload": "2018-01-16T03:40:38.805Z",
-    "sync.lastDownload": "2018-01-14T04:56:46.402Z",
-    "sync.pathPrefix": "",
-    "sync.quietSync": false,
-    "vscode_custom_css.imports": ["file:///Users/alesso/.config/vscode/styles.css"],
-    "workbench.colorTheme": "Atom One Dark",
-    "workbench.iconTheme": "vs-seti",
-    "workbench.startupEditor": "newUntitledFile",
-    "window.nativeTabs": false,
-    "window.zoomLevel": -0.5,
-    "[javascript]": {
-        "editor.tabSize": 2,
+    "git.confirmSync": false,
+    "github.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
     },
-    "extensions.ignoreRecommendations": false,
+    "gitlens.advanced.telemetry.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "npm-intellisense.importLinebreak": ";\n",
+    "projectManager.vscode.baseFolders": [
+        "$home/Develop"
+    ],
+    "projectManager.vscode.ignoredFolders": [
+        "node_modules"
+    ],
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Path": "pycodestyle",
+    "python.unitTest.autoTestDiscoverOnSaveEnabled": false,
+    "python.jediEnabled": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/.vscode": true,
+        "**/.pytest*": true
+    },
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "window.nativeTabs": true,
+    "window.zoomLevel": -0.5,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.settings.editor": "json",
+    "workbench.colorTheme": "Atom One Dark"
 }
