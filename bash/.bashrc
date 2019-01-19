@@ -1,3 +1,4 @@
+eval "$(direnv hook bash)"
 source $HOME/.git-prompt.sh
 PS1="\[\e[0;31m\]\u \[\e[0;33m\]\W \[\e[0;32m\]\$(__git_ps1 '[%s]')\[\e[0;32m\]$ \[\e[0m\]"
 
@@ -31,6 +32,4 @@ alias dk='docker'
 alias dm='docker-compose'
 alias EDITOR=code
 
-export PYENV_VIRTUALENV_DISABLE_PROMPT=1
-eval "$(pyenv init -)"
-eval "$(nodenv init -)"
+. /usr/local/opt/asdf/asdf.sh
