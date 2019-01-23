@@ -1,6 +1,5 @@
 tap "buo/cask-upgrade"
 tap "colindean/fonts-nonfree"
-
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
