@@ -16,24 +16,37 @@ if ! [ $(xcode-select -p) ]; then
   xcode-select --install
 fi
 
+#
+# Homebrew setup
+#
+
 heading "Checking homebrew"
 if ! [ -x "$(command -v brew)" ]; then
   heading "Installing homebrew"
   ruby -e "$(curl -fsSl https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew update
-
-heading "Installing Mac App Store cli (mas)"
-brew install mas
-
 heading "Installing dependencies and apps"
+brew update
+brew install mas
 brew bundle --file=./macOS/Brewfile
-
 brew cleanup
+
+
+#
+# Bash setup
+#
 
 heading "Setting up bash"
 bash ./bash/setup.sh
+
+
+#
+# Fish setup
+#
+
+heading "Setting up fish config and plugins"
+bash ./fish/setup.fish
 
 heading "Checking if fish is in /etc/shells"
 if ! grep -Fxq "$(command -v fish)" /etc/shells; then
@@ -44,8 +57,10 @@ fi
 heading "Changing default shell to fish"
 chsh -s "$(command -v fish)"
 
-heading "Setting up fish config and plugins"
-bash ./fish/setup.fish
+
+#
+# macOS defaults
+#
 
 heading "Configuring macOS defaults"
 bash ./macOS/defaults.sh

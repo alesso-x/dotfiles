@@ -1,4 +1,3 @@
-eval (direnv hook fish)
 set -g -x PATH $PATH /Users/alesso/.local/bin
 
 # aws cli completion
@@ -10,3 +9,4 @@ alias dk "docker"
 alias dm "docker-compose"
 
 source /usr/local/opt/asdf/asdf.fish
+eval (direnv hook fish)
