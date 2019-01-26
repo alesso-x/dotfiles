@@ -33,7 +33,7 @@ brew "mas"
 brew "postgresql"
 brew "redis"
 brew "ripgrep"
-brew "ruby"
+brew "ruby", link: true
 brew "speedtest-cli"
 brew "tldr"
 brew "tmux"
@@ -45,7 +45,6 @@ cask "1password-cli"
 cask "alfred"
 cask "appcleaner"
 cask "balsamiq-mockups"
-cask "brave"
 cask "daisydisk"
 cask "dash"
 cask "datagrip"
@@ -57,12 +56,12 @@ cask "font-mononoki"
 cask "font-microsoft-officefont-microsoft-office"
 cask "google-cloud-sdk"
 cask "google-chrome"
-cask "hyper"
 cask "insomnia"
 cask "iterm2"
 cask "java"
 cask "karabiner-elements"
 cask "launchcontrol"
+cask "notable"
 cask "onyx"
 cask "open-in-code"
 cask "oversight"
@@ -84,15 +83,20 @@ cask "vlc"
 cask "ynab"
 mas "1Blocker", id: 1107421413
 mas "1Password 7", id: 1333542190
+mas "Apple Configurator 2", id: 1037126344
 mas "Dark Reader for Safari", id: 1438243180
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "Medis", id: 1063631769
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
 mas "Quiver", id: 866773894
 mas "Reeder", id: 880001334
 mas "Slack", id: 803453959
+mas "ToothFairy", id: 1191449274
 mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
