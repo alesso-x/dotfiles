@@ -1,4 +1,3 @@
 .DS_Store
-.python-version
-.node-version
 .vscode
+.tool-version
