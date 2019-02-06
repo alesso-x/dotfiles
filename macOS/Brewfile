@@ -37,6 +37,7 @@ brew "ruby", link: true
 brew "speedtest-cli"
 brew "tldr"
 brew "tmux"
+brew "thefuck"
 brew "the_silver_searcher"
 brew "tree"
 brew "watchman"
