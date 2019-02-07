@@ -5,3 +5,4 @@ barnybug/docker-fish-completion
 jethrokuan/fzf
 fisherman/getopts
 fisherman/z
+evanlucas/fish-kubectl-completions

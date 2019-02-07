@@ -8,3 +8,5 @@ alias dm "docker-compose"
 
 source /usr/local/opt/asdf/asdf.fish
 eval (direnv hook fish)
+
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
