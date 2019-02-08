@@ -28,6 +28,8 @@ brew "gnu-sed"
 brew "httpie"
 brew "htop"
 brew "jq"
+# brew "kubernetes-cli" already installed through docker for mac
+brew "kubernetes-helm"
 brew "lolcat"
 brew "mas"
 brew "postgresql"
