@@ -7,6 +7,11 @@ alias dk "docker"
 alias dm "docker-compose"
 
 source /usr/local/opt/asdf/asdf.fish
+
+# django
+__fish_complete_django django-admin.py
+__fish_complete_django manage.py
+
 eval (direnv hook fish)
 
 source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
