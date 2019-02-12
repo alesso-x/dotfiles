@@ -1,4 +1,5 @@
-set -gx PATH $PATH /Users/alesso/.local/bin
+# coreutils, gnu-sed, hatch
+set -gx PATH /usr/local/opt/coreutils/libexec/gnubin /usr/local/opt/gnu-sed/libexec/gnubin $PATH /Users/alesso/.local/bin
 
 # aws cli completion
 test -x (which aws_completer); and complete --command aws --no-files --arguments '(begin; set --local --export COMP_SHELL fish; set --local --export COMP_LINE (commandline); aws_completer | sed \'s/ $//\'; end)'
