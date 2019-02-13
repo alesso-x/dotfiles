@@ -87,9 +87,6 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 # Prevent Safari from opening 'safe' files automatically after downloading
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 
-# Ask websites not to track me
-defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
-
 # Safari opens with all windows from last session
 defaults write com.apple.Safari AlwaysRestoreSessionAtLaunch -bool true
 defaults write com.apple.Safari OpenPrivateWindowWhenNotRestoringSessionAtLaunch -bool false
