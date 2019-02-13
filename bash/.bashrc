@@ -1,6 +1,4 @@
-eval "$(direnv hook bash)"
-source $HOME/.git-prompt.sh
-PS1="\[\e[0;31m\]\u \[\e[0;33m\]\W \[\e[0;32m\]\$(__git_ps1 '[%s]')\[\e[0;32m\]$ \[\e[0m\]"
+PS1="\[\e[0;31m\]\u \[\e[0;33m\]\W \[\e[0;32m\]$ \[\e[0m\]"
 
 # terminal colors
 export CLICOLOR=1
@@ -23,13 +21,5 @@ man() {
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
-
-# fzf fuzzy completion
-$(brew --prefix)/opt/fzf/install
-
-alias ..='cd ../'
-alias dk='docker'
-alias dm='docker-compose'
-alias EDITOR=code
 
 . /usr/local/opt/asdf/asdf.sh
