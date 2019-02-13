@@ -32,15 +32,6 @@ brew install mas
 brew bundle --file=./macOS/Brewfile
 brew cleanup
 
-
-#
-# Bash setup
-#
-
-heading "Setting up bash"
-bash ./bash/setup.sh
-
-
 #
 # Fish setup
 #
