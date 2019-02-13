@@ -37,7 +37,7 @@ brew cleanup
 #
 
 heading "Setting up fisher"
-bash ./fish/setup.fish
+bash ./setup.fish
 
 heading "Checking if fish is in /etc/shells"
 if ! grep -Fxq "$(command -v fish)" /etc/shells; then
