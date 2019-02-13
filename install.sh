@@ -36,7 +36,7 @@ brew cleanup
 # Fish setup
 #
 
-heading "Setting up fish config and plugins"
+heading "Setting up fisher"
 bash ./fish/setup.fish
 
 heading "Checking if fish is in /etc/shells"
@@ -56,5 +56,7 @@ chsh -s "$(command -v fish)"
 heading "Configuring macOS defaults"
 bash ./macOS/defaults.sh
 bash ./macOS/dock.sh
+
+# stow bash fish git karabiner
 
 heading "Done!"
