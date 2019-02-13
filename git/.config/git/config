@@ -16,5 +16,3 @@
     lk = log --oneline --graph --decorate
     publish = "!git push -u origin $(git branch-name)"
     undo = reset HEAD~
-[credential]
-    helper = osxkeychain
