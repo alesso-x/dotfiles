@@ -1,0 +1,20 @@
+[core]
+    editor = vim
+[user]
+    name = Alessandro DiMarco
+    email = axdimarco@gmail.com
+[alias]
+    br = branch
+    co = checkout
+    con = log origin/master ^master
+    po = remote prune origin
+    delete-merged-branches = "!git co master && git pull && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d && git po"
+    # Show changes that have been staged
+    diffc = diff --cached
+    # list aliases
+    ll = "!git config -l | grep alias | cut -c 7-"
+    lk = log --oneline --graph --decorate
+    publish = "!git push -u origin $(git branch-name)"
+    undo = reset HEAD~
+[credential]
+    helper = osxkeychain
