@@ -1,8 +1,7 @@
 edc/bass
 laughedelic/brew-completions
-brgmnn/fish-docker-compose
 barnybug/docker-fish-completion
-jethrokuan/fzf
-fisherman/getopts
-fisherman/z
 evanlucas/fish-kubectl-completions
+brgmnn/fish-docker-compose
+jethrokuan/fzf
+fisherman/z
