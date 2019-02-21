@@ -34,6 +34,8 @@ brew "kubernetes-helm"
 brew "lolcat"
 brew "mas"
 brew "postgresql"
+brew "python"
+brew "python@2"
 brew "redis"
 brew "ripgrep"
 brew "ruby", link: true
