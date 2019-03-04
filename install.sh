@@ -16,6 +16,10 @@ if ! [ $(xcode-select -p) ]; then
   xcode-select --install
 fi
 
+# Xcode Command Line tools no longer installs needed headers in /usr/include.
+# https://developer.apple.com/documentation/xcode_release_notes/xcode_10_release_notes
+sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+
 #
 # Homebrew setup
 #
