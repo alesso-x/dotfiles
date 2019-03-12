@@ -1,5 +1,8 @@
 package age
 package aws
 package bang-bang
+package bass
 package foreign-env
+package https://github.com/laughedelic/brew-completions
+package z
 theme default
