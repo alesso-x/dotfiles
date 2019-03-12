@@ -1,8 +1,8 @@
 # alias
-alias d "docker"
-alias dm "docker-compose"
-alias k "kubectl"
-alias tmux "tmux -f ~/.config/.tmux.conf"
+# alias d "docker"
+# alias dm "docker-compose"
+# alias k "kubectl"
+# alias tmux "tmux -f ~/.config/.tmux.conf"
 
 # path
 set -x PATH /usr/local/opt/coreutils/libexec/gnubin /usr/local/opt/gnu-getopt/bin /usr/local/opt/gnu-sed/libexec/gnubin $PATH /Users/alesso/.local/bin /usr/local/sbin
@@ -16,3 +16,6 @@ test -x (which aws_completer); and complete --command aws --no-files --arguments
 source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
 __fish_complete_django django-admin.py
 __fish_complete_django manage.py
+
+fenv source ~/dotfiles/.environment_vars
+bass source ~/dotfiles/.aliases

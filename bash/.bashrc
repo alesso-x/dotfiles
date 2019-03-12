@@ -23,3 +23,5 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 . /usr/local/opt/asdf/asdf.sh
+source ~/dotfiles/.environment_vars
+source ~/dotfiles/.aliases
