@@ -1,6 +1,7 @@
 asdf plugin-add python
 asdf plugin-add nodejs
 
+# brew install gnupg
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 # zipimport.ZipImportError: can't decompress data; zlib not available
@@ -9,3 +10,4 @@ asdf install python 3.6.8 3.7.2
 asdf install nodejs 10.15.0
 
 asdf global python 3.6.8
+asdf global nodejs 10.15.0
