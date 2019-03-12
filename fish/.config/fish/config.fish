@@ -1,9 +1,3 @@
-# alias
-# alias d "docker"
-# alias dm "docker-compose"
-# alias k "kubectl"
-# alias tmux "tmux -f ~/.config/.tmux.conf"
-
 # path
 set -x PATH /usr/local/opt/coreutils/libexec/gnubin /usr/local/opt/gnu-getopt/bin /usr/local/opt/gnu-sed/libexec/gnubin $PATH /Users/alesso/.local/bin /usr/local/sbin
 
