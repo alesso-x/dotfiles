@@ -61,6 +61,6 @@ heading "Configuring macOS defaults"
 bash ./macOS/defaults.sh
 bash ./macOS/dock.sh
 
-# stow bash fish git karabiner
+# stow bash fish git karabiner tmux
 
 heading "Done!"
