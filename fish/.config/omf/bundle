@@ -5,6 +5,7 @@ package bass
 package brew
 package foreign-env
 package fzf
+package git@github.com:aliz-ai/google-cloud-sdk-fish-completion.git
 package thefuck
 package z
 theme default

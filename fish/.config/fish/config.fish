@@ -8,8 +8,9 @@ set -x PATH /usr/local/opt/coreutils/libexec/gnubin /usr/local/opt/gnu-getopt/bi
 eval (direnv hook fish)
 source /usr/local/opt/asdf/asdf.fish
 
-# completion aws, gcloud, django
-test -x (which aws_completer); and complete --command aws --no-files --arguments '(begin; set --local --export COMP_SHELL fish; set --local --export COMP_LINE (commandline); aws_completer | sed \'s/ $//\'; end)'
+# gcloud
 source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
+
+# django auto completion
 __fish_complete_django django-admin.py
 __fish_complete_django manage.py
