@@ -4,5 +4,7 @@ package bang-bang
 package bass
 package brew
 package foreign-env
+package fzf
+package thefuck
 package z
 theme default
