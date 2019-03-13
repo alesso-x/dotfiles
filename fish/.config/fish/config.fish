@@ -13,4 +13,3 @@ test -x (which aws_completer); and complete --command aws --no-files --arguments
 source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
 __fish_complete_django django-admin.py
 __fish_complete_django manage.py
-
