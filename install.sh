@@ -40,7 +40,7 @@ brew cleanup
 # Fish setup
 #
 
-heading "Setting up fisher"
+heading "Setting up fish"
 bash ./setup.fish
 
 heading "Checking if fish is in /etc/shells"
@@ -62,5 +62,7 @@ bash ./macOS/defaults.sh
 bash ./macOS/dock.sh
 
 # stow bash fish git karabiner tmux vim
+# ln vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+# ln vscode/keybindings.json /Users/alesso/Library/Application\ Support/Code/User/keybindings.json
 
 heading "Done!"
