@@ -1,3 +1,6 @@
+set -gx XDG_CONFIG_HOME $HOME/.config
+set -gx VIMINIT 'let $MYVIMRC="$XDG_CONFIG_HOME/.vimrc" | source $MYVIMRC'
+
 fenv source ~/dotfiles/.environment_vars
 bass source ~/dotfiles/.aliases
 
