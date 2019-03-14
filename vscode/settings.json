@@ -53,8 +53,17 @@
     "telemetry.enableTelemetry": false,
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+
+    "todohighlight.defaultStyle": {
+        "backgroundColor": "none",
+        "color": "#A8C023"
+    },
+    "todohighlight.keywords": ["TODO", "TODO:", "NOTE", "FIXME", "FIXME:"],
+    // "todohighlight.keywordsPattern": "TODO:|FIXME:",
+
     "window.nativeTabs": true,
     "window.zoomLevel": -0.5,
+
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.feedback.visible": false,
     "workbench.commandPalette.preserveInput": true,
