@@ -92,6 +92,7 @@ cask "transmit"
 cask "visual-studio-code"
 cask "vlc"
 cask "wireshark"
+cask "workflowy"
 cask "ynab"
 cask "colindean/fonts-nonfree/font-microsoft-office"
 mas "1Blocker", id: 1107421413
