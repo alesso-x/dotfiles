@@ -1,18 +1,15 @@
 {
     "autoDocstring.docstringFormat": "google",
     "autoDocstring.newlineBeforeSummary": true,
+
     "breadcrumbs.enabled": true,
-    "cSpell.userWords": [
-        "kombu",
-        "strftime",
-        "werkzeug"
-    ],
+
     "editor.fontSize": 14,
     "editor.renderWhitespace": "boundary",
     "editor.suggest.localityBonus": true,
     "explorer.autoReveal": false,
     "extensions.ignoreRecommendations": false,
-    "flow.runOnEdit": false,
+
     "files.associations": {
         "**/.ebextensions/*.*": "yaml",
         "*.conf": "ini",
@@ -31,6 +28,7 @@
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+
     "git.autofetch": true,
     "git.confirmSync": false,
     "gitlens.advanced.messages": {
@@ -39,16 +37,20 @@
     "gitlens.advanced.telemetry.enabled": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
+
     "javascript.preferences.quoteStyle": "single",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "npm-intellisense.importLinebreak": ";\n",
+
     "python.linting.pep8Enabled": true,
     "python.linting.pep8Path": "pycodestyle",
     "python.unitTest.autoTestDiscoverOnSaveEnabled": false,
+
     "search.exclude": {
         "**/node_modules": true,
         "**/.vscode": true,
-        "**/.pytest*": true
+        "**/.pytest*": true,
+        "**/.venv*": true,
     },
     "telemetry.enableTelemetry": false,
     "terminal.integrated.scrollback": 10000,
