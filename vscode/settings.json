@@ -17,7 +17,8 @@
         ".env*": "dotenv",
         "Brewfile": "ruby",
         "Jenkinsfile": "jenkins",
-        "nginx.conf": "NGINX"
+        "nginx.conf": "NGINX",
+        "Dockerfile*": "dockerfile",
     },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
