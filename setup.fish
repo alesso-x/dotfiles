@@ -3,5 +3,5 @@
 echo "Install omf"
 curl -L https://get.oh-my.fish | fish
 
-echo "INstalling omf plugins"
+echo "Installing omf plugins"
 omf install
