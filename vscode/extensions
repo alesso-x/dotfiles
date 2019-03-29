@@ -21,7 +21,6 @@ EditorConfig.EditorConfig
 eg2.vscode-npm-script
 esbenp.prettier-vscode
 fabiospampinato.vscode-github-notifications-bell
-felixfbecker.php-intellisense
 flowtype.flow-for-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
@@ -34,7 +33,6 @@ humao.rest-client
 infeng.vscode-react-typescript
 Kasik96.swift
 Kelvin.vscode-sshfs
-kokororin.vscode-phpfmt
 liximomo.sftp
 mechatroner.rainbow-csv
 michelemelluso.code-beautifier
