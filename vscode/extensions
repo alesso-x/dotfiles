@@ -31,6 +31,7 @@ hdg.live-html-previewer
 HookyQR.beautify
 humao.rest-client
 infeng.vscode-react-typescript
+ivory-lab.jenkinsfile-support
 Kasik96.swift
 Kelvin.vscode-sshfs
 liximomo.sftp
@@ -43,6 +44,7 @@ ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
 ms-vscode.azure-account
 ms-vscode.cpptools
+ms-vscode.vscode-typescript-tslint-plugin
 ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 njpwerner.autodocstring
@@ -63,7 +65,6 @@ richie5um2.vscode-sort-json
 ritwickdey.LiveServer
 Rubymaniac.vscode-direnv
 ryu1kn.partial-diff
-secanis.jenkinsfile-support
 skyapps.fish-vscode
 sleistner.vscode-fileutils
 streetsidesoftware.code-spell-checker
@@ -76,7 +77,6 @@ vsmobile.vscode-react-native
 WallabyJs.quokka-vscode
 wayou.vscode-todo-highlight
 wmaurer.change-case
-wordpresstoolbox.wordpress-toolbox
 yardensachs.copy-python-path
 yzhang.markdown-all-in-one
 zhuangtongfa.Material-theme
