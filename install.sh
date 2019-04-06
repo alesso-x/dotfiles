@@ -70,6 +70,6 @@ bash ./macOS/dock.sh
 # stow bash fish git karabiner tmux vim
 # ln -s $HOME/dotfiles/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 # ln -s $HOME/dotfiles/vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
-# cat vscode/extensions | xargs -L 1 echo code --install-extension | sh
+# cat $HOME/dotfiles/vscode/extensions | xargs -L 1 echo code --install-extension | sh
 
 heading "Done!"
