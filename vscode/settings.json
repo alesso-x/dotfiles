@@ -25,16 +25,13 @@
         "**/.git": true,
         "**/.DS_Store": true,
         "**/*.pyc": true,
-        "**/__pycache__": true
+        "**/__pycache__": true,
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
 
     "git.autofetch": true,
     "git.confirmSync": false,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
     "gitlens.advanced.telemetry.enabled": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
