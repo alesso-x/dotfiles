@@ -7,6 +7,7 @@ bbenoist.shell
 bierner.color-info
 bigonesystems.django
 christian-kohler.npm-intellisense
+chrmarti.regex
 codezombiech.gitignore
 CoenraadS.bracket-pair-colorizer
 cssho.vscode-svgviewer
@@ -25,6 +26,7 @@ flowtype.flow-for-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 GitHub.vscode-pull-request-github
+googlecloudtools.cloudcode
 GrapeCity.gc-excelviewer
 Gruntfuggly.todo-tree
 hdg.live-html-previewer
