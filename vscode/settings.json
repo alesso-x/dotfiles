@@ -1,9 +1,6 @@
 {
     "autoDocstring.docstringFormat": "google",
-    "autoDocstring.newlineBeforeSummary": true,
-
     "breadcrumbs.enabled": true,
-
     "editor.fontSize": 14,
     "editor.renderWhitespace": "boundary",
     "editor.suggest.localityBonus": true,
@@ -26,7 +23,6 @@
         "**/.DS_Store": true,
         "**/*.pyc": true,
         "**/__pycache__": true,
-        ".gitignore": true,
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
@@ -43,7 +39,7 @@
 
     "python.linting.pep8Enabled": true,
     "python.linting.pep8Path": "pycodestyle",
-    "python.unitTest.autoTestDiscoverOnSaveEnabled": false,
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
 
     "search.exclude": {
         "**/node_modules": true,
