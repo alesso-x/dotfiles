@@ -58,6 +58,7 @@
     "todohighlight.keywords": ["TODO", "TODO:", "NOTE", "FIXME", "FIXME:"],
     // "todohighlight.keywordsPattern": "TODO:|FIXME:",
 
+    "window.restoreWindows": "all",
     "window.nativeTabs": true,
     "window.zoomLevel": -0.5,
     "window.title": "${rootName}${separator}${activeEditorShort}",
