@@ -11,7 +11,7 @@
         "**/.ebextensions/*.*": "yaml",
         "*.conf": "ini",
         "*.js": "javascript",
-        "*.vscode.json": "jsonp",
+        "*.vscode.json": "jsonc",
         ".env*": "dotenv",
         "Brewfile": "ruby",
         "Jenkinsfile": "jenkins",
