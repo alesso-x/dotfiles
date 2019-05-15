@@ -11,6 +11,7 @@
         "**/.ebextensions/*.*": "yaml",
         "*.conf": "ini",
         "*.js": "javascript",
+        "*.vscode.json": "jsonp",
         ".env*": "dotenv",
         "Brewfile": "ruby",
         "Jenkinsfile": "jenkins",
@@ -37,7 +38,10 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "npm-intellisense.importLinebreak": ";\n",
 
-    "python.linting.pep8Enabled": true,
+    "python.jediEnabled": false,
+    "python.linting.prospectorEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": false,
     "python.linting.pep8Path": "pycodestyle",
     "python.testing.autoTestDiscoverOnSaveEnabled": false,
 
