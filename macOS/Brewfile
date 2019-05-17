@@ -48,7 +48,7 @@ brew "rabbitmq"
 brew "redis"
 brew "ripgrep"
 brew "rlwrap"
-brew "ruby", link: true
+brew "ruby"
 brew "sl"
 brew "sops"
 brew "speedtest-cli"
