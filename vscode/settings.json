@@ -14,7 +14,7 @@
         "*.vscode.json": "jsonc",
         ".env*": "dotenv",
         "Brewfile": "ruby",
-        "Jenkinsfile": "jenkins",
+        "Jenkinsfile": "jenkinsfile",
         "nginx.conf": "NGINX",
         "Dockerfile*": "dockerfile",
     },
