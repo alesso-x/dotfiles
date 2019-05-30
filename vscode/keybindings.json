@@ -109,4 +109,12 @@
     "command": "-deleteAllRight",
     "when": "textInputFocus && !editorReadonly"
   },
+  {
+    "key": "shift+alt+l",
+    "command": "python.viewTestOutput"
+  },
+  {
+    "key": "shift+alt+k",
+    "command": "python.viewOutput"
+  },
 ]
