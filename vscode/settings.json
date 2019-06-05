@@ -1,6 +1,5 @@
 {
     "autoDocstring.docstringFormat": "google",
-    "breadcrumbs.enabled": true,
     "editor.fontSize": 14,
     "editor.renderWhitespace": "boundary",
     "editor.suggest.localityBonus": true,
