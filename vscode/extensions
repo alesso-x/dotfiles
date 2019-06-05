@@ -1,3 +1,4 @@
+aaron-bond.better-comments
 akamud.vscode-theme-onedark
 alefragnani.jenkins-status
 almenon.birdseye-vscode
@@ -7,7 +8,6 @@ bbenoist.shell
 bierner.color-info
 bigonesystems.django
 christian-kohler.npm-intellisense
-chrmarti.regex
 codezombiech.gitignore
 CoenraadS.bracket-pair-colorizer
 cssho.vscode-svgviewer
@@ -22,7 +22,6 @@ EditorConfig.EditorConfig
 eg2.vscode-npm-script
 esbenp.prettier-vscode
 fabiospampinato.vscode-github-notifications-bell
-flowtype.flow-for-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 GitHub.vscode-pull-request-github
@@ -44,11 +43,19 @@ mrmlnc.vscode-duplicate
 ms-azuretools.vscode-cosmosdb
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
+ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
+ms-vscode-remote.remote-ssh-explorer
+ms-vscode-remote.remote-wsl
+ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.azure-account
 ms-vscode.cpptools
-ms-vscode.vscode-typescript-tslint-plugin
+ms-vscode.github-issues-prs
+ms-vscode.Go
 ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
+msjsdiag.vscode-react-native
 njpwerner.autodocstring
 NuclleaR.vscode-extension-auto-import
 oderwat.indent-rainbow
@@ -58,7 +65,6 @@ pflannery.vscode-versionlens
 pnp.polacode
 polymer.polymer-ide
 quicktype.quicktype
-rafaelmaiolla.remote-vscode
 rebornix.ruby
 redhat.java
 redhat.vscode-xml
@@ -73,7 +79,8 @@ streetsidesoftware.code-spell-checker
 Tyriar.terminal-tabs
 vincaslt.highlight-matching-tag
 VisualStudioExptTeam.vscodeintellicode
-vscode-snippet.Snippet
+vscode-snippet.snippet
+vscodevim.vim
 vscodevim.vim
 vsmobile.vscode-react-native
 WallabyJs.quokka-vscode
