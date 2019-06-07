@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Set computer name
-name=$1
-sudo scutil --set ComputerName "$name"
-sudo scutil --set HostName "$name.local"
-sudo scutil --set LocalHostName "$name"
-
 #
 # Keyboard
 #
@@ -125,3 +119,4 @@ defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/
 # Mail --> Viewing --> Show most recent message at the top
 # Photos —> Optimize for mac storage
 # Security & Privacy —> General —> Require password 5 secs
+# Security & Privacy —> General —> Allow your Apple Watch to unlock your Mac
