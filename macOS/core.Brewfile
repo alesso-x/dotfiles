@@ -27,5 +27,7 @@ cask "shimo"
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
 mas "Bear", id: 1091189122
+mas "Slack", id: 803453959
 mas "ToothFairy", id: 1191449274
 mas "WhatsApp", id: 1147396723
+mas "Xcode", id: 497799835
