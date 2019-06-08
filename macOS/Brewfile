@@ -1,22 +1,25 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
 brew "asdf"
 brew "awscli"
 brew "bash-completion"
 brew "coreutils"
-cask "datagrip"
 brew "direnv"
-brew "dockutil"
 brew "docker-completion"
 brew "docker-compose-completion"
+brew "dockutil"
 brew "fish"
 brew "fzf"
 brew "git"
-brew "kubernetes-cli"
+brew "kubernetes-cli", link: false
 brew "kubernetes-helm"
 brew "mas"
 brew "python"
 brew "stow"
 brew "thefuck"
 brew "vim"
+cask "datagrip"
 cask "docker"
 cask "firefox"
 cask "google-chrome"
@@ -26,6 +29,7 @@ cask "karabiner-elements"
 cask "shimo"
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
+mas "AdGuard for Safari", id: 1440147259
 mas "Bear", id: 1091189122
 mas "Slack", id: 803453959
 mas "ToothFairy", id: 1191449274
