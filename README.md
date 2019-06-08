@@ -4,6 +4,8 @@
 
 ```bash
 xcode-select --install
+
+ln -sf $HOME/dotfiles/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
 ```
 
 ## [brew](https://brew.sh)
