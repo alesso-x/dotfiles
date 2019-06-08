@@ -26,7 +26,11 @@ bash ./macOS/dock.sh
 ```bash
 echo "$(command -v fish)" | sudo tee -a /etc/shells
 chsh -s "$(command -v fish)"
-fish ./setup.fish
+```
+
+```fish
+curl -L https://get.oh-my.fish | fish
+omf install
 ```
 
 ## [vscode](https://code.visualstudio.com)
