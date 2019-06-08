@@ -26,7 +26,7 @@ bash ./macOS/dock.sh
 ```bash
 echo "$(command -v fish)" | sudo tee -a /etc/shells
 chsh -s "$(command -v fish)"
-bash ./setup.fish
+fish ./setup.fish
 ```
 
 ## [vscode](https://code.visualstudio.com)
