@@ -117,4 +117,8 @@
     "key": "shift+alt+k",
     "command": "python.viewOutput"
   },
+  {
+    "key": "ctrl+cmd+w",
+    "command": "-workbench.action.toggleTabsVisibility"
+  },
 ]
