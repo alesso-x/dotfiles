@@ -93,7 +93,6 @@ mas "DaisyDisk", id: 411643860
 mas "Dark Reader for Safari", id: 1438243180
 mas "iStat Menus", id: 1319778037
 mas "Keynote", id: 409183694
-mas "Magnet", id: 441258766
 mas "Medis", id: 1063631769
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft Outlook", id: 985367838
