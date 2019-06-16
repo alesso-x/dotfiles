@@ -13,7 +13,7 @@ ln -sf $HOME/dotfiles/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode
 ## [brew](https://brew.sh)
 
 ```bash
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install mas
 brew bundle --file=./macOS/Brewfile
 ```
