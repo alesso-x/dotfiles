@@ -26,6 +26,7 @@ bash ./macOS/dock.sh
 ## [fish shell](https://fishshell.com)
 
 ```bash
+stow fish
 echo "$(command -v fish)" | sudo tee -a /etc/shells
 chsh -s "$(command -v fish)"
 ```
@@ -45,7 +46,7 @@ cat $HOME/dotfiles/vscode/extensions | xargs -L 1 echo code --install-extension 
 
 ## [stow](https://www.gnu.org/software/stow/)
 
-`stow bash fish git karabiner tmux vim`
+`stow bash git karabiner tmux vim`
 
 ## [cheat.sh](http://cheat.sh)
 
