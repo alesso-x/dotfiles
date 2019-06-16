@@ -6,6 +6,8 @@
 xcode-select --install
 
 ln -sf $HOME/dotfiles/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
+
+# Preferences > Text Editing > Editing > Including whitespace-ony lines
 ```
 
 ## [brew](https://brew.sh)
