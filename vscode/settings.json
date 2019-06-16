@@ -12,7 +12,7 @@
         "*.js": "javascript",
         "*.vscode.json": "jsonc",
         ".env*": "dotenv",
-        "*Brewfile": "ruby",
+        "Brewfile*": "ruby",
         "Jenkinsfile": "jenkinsfile",
         "nginx.conf": "NGINX",
         "Dockerfile*": "dockerfile",
