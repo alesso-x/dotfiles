@@ -40,9 +40,10 @@ omf install
 ## [vscode](https://code.visualstudio.com)
 
 ```bash
+cat $HOME/dotfiles/vscode/extensions | xargs -L 1 echo code --install-extension | sh
+
 ln -sf $HOME/dotfiles/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 ln -sf $HOME/dotfiles/vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
-cat $HOME/dotfiles/vscode/extensions | xargs -L 1 echo code --install-extension | sh
 ```
 
 ## [stow](https://www.gnu.org/software/stow/)
