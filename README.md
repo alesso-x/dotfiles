@@ -46,6 +46,20 @@ ln -sf $HOME/dotfiles/vscode/settings.json $HOME/Library/Application\ Support/Co
 ln -sf $HOME/dotfiles/vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
 ```
 
+## asdf
+
+```bash
+asdf plugin-add python
+asdf plugin-add nodejs
+
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+asdf install python [version] # i.e. 3.7.3
+asdf install nodejs [version] # i.e. 10.16.0
+
+asdf global python [version]
+asdf global nodejs [version]
+```
+
 ## [stow](https://www.gnu.org/software/stow/)
 
 `stow bash git karabiner tmux vim`

@@ -11,6 +11,7 @@ brew "dockutil"
 brew "fish"
 brew "fzf"
 brew "git"
+brew "gpg"
 brew "kubernetes-cli", link: false
 brew "kubernetes-helm"
 brew "mas"
