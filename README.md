@@ -22,18 +22,20 @@ brew bundle --file=./macOS/Brewfile
 ```bash
 bash ./macOS/defaults.sh
 bash ./macOS/dock.sh
+
+mkdir ~/.config
 ```
 
 ## [fish shell](https://fishshell.com)
 
 ```bash
-stow fish
 echo "$(command -v fish)" | sudo tee -a /etc/shells
 chsh -s "$(command -v fish)"
+curl -L https://get.oh-my.fish | fish
 ```
 
 ```fish
-curl -L https://get.oh-my.fish | fish
+stow fish
 omf install
 ```
 
