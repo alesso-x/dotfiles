@@ -26,6 +26,7 @@ cask "firefox"
 cask "google-chrome"
 cask "google-cloud-sdk"
 cask "iterm2"
+cask "postman"
 cask "shimo"
 cask "visual-studio-code"
 mas "1Password 7", id: 1333542190
