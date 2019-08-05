@@ -35,7 +35,6 @@
 
     "javascript.preferences.quoteStyle": "single",
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "npm-intellisense.importLinebreak": ";\n",
 
     "python.jediEnabled": false,
     "python.linting.prospectorEnabled": true,
@@ -67,7 +66,6 @@
     "window.title": "${rootName}${separator}${activeEditorShort}",
 
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.feedback.visible": false,
     "workbench.commandPalette.preserveInput": true,
     "workbench.settings.editor": "json",
     "workbench.colorTheme": "Atom One Dark",
