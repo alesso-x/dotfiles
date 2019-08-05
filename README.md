@@ -38,6 +38,7 @@ curl -L https://get.oh-my.fish | fish
 ```
 
 ```fish
+mkdir ~/.config/fish/functions
 stow fish
 omf install
 ```
