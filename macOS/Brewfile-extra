@@ -30,7 +30,6 @@ brew "mycli"
 brew "mysql", link: false
 brew "node"
 brew "php"
-brew "postgresql"
 brew "pstree"
 brew "python@2"
 brew "rabbitmq"

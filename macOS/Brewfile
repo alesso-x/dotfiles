@@ -16,6 +16,7 @@ brew "kubernetes-cli", link: false
 brew "kubernetes-helm"
 brew "mas"
 brew "pgcli"
+brew "postgresql"
 brew "python"
 brew "stow"
 brew "thefuck"
