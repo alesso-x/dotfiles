@@ -29,7 +29,6 @@ brew "mariadb"
 brew "mycli"
 brew "mysql", link: false
 brew "node"
-brew "pgcli"
 brew "php"
 brew "postgresql"
 brew "pstree"
