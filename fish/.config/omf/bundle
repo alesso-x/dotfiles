@@ -5,8 +5,9 @@ package bass
 package brew
 package foreign-env
 package fzf
-package git@github.com:aliz-ai/google-cloud-sdk-fish-completion.git
+package https://github.com/aliz-ai/google-cloud-sdk-fish-completion
 package https://github.com/decors/fish-colored-man
+package https://github.com/brgmnn/fish-docker-compose
 package https://github.com/evanlucas/fish-kubectl-completions.git
 package thefuck
 package z

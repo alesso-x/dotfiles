@@ -12,10 +12,13 @@ eval (direnv hook fish)
 source /usr/local/opt/asdf/asdf.fish
 
 # gcloud
-source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
+# source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
 
-# django auto completion
+# django completions
 __fish_complete_django django-admin.py
 __fish_complete_django manage.py
+
+# docker-compose completions, package is not a omf bundle
+source $OMF_PATH/pkg/fish-docker-compose/completions/docker-compose.fish
 
 complete -c cht.sh -xa '(curl -s cheat.sh/:list)'
