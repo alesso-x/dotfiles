@@ -16,6 +16,11 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 # Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
+# Bear
+defaults write -app Bear NSUserKeyEquivalents -dict-add "Move Up" -string "~↑"
+defaults write -app Bear NSUserKeyEquivalents -dict-add "Move Down" -string "~↓"
+defaults write -app Bear NSUserKeyEquivalents -dict-add "Forward" -string "@]"
+defaults write -app Bear NSUserKeyEquivalents -dict-add "Back" -string "@["
 
 #
 # Dock
