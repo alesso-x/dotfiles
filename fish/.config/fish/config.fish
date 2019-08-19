@@ -22,3 +22,6 @@ __fish_complete_django manage.py
 source $OMF_PATH/pkg/fish-docker-compose/completions/docker-compose.fish
 
 complete -c cht.sh -xa '(curl -s cheat.sh/:list)'
+
+# pipx completions
+register-python-argcomplete --shell fish pipx | .

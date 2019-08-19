@@ -66,6 +66,13 @@ asdf global python [version]
 asdf global nodejs [version]
 ```
 
+## pipx
+
+```bash
+pip install --user pipx
+register-python-argcomplete --shell fish pipx | .
+```
+
 ## [stow](https://www.gnu.org/software/stow/)
 
 `stow bash git karabiner tmux vim`
