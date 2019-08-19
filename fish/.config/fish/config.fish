@@ -5,7 +5,7 @@ fenv source ~/dotfiles/.environment_vars.sh
 bass source ~/dotfiles/.aliases.sh
 
 # path
-set -x PATH /usr/local/opt/coreutils/libexec/gnubin /usr/local/opt/gnu-getopt/bin /usr/local/opt/gnu-sed/libexec/gnubin $PATH /Users/alesso/.local/bin /usr/local/sbin
+set -x PATH /usr/local/opt/coreutils/libexec/gnubin /usr/local/opt/gnu-getopt/bin /usr/local/opt/gnu-sed/libexec/gnubin $PATH ~/.local/bin /usr/local/sbin
 
 # direnv, asdf
 eval (direnv hook fish)
