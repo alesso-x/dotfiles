@@ -55,15 +55,21 @@ ln -sf $HOME/dotfiles/vscode/keybindings.json $HOME/Library/Application\ Support
 ## asdf
 
 ```bash
+# python
 asdf plugin-add python
-asdf plugin-add nodejs
-
-bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 asdf install python [version] # i.e. 3.7.3
-asdf install nodejs [version] # i.e. 10.16.0
-
 asdf global python [version]
+
+# nodejs
+asdf plugin-add nodejs
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+asdf install nodejs [version] # i.e. 10.16.0
 asdf global nodejs [version]
+
+# ruby
+asdf plugin-add ruby
+asdf install ruby [version] # i.e. 2.6.3
+asdf global ruby [version]
 ```
 
 ## pipx
