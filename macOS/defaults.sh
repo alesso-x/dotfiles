@@ -108,7 +108,7 @@ defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextr
 defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.bluetooth" -int 1
 
 # Save screenshots to folder
-defaults write com.apple.screencapture location "$HOME/Library/CloudStorage/iCloud Drive/screenshots"
+defaults write com.apple.screencapture location "$HOME/Library/CloudStorage/iCloud Drive/Screenshots"
 
 #
 # TODO:
