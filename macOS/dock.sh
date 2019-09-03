@@ -16,5 +16,5 @@ dockutil --add /Applications/iTerm.app
 dockutil --add /Applications/Visual\ Studio\ Code.app
 dockutil --add /Applications/Xcode.app
 dockutil --add /Applications/DataGrip.app
-dockutil --add "$HOME/Library/CloudStorage/iCloud Drive/screenshots" --view grid --display stack --sort dateadded
+dockutil --add "$HOME/Library/CloudStorage/iCloud Drive/Screenshots" --view grid --display stack --sort dateadded
 dockutil --add "$HOME/Downloads" --view grid --display stack --sort dateadded
