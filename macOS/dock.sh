@@ -1,11 +1,9 @@
 dockutil --remove all
 
-dockutil --add /System/Applications/Launchpad.app
 dockutil --add /Applications/Safari.app
 dockutil --add /Applications/Firefox.app
 dockutil --add /Applications/Google\ Chrome.app
-dockutil --add /System/Applications/Mail.app
-dockutil --add /System/Applications/Calendar.app
+dockutil --add /Applications/Microsoft\ Outlook.app
 dockutil --add /System/Applications/Messages.app
 dockutil --add /Applications/WhatsApp.app
 dockutil --add /Applications/Slack.app

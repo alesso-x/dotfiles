@@ -16,6 +16,12 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 # Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
+#
+# Keyboard Shortcuts
+#
+
+# Show Launchpad (option+a)
+
 # Bear
 defaults write -app Bear NSUserKeyEquivalents -dict-add "Move Up" -string "~↑"
 defaults write -app Bear NSUserKeyEquivalents -dict-add "Move Down" -string "~↓"
