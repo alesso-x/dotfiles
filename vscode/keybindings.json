@@ -80,12 +80,12 @@
     "command": "workbench.action.showNextWindowTab"
   },
   {
-    "key": "ctrl+left",
+    "key": "ctrl+l",
     "command": "cursorWordPartLeft",
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+l",
+    "key": "ctrl+shift+l",
     "command": "cursorWordPartRight",
     "when": "textInputFocus"
   },
