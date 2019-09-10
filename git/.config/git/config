@@ -9,7 +9,7 @@
     con = log origin/master ^master
     po = remote prune origin
     delete-merged = "!git co master && git pull && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d && git po"
-    delete-squashed = "!git co master && git pull && git-delete-squashed"
+    delete-squashed = "!git co master && git pull && git-delete-squashed && git po"
     # Show changes that have been staged
     diffc = diff --cached
     # list aliases
