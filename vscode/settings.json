@@ -35,7 +35,6 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
 
-    "javascript.preferences.quoteStyle": "single",
     "javascript.updateImportsOnFileMove.enabled": "always",
 
     "python.jediEnabled": false,
