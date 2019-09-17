@@ -1,5 +1,7 @@
 {
     "autoDocstring.docstringFormat": "google",
+    "autoDocstring.startOnNewLine": true,
+
     "editor.fontSize": 14,
     "editor.renderWhitespace": "boundary",
     "editor.suggest.localityBonus": true,
