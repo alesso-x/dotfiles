@@ -6,13 +6,17 @@ fenv source ~/dotfiles/.environment_vars.sh
 bass source ~/dotfiles/.aliases.sh
 
 # path
-set -x PATH /usr/local/opt/coreutils/libexec/gnubin /usr/local/opt/gnu-getopt/bin /usr/local/opt/gnu-sed/libexec/gnubin $PATH ~/.local/bin /usr/local/sbin
+set -ax PATH \
+    /usr/local/opt/coreutils/libexec/gnubin \
+    /usr/local/opt/gnu-sed/libexec/gnubin \
+    $HOME/.local/bin
 
 # direnv, asdf
 eval (direnv hook fish)
 source /usr/local/opt/asdf/asdf.fish
 
 # gcloud
+# set -ax PATH /usr/local/opt/gnu-getopt/bin  # brew install gnu-getopt
 # source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
 
 # django completions
