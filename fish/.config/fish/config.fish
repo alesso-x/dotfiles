@@ -11,6 +11,7 @@ set -ax PATH \
     /usr/local/opt/gnu-sed/libexec/gnubin \
     $HOME/.local/bin
 
+# abbreviations -> abbr --list
 if status --is-interactive
     abbr --add --global k kubectl
     abbr --add --global d docker
