@@ -8,6 +8,7 @@ set -ax PATH \
     $HOME/.local/bin
 
 # fzf
+# https://github.com/jethrokuan/fzf#commands
 set -x FZF_DEFAULT_COMMAND 'ag --hidden --ignore .git -g ""'
 set -x FZF_FIND_FILE_COMMAND 'ag --hidden --ignore .git -g ""'
 set -x FZF_CD_COMMAND 'ag --hidden --ignore .git -g ""'
