@@ -23,9 +23,6 @@ source /usr/local/opt/asdf/asdf.fish
 __fish_complete_django django-admin.py
 __fish_complete_django manage.py
 
-# docker-compose completions, package is not a omf bundle
-source $OMF_PATH/pkg/fish-docker-compose/completions/docker-compose.fish
-
 complete -c cht.sh -xa '(curl -s cheat.sh/:list)'
 
 # pipx completions
