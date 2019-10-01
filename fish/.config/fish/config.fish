@@ -11,6 +11,12 @@ set -ax PATH \
     /usr/local/opt/gnu-sed/libexec/gnubin \
     $HOME/.local/bin
 
+if status --is-interactive
+    abbr --add --global k kubectl
+    abbr --add --global d docker
+    abbr --add --global dm docker-compose
+end
+
 # direnv, asdf
 eval (direnv hook fish)
 source /usr/local/opt/asdf/asdf.fish

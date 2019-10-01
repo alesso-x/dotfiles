@@ -1,6 +1,6 @@
-alias d='docker'
-alias dm='docker-compose'
-alias k='kubectl'
+# alias d='docker'
+# alias dm='docker-compose'
+# alias k='kubectl'
 alias ls='/usr/local/bin/gls --color -h --group-directories-first'
 alias tmux='tmux -f ~/.config/.tmux.conf'
 
