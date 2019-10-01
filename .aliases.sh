@@ -6,3 +6,6 @@ alias tmux='tmux -f ~/.config/.tmux.conf'
 
 alias pull-repos='find . -type d -depth 1 -print -exec git --git-dir={}/.git --work-tree=$PWD/{} delete-merged \;'
 alias delete-pyc='find . -name "*.pyc" -delete'
+
+alias xc="open *.xcodeproj"
+alias xcw="open *.xcworkspace"
