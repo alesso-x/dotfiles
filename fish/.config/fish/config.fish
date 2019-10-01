@@ -23,7 +23,5 @@ source /usr/local/opt/asdf/asdf.fish
 __fish_complete_django django-admin.py
 __fish_complete_django manage.py
 
-complete -c cht.sh -xa '(curl -s cheat.sh/:list)'
-
 # pipx completions
 register-python-argcomplete --shell fish pipx | .
