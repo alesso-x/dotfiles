@@ -39,7 +39,6 @@ brew "ruby", link: true
 brew "sl"
 brew "sops"
 brew "speedtest-cli"
-brew "the_silver_searcher"
 brew "tldr"
 brew "tree"
 brew "watchman"
