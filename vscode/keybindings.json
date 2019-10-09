@@ -141,4 +141,8 @@
     "command": "-editor.action.revealDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.quickSwitchWindow"
+  }
 ]
