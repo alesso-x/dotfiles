@@ -70,7 +70,7 @@
     "window.zoomLevel": -0.5,
     "window.title": "${rootName}${separator}${activeEditorShort}",
 
-    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreview": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.commandPalette.preserveInput": true,
     "workbench.settings.editor": "json",
