@@ -61,6 +61,10 @@
     "todohighlight.keywords": ["TODO", "TODO:", "NOTE", "FIXME", "FIXME:"],
     // "todohighlight.keywordsPattern": "TODO:|FIXME:",
 
+    // vsintellicode
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
     "window.restoreWindows": "all",
     "window.nativeTabs": true,
     "window.zoomLevel": -0.5,
