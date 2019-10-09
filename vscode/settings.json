@@ -5,7 +5,6 @@
     "editor.fontSize": 14,
     "editor.renderWhitespace": "boundary",
     "editor.suggest.localityBonus": true,
-    "editor.suggestSelection": "recentlyUsed",
     "explorer.autoReveal": false,
     "extensions.ignoreRecommendations": false,
 
