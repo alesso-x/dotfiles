@@ -144,5 +144,9 @@
   {
     "key": "alt+tab",
     "command": "workbench.action.quickSwitchWindow"
+  },
+  {
+    "key": "shift+cmd+'",
+    "command": "workbench.action.showPreviousWindowTab"
   }
 ]
