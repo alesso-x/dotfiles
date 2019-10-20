@@ -19,7 +19,7 @@ brew "gnu-getopt"
 brew "gnu-sed"
 brew "gnupg"
 brew "jq"
-brew "kubernetes-cli", link: true
+brew "kubernetes-cli"
 brew "kubernetes-helm"
 brew "mas"
 brew "pgcli"
