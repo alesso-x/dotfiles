@@ -1,5 +1,9 @@
 # dotfiles
 
+## Clone dotfiles to `$HOME` dir
+
+`git clone git@github.com:alessod/dotfiles.git $HOME/dotfiles`
+
 ## xcode
 
 ```bash
@@ -17,16 +21,16 @@ ln -sf $HOME/dotfiles/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew bundle --file=./macOS/Brewfile
+brew bundle --file=$HOME/dotfiles/macOS/Brewfile
 ```
 
 ## macOS
 
 ```bash
-bash ./macOS/defaults.sh
-bash ./macOS/dock.sh
+bash $HOME/dotfiles/macOS/defaults.sh
+bash $HOME/dotfiles/macOS/dock.sh
 
-mkdir ~/.config
+mkdir $HOME/.config
 ```
 
 ## [fish shell](https://fishshell.com)
@@ -38,7 +42,7 @@ curl -L https://get.oh-my.fish | fish
 ```
 
 ```fish
-mkdir ~/.config/fish/functions
+mkdir $HOME/dotfiles/.config/fish/functions
 stow fish
 omf install
 ```
