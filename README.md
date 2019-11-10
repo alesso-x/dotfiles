@@ -80,17 +80,10 @@ asdf global ruby [version]
 ## pipx
 
 ```bash
-pip install --user pipx
+python -m pip install --user pipx
 register-python-argcomplete --shell fish pipx | .
 ```
 
 ## [stow](https://www.gnu.org/software/stow/)
 
 `stow bash git karabiner tmux vim`
-
-## [cheat.sh](http://cheat.sh)
-
-```bash
-curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh
-chmod +x /usr/local/bin/cht.sh
-```
