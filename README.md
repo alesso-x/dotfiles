@@ -81,7 +81,6 @@ asdf global ruby [version]
 
 ```bash
 python -m pip install --user pipx
-register-python-argcomplete --shell fish pipx | .
 ```
 
 ## [stow](https://www.gnu.org/software/stow/)
