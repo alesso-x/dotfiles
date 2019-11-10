@@ -7,7 +7,6 @@ mkdir -p $HOME/.local/share   # XDG_DATA_HOME
 
 # AWS
 mkdir -p $(dirname "$AWS_CONFIG_FILE")
-mkdir -p $(dirname "$AWS_CLI_HISTORY_FILE")
 
 # ASDF
 mkdir -p $(dirname "$ASDF_CONFIG_FILE"); touch $ASDF_CONFIG_FILE

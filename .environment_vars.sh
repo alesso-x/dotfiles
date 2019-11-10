@@ -8,11 +8,9 @@ XDG_CACHE_HOME=$HOME/.cache
 
 # AWS XDG
 # https://github.com/aws/aws-cli/issues/2433#issuecomment-532208981
+# https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
 AWS_CONFIG_FILE="$XDG_CONFIG_HOME/aws/config"
-AWS_CLI_HISTORY_FILE="$XDG_DATA_HOME/aws/history"
-AWS_CREDENTIALS_FILE="$XDG_CONFIG_HOME/aws/credentials"
-AWS_WEB_IDENTITY_TOKEN_FILE="$XDG_CONFIG_HOME/aws/token"
-AWS_SHARED_CREDENTIALS_FILE="$XDG_CONFIG_HOME/aws/shared-credentials"
+AWS_SHARED_CREDENTIALS_FILE="$XDG_CONFIG_HOME/aws/credentials"
 
 # ASDF XDG
 ASDF_CONFIG_FILE=$XDG_CONFIG_HOME/asdf/.asdfrc
