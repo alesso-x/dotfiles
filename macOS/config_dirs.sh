@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # XDG
 mkdir $HOME/.config           # XDG_CONFIG_HOME
 mkdir $HOME/.cache            # XDG_CACHE_HOME
