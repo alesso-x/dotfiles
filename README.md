@@ -29,7 +29,6 @@ brew bundle --file=$HOME/dotfiles/macOS/Brewfile
 ```bash
 bash $HOME/dotfiles/macOS/defaults.sh
 bash $HOME/dotfiles/macOS/dock.sh
-bash $HOME/dotfiles/macOS/config_dirs.sh
 ```
 
 ## [fish shell](https://fishshell.com)
@@ -44,6 +43,10 @@ curl -L https://get.oh-my.fish | fish
 mkdir $HOME/dotfiles/.config/fish/functions
 stow fish
 omf install
+```
+
+```
+bash $HOME/dotfiles/macOS/config_dirs.sh
 ```
 
 ## [vscode](https://code.visualstudio.com)
