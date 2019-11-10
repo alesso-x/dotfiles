@@ -5,7 +5,6 @@
 * Kubernetes (.kube)
 * Helm (.helm)
 
-* .aws
 * .boto
 * .docker
 * .gsutil
