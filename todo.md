@@ -2,16 +2,15 @@
 
 ## XDG Base Directory Specification
 
-* Asdf (.asdf)
-* AWS (.aws)
 * Kubernetes (.kube)
 * Helm (.helm)
-* VScode (.vscode)
 
+* .aws
 * .boto
 * .docker
 * .gsutil
 * .httpie
 * .tldrc
+* .vscode
 * .zsh_history
 * .zshrc
