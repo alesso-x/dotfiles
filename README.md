@@ -36,16 +36,18 @@ bash $HOME/dotfiles/macOS/dock.sh
 ```bash
 echo "$(command -v fish)" | sudo tee -a /etc/shells
 chsh -s "$(command -v fish)"
+
+# omf
 curl -L https://get.oh-my.fish | fish
 ```
 
 ```fish
-mkdir $HOME/dotfiles/.config/fish/functions
+mkdir $HOME/.config/fish/functions
+rm $HOME/.config/omf/bundle
+
 stow fish
 omf install
-```
 
-```
 bash $HOME/dotfiles/macOS/config_dirs.sh
 ```
 
