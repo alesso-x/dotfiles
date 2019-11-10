@@ -66,18 +66,18 @@ ln -sf $HOME/dotfiles/vscode/snippets/javascript.json $HOME/Library/Application\
 ```bash
 # python
 asdf plugin-add python
-asdf install python [version] # i.e. 3.7.3
+asdf install python [version] # i.e. 3.7.5
 asdf global python [version]
 
 # nodejs
 asdf plugin-add nodejs
-bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
-asdf install nodejs [version] # i.e. 10.16.0
+bash $ASDF_DATA_DIR/plugins/nodejs/bin/import-release-team-keyring
+asdf install nodejs [version] # i.e. 12.13.0
 asdf global nodejs [version]
 
 # ruby
 asdf plugin-add ruby
-asdf install ruby [version] # i.e. 2.6.3
+asdf install ruby [version] # i.e. 2.6.5
 asdf global ruby [version]
 ```
 
