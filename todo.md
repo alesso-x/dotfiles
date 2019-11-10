@@ -2,16 +2,16 @@
 
 ## XDG Base Directory Specification
 
-* Asdf
-* Kubernetes
-* Helm
+* Asdf (.asdf)
+* AWS (.aws)
+* Kubernetes (.kube)
+* Helm (.helm)
+* VScode (.vscode)
 
+* .boto
 * .docker
 * .gsutil
 * .httpie
 * .tldrc
-* .boto
-
-
-## Install iStat Menus Helper
-https://bjango.com/help/istatmenus6/helper/
+* .zsh_history
+* .zshrc
