@@ -15,6 +15,7 @@ GitHub.vscode-pull-request-github
 googlecloudtools.cloudcode
 ivory-lab.jenkinsfile-support
 Kasik96.swift
+mariomatheu.syntax-project-pbxproj
 mauve.terraform
 mechatroner.rainbow-csv
 mikestead.dotenv
@@ -39,6 +40,7 @@ Rubymaniac.vscode-direnv
 ryu1kn.partial-diff
 skyapps.fish-vscode
 VisualStudioExptTeam.vscodeintellicode
+vknabel.vscode-swiftformat
 vscodevim.vim
 wayou.vscode-todo-highlight
 wmaurer.change-case
