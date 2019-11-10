@@ -29,8 +29,7 @@ brew bundle --file=$HOME/dotfiles/macOS/Brewfile
 ```bash
 bash $HOME/dotfiles/macOS/defaults.sh
 bash $HOME/dotfiles/macOS/dock.sh
-
-mkdir $HOME/.config
+bash $HOME/dotfiles/macOS/config_dirs.sh
 ```
 
 ## [fish shell](https://fishshell.com)
