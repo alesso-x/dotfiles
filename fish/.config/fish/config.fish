@@ -8,20 +8,12 @@ set -ax PATH \
     /usr/local/opt/gnu-sed/libexec/gnubin \
     $HOME/.local/bin
 
-# fzf
-# https://github.com/jethrokuan/fzf#commands
-set -x FZF_DEFAULT_COMMAND 'ag --hidden --ignore .git -g ""'
-set -x FZF_FIND_FILE_COMMAND 'ag --hidden --ignore .git -g ""'
-set -x FZF_CD_COMMAND 'ag --hidden --ignore .git -g ""'
-set -x FZF_CD_WITH_HIDDEN_COMMAND 'ag --hidden --ignore .git -g ""'
-
-# environment variables
-set -gx XDG_CONFIG_HOME $HOME/.config
-set -gx VIMINIT 'let $MYVIMRC="$XDG_CONFIG_HOME/.vimrc" | source $MYVIMRC'
+# environment vars and aliases
 fenv source ~/dotfiles/.environment_vars.sh
-
-# aliases
 bass source ~/dotfiles/.aliases.sh
+
+# vim
+set -gx VIMINIT 'let $MYVIMRC="$XDG_CONFIG_HOME/.vimrc" | source $MYVIMRC'
 
 # abbreviations -> abbr --list
 if status --is-interactive
