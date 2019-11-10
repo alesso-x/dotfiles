@@ -3,7 +3,6 @@ codezombiech.gitignore
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
-dunstontc.viml
 eamodio.gitlens
 EditorConfig.EditorConfig
 eg2.vscode-npm-script
@@ -41,7 +40,6 @@ ryu1kn.partial-diff
 skyapps.fish-vscode
 VisualStudioExptTeam.vscodeintellicode
 vknabel.vscode-swiftformat
-vscodevim.vim
 wayou.vscode-todo-highlight
 wmaurer.change-case
 yardensachs.copy-python-path
