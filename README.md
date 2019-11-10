@@ -90,3 +90,7 @@ python -m pip install --user pipx
 ## [stow](https://www.gnu.org/software/stow/)
 
 `stow bash git karabiner tmux vim`
+
+## iTerm2
+
+`General > Preferences > Browse`
