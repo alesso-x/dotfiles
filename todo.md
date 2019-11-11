@@ -1,15 +1,10 @@
 # TODO
 
-## XDG Base Directory Specification
+## [XDG Base Directory Specification](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
 
-* Kubernetes (.kube)
-* Helm (.helm)
-
-* .boto
-* .docker
-* .gsutil
-* .httpie
-* .tldrc
-* .vscode
+* .docker [moby/issues/20693](https://github.com/moby/moby/issues/20693)
+* .helm [helm 3 supports XDG](https://github.com/helm/helm/pull/5443)
+* .kube [kubernetes/issues/56402](https://github.com/kubernetes/kubernetes/issues/56402)
+* .vscode [vscode/issues/3884](https://github.com/microsoft/vscode/issues/3884)
 * .zsh_history
 * .zshrc
