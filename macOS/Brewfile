@@ -1,6 +1,8 @@
+tap "adoptopenjdk/openjdk"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/services"
 tap "weaveworks/tap"
 brew "asdf"
 brew "aws-iam-authenticator"
@@ -22,16 +24,21 @@ brew "kubernetes-cli"
 brew "kubernetes-helm"
 brew "mas"
 brew "mint"
+brew "mkcert"
+brew "nss"
 brew "pgcli"
 brew "postgresql"
 brew "python"
 brew "sops"
 brew "stow"
+brew "swiftlint"
 brew "terraform"
 brew "the_silver_searcher"
 brew "thefuck"
 brew "vim"
+brew "watchman"
 brew "weaveworks/tap/eksctl"
+cask "android-studio"
 cask "appcleaner"
 cask "datagrip"
 cask "docker"
@@ -42,14 +49,21 @@ cask "insomnia"
 cask "iterm2"
 cask "karabiner-elements"
 cask "postman"
+cask "react-native-debugger"
 cask "rocket"
 cask "sf-symbols"
 cask "shimo"
 cask "visual-studio-code"
+cask "wireshark"
+cask "adoptopenjdk/openjdk/adoptopenjdk8"
 mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
 mas "Bear", id: 1091189122
+mas "DaisyDisk", id: 411643860
 mas "Magnet", id: 441258766
+mas "Next Meeting", id: 1017470484
+mas "Pocket", id: 568494494
+mas "Save to Pocket", id: 1477385213
 mas "Slack", id: 803453959
 mas "ToothFairy", id: 1191449274
 mas "WhatsApp", id: 1147396723
