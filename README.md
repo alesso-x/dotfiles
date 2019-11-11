@@ -89,7 +89,12 @@ python -m pip install --user pipx
 
 ## [stow](https://www.gnu.org/software/stow/)
 
-`stow bash git karabiner vim`
+```bash
+stow bash
+stow git
+stow karabiner
+stow vim
+```
 
 ## iTerm2
 
