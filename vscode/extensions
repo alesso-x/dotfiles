@@ -16,8 +16,8 @@ googlecloudtools.cloudcode
 ivory-lab.jenkinsfile-support
 karigari.chat
 Kasik96.swift
-mariomatheu.syntax-project-pbxproj
 L13RARY.l13-diff
+mariomatheu.syntax-project-pbxproj
 mauve.terraform
 mechatroner.rainbow-csv
 mgesbert.python-path
@@ -36,9 +36,9 @@ ms-vsliveshare.vsliveshare-pack
 msjsdiag.debugger-for-chrome
 msjsdiag.vscode-react-native
 njpwerner.autodocstring
+Orta.vscode-jest
 pnp.polacode
 quicktype.quicktype
-Orta.vscode-jest
 redhat.vscode-yaml
 richie5um2.vscode-sort-json
 ritwickdey.LiveServer
