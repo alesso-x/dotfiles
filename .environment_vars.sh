@@ -18,7 +18,7 @@ ASDF_DATA_DIR=$XDG_DATA_HOME/asdf
 ASDF_DEFAULT_TOOL_VERSIONS_FILENAME=$XDG_CONFIG_HOME/asdf/.tool-versions
 
 # GCloud
-CLOUDSDK_PYTHON=/usr/local/bin/python2
+CLOUDSDK_PYTHON=/usr/bin/python
 
 # fzf
 # https://github.com/jethrokuan/fzf#commands

@@ -27,7 +27,6 @@ eval (direnv hook fish)
 source /usr/local/opt/asdf/asdf.fish
 
 # gcloud
-set -ax PATH /usr/local/opt/gnu-getopt/bin
 source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
 
 # django completions
