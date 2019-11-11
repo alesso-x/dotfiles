@@ -12,7 +12,7 @@ xcode-select --install
 ln -sf $HOME/dotfiles/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
 
 # Point xcode-select to the Xcode app Developer directory
-# xcode-select -s /Applications/Xcode.app/Contents/Developer/
+xcode-select -s /Applications/Xcode.app/Contents/Developer/
 
 # Preferences > Text Editing > Editing > Including whitespace-ony lines
 ```
