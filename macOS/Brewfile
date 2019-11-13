@@ -3,7 +3,6 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "weaveworks/tap"
 brew "asdf"
 brew "aws-iam-authenticator"
 brew "awscli"
@@ -37,7 +36,6 @@ brew "the_silver_searcher"
 brew "thefuck"
 brew "vim"
 brew "watchman"
-brew "weaveworks/tap/eksctl"
 cask "android-studio"
 cask "appcleaner"
 cask "datagrip"
@@ -60,8 +58,12 @@ mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
 mas "Bear", id: 1091189122
 mas "DaisyDisk", id: 411643860
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
 mas "Magnet", id: 441258766
 mas "Next Meeting", id: 1017470484
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
 mas "Slack", id: 803453959

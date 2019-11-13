@@ -7,6 +7,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "johanhaleby/kubetail"
+tap "weaveworks/tap"
 brew "bat"
 brew "bench"
 brew "calc"
@@ -36,6 +37,7 @@ brew "watchman"
 brew "yarn"
 brew "zsh"
 brew "johanhaleby/kubetail/kubetail"
+brew "weaveworks/tap/eksctl"
 cask "1password-cli"
 cask "adguard"
 cask "alfred"
@@ -70,17 +72,13 @@ cask "wireshark"
 cask "workflowy"
 cask "ynab"
 cask "colindean/fonts-nonfree/font-microsoft-office"
-mas "DaisyDisk", id: 411643860
 mas "Dark Reader for Safari", id: 1438243180
 mas "iStat Menus", id: 1319778037
-mas "Keynote", id: 409183694
 mas "Medis", id: 1063631769
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
-mas "Quiver", id: 866773894
 mas "Reeder", id: 880001334
+mas "Quiver", id: 866773894
