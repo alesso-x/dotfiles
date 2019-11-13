@@ -2,9 +2,10 @@ set -a
 
 # XDG
 # https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
-XDG_CONFIG_HOME=$HOME/.config
-XDG_DATA_HOME=$HOME/.local/share
-XDG_CACHE_HOME=$HOME/.cache
+                                  # Darwin
+XDG_CONFIG_HOME=$HOME/.config     # $HOME/Library/Preferences (helm)  $HOME/Library/Application Support (doctl)
+XDG_DATA_HOME=$HOME/.local/share  # $HOME/Library
+XDG_CACHE_HOME=$HOME/.cache       # $HOME/Library/Caches
 
 # AWS XDG
 # https://github.com/aws/aws-cli/issues/2433#issuecomment-532208981
