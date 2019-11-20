@@ -31,7 +31,6 @@ brew "rlwrap"
 brew "ruby", link: true
 brew "sl"
 brew "sops"
-brew "speedtest-cli"
 brew "tldr"
 brew "tree"
 brew "zsh"
