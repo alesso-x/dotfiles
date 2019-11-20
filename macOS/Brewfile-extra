@@ -30,6 +30,7 @@ brew "ripgrep"
 brew "rlwrap"
 brew "ruby", link: true
 brew "sl"
+brew "sops"
 brew "speedtest-cli"
 brew "tldr"
 brew "tree"
@@ -76,5 +77,5 @@ mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Pixelmator", id: 407963104
-mas "Reeder", id: 880001334
 mas "Quiver", id: 866773894
+mas "Reeder", id: 880001334
