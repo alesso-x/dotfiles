@@ -35,6 +35,7 @@ brew "the_silver_searcher"
 brew "thefuck"
 brew "vim"
 brew "watchman"
+cask "adoptopenjdk8"
 cask "android-studio"
 cask "appcleaner"
 cask "clipy"
@@ -51,9 +52,9 @@ cask "react-native-debugger"
 cask "rocket"
 cask "sf-symbols"
 cask "shimo"
+cask "spotify"
 cask "visual-studio-code"
 cask "wireshark"
-cask "adoptopenjdk/openjdk/adoptopenjdk8"
 mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
 mas "Bear", id: 1091189122
