@@ -9,8 +9,8 @@ set -ax PATH \
     $HOME/.local/bin
 
 # environment vars and aliases
-fenv source ~/dotfiles/.environment_vars.sh
-bass source ~/dotfiles/.aliases.sh
+fenv source $HOME/dotfiles/.environment_vars.sh
+bass source $HOME/dotfiles/.aliases.sh
 
 # abbreviations -> abbr --list
 if status --is-interactive
