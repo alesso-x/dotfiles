@@ -36,3 +36,5 @@ source $HOME/dotfiles/.aliases.sh
 setopt prompt_subst
 PS1='%{$fg[cyan]%}$(shrink_path --fish) $(git_prompt_info)'
 PS1+='%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜)%{$reset_color%}'
+
+. $HOME/.asdf/asdf.sh
