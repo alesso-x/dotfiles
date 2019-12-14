@@ -87,6 +87,15 @@ asdf global ruby [version]
 python -m pip install --user pipx
 ```
 
+## poetry
+
+```bash
+pipx install poetry
+
+mkdir ~/.config/fish/completions
+poetry completions fish > ~/.config/fish/completions/poetry.fish
+```
+
 ## [stow](https://www.gnu.org/software/stow/)
 
 ```bash
