@@ -111,3 +111,10 @@ stow vim
 ## iTerm2
 
 `General > Preferences > Browse`
+
+## zsh
+
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+stow zsh
+```
