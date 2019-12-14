@@ -37,4 +37,11 @@ setopt prompt_subst
 PS1='%{$fg[cyan]%}$(shrink_path --fish) $(git_prompt_info)'
 PS1+='%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜)%{$reset_color%}'
 
+# direnv, asdf
+eval "$(direnv hook zsh)"
 . $HOME/.asdf/asdf.sh
+
+# pipx completions
+autoload -U bashcompinit
+bashcompinit
+eval "$(register-python-argcomplete pipx)"
