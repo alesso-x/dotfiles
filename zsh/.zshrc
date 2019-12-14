@@ -19,6 +19,7 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+    asdf
     fzf
     git
     shrink-path
@@ -39,7 +40,6 @@ PS1+='%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜)%{$reset_color%}'
 
 # direnv, asdf
 eval "$(direnv hook zsh)"
-. $HOME/.asdf/asdf.sh
 
 # pipx completions
 autoload -U bashcompinit
