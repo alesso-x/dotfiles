@@ -1,20 +1,13 @@
 # dotfiles
 
-## Clone dotfiles to `$HOME` dir
-
-`git clone git@github.com:alessod/dotfiles.git $HOME/dotfiles`
-
-## xcode
+## Getting Started
 
 ```bash
+# Clone dotfiles to `$HOME` dir
+git clone git@github.com:alessod/dotfiles.git $HOME/dotfiles
+
+# Install command line developer tools
 xcode-select --install
-
-ln -sf $HOME/dotfiles/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
-
-# Point xcode-select to the Xcode app Developer directory
-xcode-select -s /Applications/Xcode.app/Contents/Developer/
-
-# Preferences > Text Editing > Editing > Including whitespace-ony lines
 ```
 
 ## [brew](https://brew.sh)
@@ -49,6 +42,16 @@ stow fish
 omf install
 
 bash $HOME/dotfiles/macOS/config_dirs.sh
+```
+
+## xcode
+
+```bash
+# Set Xcode developer tools as the active developer directory
+xcode-select -s /Applications/Xcode.app/Contents/Developer/
+
+ln -sf $HOME/dotfiles/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
+# Preferences > Text Editing > Editing > Including whitespace-ony lines
 ```
 
 ## [vscode](https://code.visualstudio.com)
