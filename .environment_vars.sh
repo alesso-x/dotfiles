@@ -27,6 +27,8 @@ ASDF_DEFAULT_TOOL_VERSIONS_FILENAME=$XDG_CONFIG_HOME/asdf/.tool-versions
 # DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
 
 # GCloud
+# https://cloud.google.com/sdk/docs/quickstart-macos
+# gcloud topic startup
 CLOUDSDK_PYTHON=/usr/bin/python
 
 # fzf
