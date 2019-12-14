@@ -12,9 +12,6 @@ set -ax PATH \
 fenv source ~/dotfiles/.environment_vars.sh
 bass source ~/dotfiles/.aliases.sh
 
-# vim
-set -gx VIMINIT 'let $MYVIMRC="$XDG_CONFIG_HOME/.vimrc" | source $MYVIMRC'
-
 # abbreviations -> abbr --list
 if status --is-interactive
     abbr --add --global k kubectl
