@@ -3,14 +3,14 @@
 ## Getting Started
 
 ```bash
-# Clone dotfiles to `$HOME` dir
+# Clone dotfiles to $HOME dir
 git clone git@github.com:alessod/dotfiles.git $HOME/dotfiles
 
 # Install command line developer tools
 xcode-select --install
 ```
 
-## [brew](https://brew.sh)
+## brew
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -24,7 +24,7 @@ bash $HOME/dotfiles/macOS/defaults.sh
 bash $HOME/dotfiles/macOS/dock.sh
 ```
 
-## [fish shell](https://fishshell.com)
+## fish shell
 
 ```bash
 echo "$(command -v fish)" | sudo tee -a /etc/shells
@@ -32,9 +32,8 @@ chsh -s "$(command -v fish)"
 
 # omf
 curl -L https://get.oh-my.fish | fish
-```
 
-```fish
+# configuration
 mkdir $HOME/.config/fish/functions
 rm $HOME/.config/omf/bundle
 
@@ -54,7 +53,7 @@ ln -sf $HOME/dotfiles/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode
 # Preferences > Text Editing > Editing > Including whitespace-ony lines
 ```
 
-## [vscode](https://code.visualstudio.com)
+## vscode
 
 ```bash
 cat $HOME/dotfiles/vscode/extensions | xargs -L 1 echo code --install-extension | sh
@@ -99,7 +98,7 @@ mkdir ~/.config/fish/completions
 poetry completions fish > ~/.config/fish/completions/poetry.fish
 ```
 
-## [stow](https://www.gnu.org/software/stow/)
+## stow
 
 ```bash
 stow bash
