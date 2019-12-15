@@ -31,6 +31,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+source $HOME/dotfiles/.environment_vars.sh
+source $HOME/dotfiles/.xdg_environment_vars.sh
 source $HOME/dotfiles/.aliases.sh
 
 # shrink-path

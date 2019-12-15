@@ -1,6 +1,6 @@
-source ~/dotfiles/.environment_vars.sh
-source ~/dotfiles/.aliases.sh
-set +a
+source $HOME/dotfiles/.environment_vars.sh
+source $HOME/dotfiles/.xdg_environment_vars.sh
+source $HOME/dotfiles/.aliases.sh
 export HISTFILE=$XDG_DATA_HOME/bash/history
 
 PS1="\[\e[0;31m\]\u \[\e[0;33m\]\W \[\e[0;32m\]$ \[\e[0m\]"

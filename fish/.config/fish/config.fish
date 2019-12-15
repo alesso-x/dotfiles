@@ -10,6 +10,7 @@ set -ax PATH \
 
 # environment vars and aliases
 fenv source $HOME/dotfiles/.environment_vars.sh
+fenv source $HOME/dotfiles/.xdg_environment_vars.sh
 bass source $HOME/dotfiles/.aliases.sh
 
 # abbreviations -> abbr --list
