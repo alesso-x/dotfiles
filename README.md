@@ -81,6 +81,7 @@ bash $ASDF_DATA_DIR/plugins/nodejs/bin/import-release-team-keyring
 asdf install nodejs [version] # i.e. 12.13.0
 asdf global nodejs [version]
 
+npm i -g yarn
 npx react-native
 
 # ruby
