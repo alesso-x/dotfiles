@@ -1,4 +1,3 @@
-tap "adoptopenjdk/openjdk"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -34,7 +33,7 @@ brew "the_silver_searcher"
 brew "thefuck"
 brew "vim"
 brew "watchman"
-cask "adoptopenjdk8"
+cask "adoptopenjdk"
 cask "android-studio"
 cask "appcleaner"
 cask "clipy"
@@ -58,9 +57,13 @@ mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
 mas "Bear", id: 1091189122
 mas "DaisyDisk", id: 411643860
+mas "Icon Set Creator", id: 939343785
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Magnet", id: 441258766
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
 mas "Next Meeting", id: 1017470484
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
