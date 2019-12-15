@@ -4,7 +4,7 @@ bass source $HOME/dotfiles/.aliases.sh
 set fish_greeting  # Disable fish greeting
 
 # path
-set -ax PATH \
+set --append PATH \
     /usr/local/opt/coreutils/libexec/gnubin \
     /usr/local/opt/gnu-getopt/bin \
     /usr/local/opt/gnu-sed/libexec/gnubin \
