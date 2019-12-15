@@ -3,7 +3,7 @@ source $HOME/dotfiles/.xdg_environment_vars.sh
 source $HOME/dotfiles/.aliases.sh
 export HISTFILE="$XDG_DATA_HOME"/zsh/history
 
-#path
+# path
 path=(
     $path
     /usr/local/opt/coreutils/libexec/gnubin \
