@@ -14,6 +14,8 @@ xcode-select --install
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+set -x HOMEBREW_BUNDLE_MAS_SKIP Keynote 462058435 462062816 462054704 Numbers Pages Xcode
 brew bundle --file=$HOME/dotfiles/macOS/Brewfile
 ```
 
@@ -71,22 +73,22 @@ asdf plugin-add python
 asdf install python [version] # i.e. 3.7.5
 asdf global python [version]
 
+python -m pip install --user pipx
+
 # nodejs
 asdf plugin-add nodejs
 bash $ASDF_DATA_DIR/plugins/nodejs/bin/import-release-team-keyring
 asdf install nodejs [version] # i.e. 12.13.0
 asdf global nodejs [version]
 
+npx react-native
+
 # ruby
 asdf plugin-add ruby
 asdf install ruby [version] # i.e. 2.6.5
 asdf global ruby [version]
-```
 
-## pipx
-
-```bash
-python -m pip install --user pipx
+gem install cocoapods
 ```
 
 ## poetry
