@@ -16,5 +16,8 @@ touch $ASDF_DEFAULT_TOOL_VERSIONS_FILENAME
 # Bash
 mkdir -p $XDG_DATA_HOME/bash; touch $XDG_DATA_HOME/bash/history
 
+# Zsh
+mkdir -p $XDG_DATA_HOME/zsh; touch $XDG_DATA_HOME/zsh/history
+
 # workspace
 mkdir $HOME/workspace

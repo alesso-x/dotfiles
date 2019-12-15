@@ -1,5 +1,20 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+source $HOME/dotfiles/.environment_vars.sh
+source $HOME/dotfiles/.xdg_environment_vars.sh
+source $HOME/dotfiles/.aliases.sh
+export HISTFILE="$XDG_DATA_HOME"/zsh/history
+
+#path
+path=(
+    $path
+    /usr/local/opt/coreutils/libexec/gnubin \
+    /usr/local/opt/gnu-getopt/bin \
+    /usr/local/opt/gnu-sed/libexec/gnubin \
+    $HOME/.local/bin
+)
+
+#
+# Oh My Zsh
+#
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -20,6 +35,7 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     asdf
+    colored-man-pages
     fzf
     git
     shrink-path
@@ -30,12 +46,11 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+#
 # User configuration
-source $HOME/dotfiles/.environment_vars.sh
-source $HOME/dotfiles/.xdg_environment_vars.sh
-source $HOME/dotfiles/.aliases.sh
+#
 
-# shrink-path
+# path with shrink-path
 setopt prompt_subst
 PS1='%{$fg[cyan]%}$(shrink_path --fish) $(git_prompt_info)'
 PS1+='%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜)%{$reset_color%}'

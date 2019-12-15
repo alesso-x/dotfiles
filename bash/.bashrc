@@ -27,4 +27,6 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
 
-. /usr/local/opt/asdf/asdf.sh
+# direnv, asdf
+eval "$(direnv hook bash)"
+source /usr/local/opt/asdf/asdf.sh
