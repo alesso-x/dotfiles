@@ -25,8 +25,5 @@ __fish_complete_django manage.py
 eval (direnv hook fish)
 source /usr/local/opt/asdf/asdf.fish
 
-# gcloud
-source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
-
 # pipx completions
 register-python-argcomplete --shell fish pipx | .
