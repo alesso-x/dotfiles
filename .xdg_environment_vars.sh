@@ -12,8 +12,9 @@ XDG_CACHE_HOME=$HOME/.cache       # $HOME/Library/Caches
 # AWS XDG
 # https://github.com/aws/aws-cli/issues/2433#issuecomment-532208981
 # https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
-AWS_CONFIG_FILE=$XDG_CONFIG_HOME/aws/config
-AWS_SHARED_CREDENTIALS_FILE=$XDG_CONFIG_HOME/aws/credentials
+# AWS Amplify does not support these variables
+# AWS_CONFIG_FILE=$XDG_CONFIG_HOME/aws/config
+# AWS_SHARED_CREDENTIALS_FILE=$XDG_CONFIG_HOME/aws/credentials
 
 # ASDF XDG
 ASDF_CONFIG_FILE=$XDG_CONFIG_HOME/asdf/.asdfrc
