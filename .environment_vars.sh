@@ -12,4 +12,4 @@ FZF_FIND_FILE_COMMAND='ag --hidden --ignore .git -g ""'
 FZF_CD_COMMAND='ag --hidden --ignore .git -g ""'
 FZF_CD_WITH_HIDDEN_COMMAND='ag --hidden --ignore .git -g ""'
 
-set +x
+set +a
