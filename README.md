@@ -74,6 +74,7 @@ asdf install python [version] # i.e. 3.7.5
 asdf global python [version]
 
 python -m pip install --user pipx
+pipx install soundscrape
 
 # nodejs
 asdf plugin-add nodejs
