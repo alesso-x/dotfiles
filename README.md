@@ -59,10 +59,12 @@ ln -sf $HOME/dotfiles/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode
 
 ```bash
 cat $HOME/dotfiles/vscode/extensions | xargs -L 1 echo code --install-extension | sh
+set -x VSCODE_HOME $HOME/Library/Application\ Support/Code/User
 
-ln -sf $HOME/dotfiles/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
-ln -sf $HOME/dotfiles/vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
-ln -sf $HOME/dotfiles/vscode/snippets/javascript.json $HOME/Library/Application\ Support/Code/User/snippets/javascript.json
+ln -sf $HOME/dotfiles/vscode/settings.json $VSCODE_HOME/settings.json
+ln -sf $HOME/dotfiles/vscode/keybindings.json $VSCODE_HOME/keybindings.json
+ln -sf $HOME/dotfiles/vscode/snippets/javascript.json $VSCODE_HOME/snippets/javascript.json
+ln -sf $HOME/dotfiles/vscode/snippets/typescriptreact.json $VSCODE_HOME/snippets/typescriptreact.json
 ```
 
 ## asdf
