@@ -5,6 +5,7 @@
     "editor.fontSize": 14,
     "editor.renderWhitespace": "boundary",
     "editor.suggest.localityBonus": true,
+    "editor.tabSize": 2,
     "explorer.autoReveal": false,
     "extensions.ignoreRecommendations": false,
 
@@ -75,4 +76,13 @@
     "workbench.commandPalette.preserveInput": true,
     "workbench.settings.editor": "json",
     "workbench.colorTheme": "Atom One Dark",
+
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
