@@ -87,6 +87,11 @@ asdf global nodejs [version]
 npm i -g yarn
 npx react-native
 
+# java
+asdf plugin-add java
+asdf install java [versoin]  # i.e. adopt-openjdk-13.0.2+8
+asdf global java [version]
+
 # ruby
 asdf plugin-add ruby
 asdf install ruby [version] # i.e. 2.6.5
