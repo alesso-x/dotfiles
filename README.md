@@ -72,20 +72,14 @@ ln -sf $HOME/dotfiles/vscode/snippets/typescriptreact.json $VSCODE_HOME/snippets
 ```bash
 # python
 asdf plugin-add python
-asdf install python [version] # i.e. 3.7.5
-asdf global python [version]
-
-python -m pip install --user pipx
-pipx install soundscrape
+asdf install python (asdf latest python)
+asdf global python (asdf latest python)
 
 # nodejs
 asdf plugin-add nodejs
 bash $ASDF_DATA_DIR/plugins/nodejs/bin/import-release-team-keyring
-asdf install nodejs [version] # i.e. 12.13.0
-asdf global nodejs [version]
-
-npm i -g yarn
-npx react-native
+asdf install nodejs (asdf latest nodejs)
+asdf global nodejs (asdf latest nodejs)
 
 # java
 asdf plugin-add java
@@ -94,9 +88,13 @@ asdf global java [version]
 
 # ruby
 asdf plugin-add ruby
-asdf install ruby [version] # i.e. 2.6.5
-asdf global ruby [version]
+asdf install ruby (asdf latest ruby)
+asdf global ruby (asdf latest ruby)
 
+# lang dependencies
+python -m pip install --user pipx
+pipx install soundscrape
+npm i -g yarn
 gem install cocoapods
 ```
 
