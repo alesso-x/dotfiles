@@ -3,11 +3,11 @@
 ## Getting Started
 
 ```bash
-# Clone dotfiles to $HOME dir
-git clone git@github.com:alessod/dotfiles.git $HOME/dotfiles
-
 # Install command line developer tools
 xcode-select --install
+
+# Clone dotfiles to $HOME dir
+git clone git@github.com:alessod/dotfiles.git $HOME/dotfiles
 ```
 
 ## brew
