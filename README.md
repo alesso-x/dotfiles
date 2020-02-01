@@ -107,13 +107,19 @@ mkdir ~/.config/fish/completions
 poetry completions fish > ~/.config/fish/completions/poetry.fish
 ```
 
+## vim
+
+```bash
+stow vim
+curl -sLf https://spacevim.org/install.sh | bash
+```
+
 ## stow
 
 ```bash
 stow bash
 stow git
 stow karabiner
-stow vim
 ```
 
 ## iTerm2
