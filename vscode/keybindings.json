@@ -72,10 +72,6 @@
     "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
   {
-    "key": "ctrl+r",
-    "command": "-shell.runCommand"
-  },
-  {
     "key": "cmd+'",
     "command": "workbench.action.showNextWindowTab"
   },
