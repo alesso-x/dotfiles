@@ -66,6 +66,8 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
+    "vim.useSystemClipboard": true,
+
     "window.restoreWindows": "all",
     "window.nativeTabs": true,
     "window.zoomLevel": -0.5,
