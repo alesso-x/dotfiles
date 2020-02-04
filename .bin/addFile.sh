@@ -12,7 +12,7 @@
 #   None
 #######################################
 
-# Example
+# Usage
 #
 # Add a file
 # ./.bin/addFile.sh vim ~/.vimrc
