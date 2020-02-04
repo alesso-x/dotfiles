@@ -61,6 +61,9 @@ ln -sf $HOME/dotfiles/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode
 cat $HOME/dotfiles/vscode/extensions | xargs -L 1 echo code --install-extension | sh
 set -x VSCODE_HOME $HOME/Library/Application\ Support/Code/User
 
+# for vscode vim
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
 ln -sf $HOME/dotfiles/vscode/settings.json $VSCODE_HOME/settings.json
 ln -sf $HOME/dotfiles/vscode/keybindings.json $VSCODE_HOME/keybindings.json
 ln -sf $HOME/dotfiles/vscode/snippets/javascript.json $VSCODE_HOME/snippets/javascript.json
