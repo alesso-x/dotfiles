@@ -67,6 +67,12 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
     "vim.useSystemClipboard": true,
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["x"],
+            "after": ["\"", "_", "x"]
+         },
+    ],
 
     "window.restoreWindows": "all",
     "window.nativeTabs": true,
