@@ -4,6 +4,9 @@ bass source $HOME/dotfiles/.aliases.sh
 set fish_greeting  # Disable fish greeting
 
 # path
+set --prepend PATH \
+    /usr/local/opt/sqlite/bin
+
 set --append PATH \
     /usr/local/opt/coreutils/libexec/gnubin \
     /usr/local/opt/gnu-getopt/bin \
