@@ -14,10 +14,10 @@
 
 # Usage
 #
-# Add a file
+# Add file
 # ./.bin/addFile.sh vim ~/.vimrc
 #
-# Remove symlink
+# Remove file
 # stow --delete vim
 
 folder=$1
