@@ -97,7 +97,6 @@ asdf global ruby (asdf latest ruby)
 # lang dependencies
 python -m pip install --user pipx
 pipx install soundscrape
-npm i -g yarn
 gem install cocoapods
 ```
 
