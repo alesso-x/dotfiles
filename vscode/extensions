@@ -39,6 +39,8 @@ msjsdiag.vscode-react-native
 njpwerner.autodocstring
 Orta.vscode-jest
 pnp.polacode
+Prisma.prisma
+Prisma.vscode-graphql
 quicktype.quicktype
 redhat.vscode-yaml
 richie5um2.vscode-sort-json
