@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# https://stackoverflow.com/questions/3497123/run-git-pull-over-all-subdirectories
+# find . -type d -depth 1 -print -exec git --git-dir={}/.git --work-tree=$PWD/{} wipe \;
+
+# https://stackoverflow.com/a/29072745/5054458
+# ls -R -d */.git | xargs -I{} bash -c "echo {} && git -C {}/../ wipe";
+
+CYAN='\033[0;36m'
+NC='\033[0m' # No Color
+
+function print() {
+  echo -e "${CYAN}==> $1${NC}"
+}
+
+# https://stackoverflow.com/a/28348077/5054458
+for i in */.git; do (
+  print $(dirname "$i");
+  cd $i/..
+  git wipe
+); done
