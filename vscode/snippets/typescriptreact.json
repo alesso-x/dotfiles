@@ -20,6 +20,27 @@
     ],
     "description": "Creates a React Native Functional Component with TypeScript interface"
   },
+  "typeScriptReactNativeArrowFunctionalComponent": {
+    "prefix": "tsrnfa",
+    "body": [
+      "import React from 'react';",
+      "import {View, Text} from 'react-native';",
+      "",
+      "interface Props {}",
+      "",
+      "const ${1:${TM_FILENAME_BASE}}: React.FC<Props> = () => {",
+      "\treturn (",
+      "\t\t<View>",
+      "\t\t\t<Text>$0</Text>",
+      "\t\t</View>",
+      "\t);",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ],
+    "description": "Creates a React Native Arrow Functional Component with TypeScript interface"
+  },
   "typeScriptReactNativeClassComponent": {
     "prefix": "tsrnc",
     "body": [
