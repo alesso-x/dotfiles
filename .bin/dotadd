@@ -14,21 +14,19 @@
 
 # Usage
 #
-# Add file
-# ./.bin/addFile.sh vim ~/.vimrc
-#
-# Remove file
-# stow --delete vim
+# dotadd vim ~/.vimrc
 
 folder=$1
 path=$2
+dotfile_home=$HOME/dotfiles
 
 if [[ ! "$path" == *"$HOME"* ]]; then
   echo "File path must be absolute from home directory"
   exit 1
 fi
 
-dotfile_path=$HOME/dotfiles/$folder/${path#$HOME/}
+dotfile_path=$dotfile_home/$folder/${path#$HOME/}
 echo "Adding $path to dotfiles in $folder"
 mkdir -p $(dirname "$dotfile_path"); touch $dotfile_path
-stow --adopt $folder
+
+stow --dir=$dotfile_home --adopt $folder

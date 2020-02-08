@@ -11,7 +11,8 @@ set --append PATH \
     /usr/local/opt/coreutils/libexec/gnubin \
     /usr/local/opt/gnu-getopt/bin \
     /usr/local/opt/gnu-sed/libexec/gnubin \
-    $HOME/.local/bin
+    $HOME/.local/bin \
+    $HOME/dotfiles/.bin
 
 # abbreviations -> abbr --list
 if status --is-interactive
