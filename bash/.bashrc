@@ -1,5 +1,6 @@
 source $HOME/dotfiles/.environment_vars.sh
 source $HOME/dotfiles/.xdg_environment_vars.sh
+source $HOME/dotfiles/_private/vars.sh
 source $HOME/dotfiles/.aliases.sh
 export HISTFILE=$XDG_DATA_HOME/bash/history
 

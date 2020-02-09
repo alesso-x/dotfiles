@@ -18,14 +18,14 @@
         "Brewfile*": "ruby",
         "Jenkinsfile": "jenkinsfile",
         "nginx.conf": "NGINX",
-        "Dockerfile*": "dockerfile",
+        "Dockerfile*": "dockerfile"
     },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true,
         "**/*.pyc": true,
-        "**/__pycache__": true,
+        "**/__pycache__": true
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
@@ -35,8 +35,10 @@
     "gitlens.advanced.telemetry.enabled": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
+    "githubNotificationsBell.oauthToken": "${env:GITHUB_NOTIFICATIONS_TOKEN}",
 
     "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
 
     "python.jediEnabled": false,
     "python.linting.prospectorEnabled": true,
@@ -49,7 +51,7 @@
         "**/node_modules": true,
         "**/.vscode": true,
         "**/.pytest*": true,
-        "**/.venv*": true,
+        "**/.venv*": true
     },
     "telemetry.enableTelemetry": false,
     "terminal.integrated.scrollback": 10000,
@@ -89,11 +91,17 @@
         "editor.tabSize": 2,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[typescriptreact]": {
         "editor.tabSize": 2,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
     }
 }

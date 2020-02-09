@@ -1,5 +1,6 @@
 fenv source $HOME/dotfiles/.environment_vars.sh
 fenv source $HOME/dotfiles/.xdg_environment_vars.sh
+fenv source $HOME/dotfiles/_private/vars.sh
 bass source $HOME/dotfiles/.aliases.sh
 set fish_greeting  # Disable fish greeting
 
