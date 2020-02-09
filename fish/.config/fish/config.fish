@@ -1,7 +1,9 @@
-fenv source $HOME/dotfiles/.environment_vars.sh
-fenv source $HOME/dotfiles/.xdg_environment_vars.sh
-fenv source $HOME/dotfiles/_private/vars.sh
-bass source $HOME/dotfiles/.aliases.sh
+set -x DOTFILES_HOME $HOME/dotfiles
+
+fenv source $DOTFILES_HOME/.environment_vars.sh
+fenv source $DOTFILES_HOME/.xdg_environment_vars.sh
+fenv source $DOTFILES_HOME/_private/vars.sh
+bass source $DOTFILES_HOME/.aliases.sh
 set fish_greeting  # Disable fish greeting
 
 # path
@@ -13,7 +15,7 @@ set --append PATH \
     /usr/local/opt/gnu-getopt/bin \
     /usr/local/opt/gnu-sed/libexec/gnubin \
     $HOME/.local/bin \
-    $HOME/dotfiles/.bin
+    $DOTFILES_HOME/.bin
 
 # abbreviations -> abbr --list
 if status --is-interactive

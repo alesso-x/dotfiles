@@ -1,6 +1,4 @@
 #!/bin/bash
 
-dotfile_home=$HOME/dotfiles
-
-code --list-extensions > $dotfile_home/vscode/extensions
-brew bundle dump --force --no-restart --file=$dotfile_home/macOS/Brewfile
+code --list-extensions > $DOTFILES_HOME/vscode/extensions
+brew bundle dump --force --no-restart --file=$DOTFILES_HOME/macOS/Brewfile

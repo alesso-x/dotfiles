@@ -1,7 +1,9 @@
-source $HOME/dotfiles/.environment_vars.sh
-source $HOME/dotfiles/.xdg_environment_vars.sh
-source $HOME/dotfiles/_private/vars.sh
-source $HOME/dotfiles/.aliases.sh
+export DOTFILES_HOME=$HOME/dotfiles
+
+source $DOTFILES_HOME/.environment_vars.sh
+source $DOTFILES_HOME/.xdg_environment_vars.sh
+source $DOTFILES_HOME/_private/vars.sh
+source $DOTFILES_HOME/.aliases.sh
 export HISTFILE="$XDG_DATA_HOME"/zsh/history
 
 # path
@@ -10,7 +12,8 @@ path=(
     /usr/local/opt/coreutils/libexec/gnubin \
     /usr/local/opt/gnu-getopt/bin \
     /usr/local/opt/gnu-sed/libexec/gnubin \
-    $HOME/.local/bin
+    $HOME/.local/bin \
+    $DOTFILES_HOME/.bin
 )
 
 #

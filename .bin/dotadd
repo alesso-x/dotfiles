@@ -18,15 +18,14 @@
 
 folder=$1
 path=$2
-dotfile_home=$HOME/dotfiles
 
 if [[ ! "$path" == *"$HOME"* ]]; then
   echo "File path must be absolute from home directory"
   exit 1
 fi
 
-dotfile_path=$dotfile_home/$folder/${path#$HOME/}
+dotfile_path=$DOTFILES_HOME/$folder/${path#$HOME/}
 echo "Adding $path to dotfiles in $folder"
 mkdir -p $(dirname "$dotfile_path"); touch $dotfile_path
 
-stow --dir=$dotfile_home --adopt $folder
+stow --dir=$DOTFILES_HOME --adopt $folder

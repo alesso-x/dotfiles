@@ -5,6 +5,5 @@
 # dotdel vim
 
 folder=$1
-dotfile_home=$HOME/dotfiles
 
-stow --dir=$dotfile_home --delete $folder
+stow --dir=$DOTFILES_HOME --delete $folder
