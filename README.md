@@ -6,9 +6,12 @@
 # Install command line developer tools
 xcode-select --install
 
+# set dotfiles location
+export DOTFILES_HOME=$HOME/dotfiles
+
 # Clone dotfiles to $HOME dir
-git clone git@github.com:alessod/dotfiles.git $HOME/dotfiles
-chmod +x ~/dotfiles/.bin/*
+git clone git@github.com:alessod/dotfiles.git $DOTFILES_HOME
+chmod +x $DOTFILES_HOME/.bin/*
 ```
 
 ## brew
@@ -17,14 +20,14 @@ chmod +x ~/dotfiles/.bin/*
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 set -x HOMEBREW_BUNDLE_MAS_SKIP Keynote 462058435 462062816 462054704 Numbers Pages Xcode
-brew bundle --file=$HOME/dotfiles/macOS/Brewfile
+brew bundle --file=$DOTFILES_HOME/macOS/Brewfile
 ```
 
 ## macOS
 
 ```bash
-bash $HOME/dotfiles/macOS/defaults.sh
-bash $HOME/dotfiles/macOS/dock.sh
+bash $DOTFILES_HOME/macOS/defaults.sh
+bash $DOTFILES_HOME/macOS/dock.sh
 ```
 
 ## fish shell
@@ -43,7 +46,7 @@ rm $HOME/.config/omf/bundle
 stow fish
 omf install
 
-bash $HOME/dotfiles/macOS/config_dirs.sh
+bash $DOTFILES_HOME/macOS/config_dirs.sh
 ```
 
 ## xcode
@@ -52,23 +55,23 @@ bash $HOME/dotfiles/macOS/config_dirs.sh
 # Set Xcode developer tools as the active developer directory
 xcode-select -s /Applications/Xcode.app/Contents/Developer/
 
-ln -sf $HOME/dotfiles/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
+ln -sf $DOTFILES_HOME/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
 # Preferences > Text Editing > Editing > Including whitespace-ony lines
 ```
 
 ## vscode
 
 ```bash
-cat $HOME/dotfiles/vscode/extensions | xargs -L 1 echo code --install-extension | sh
+cat $DOTFILES_HOME/vscode/extensions | xargs -L 1 echo code --install-extension | sh
 set -x VSCODE_HOME $HOME/Library/Application\ Support/Code/User
 
 # for vscode vim
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
-ln -sf $HOME/dotfiles/vscode/settings.json $VSCODE_HOME/settings.json
-ln -sf $HOME/dotfiles/vscode/keybindings.json $VSCODE_HOME/keybindings.json
-ln -sf $HOME/dotfiles/vscode/snippets/javascript.json $VSCODE_HOME/snippets/javascript.json
-ln -sf $HOME/dotfiles/vscode/snippets/typescriptreact.json $VSCODE_HOME/snippets/typescriptreact.json
+ln -sf $DOTFILES_HOME/vscode/settings.json $VSCODE_HOME/settings.json
+ln -sf $DOTFILES_HOME/vscode/keybindings.json $VSCODE_HOME/keybindings.json
+ln -sf $DOTFILES_HOME/vscode/snippets/javascript.json $VSCODE_HOME/snippets/javascript.json
+ln -sf $DOTFILES_HOME/vscode/snippets/typescriptreact.json $VSCODE_HOME/snippets/typescriptreact.json
 ```
 
 ## asdf
@@ -128,6 +131,8 @@ stow karabiner
 ## iTerm2
 
 `General > Preferences > Browse`
+
+Select `$DOTFILES_HOME/iterm`
 
 ## zsh
 
