@@ -2,7 +2,7 @@
 
 # Usage
 #
-# dotdel vim
+# dotrm vim
 
 folder=$1
 
