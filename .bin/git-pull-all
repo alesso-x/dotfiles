@@ -10,6 +10,14 @@ function print() {
 # https://stackoverflow.com/questions/3497123/run-git-pull-over-all-subdirectories
 for i in */.git; do (
   print $(dirname "$i");
-  cd $i/..
-  git wipe
+
+  git -C $i/.. remote show origin > /dev/null 2>&1
+  remote_status=$?
+
+  if [ $remote_status -ne 0 ]; then
+    echo 'No remote'
+    exit 1
+  fi
+
+  git -C $i/.. delete-branches
 ); done
