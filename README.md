@@ -130,8 +130,11 @@ stow karabiner
 
 ## iTerm2
 
-* `General > Preferences > Browse > $DOTFILES_HOME/iterm`
-* `Profiles > Other Actions... > Import JSON Profiles...`
+```bash
+# Profiles > Other Actions... > Import JSON Profiles...
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "$DOTFILES_HOME/iterm"
+defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
+```
 
 ## zsh
 
