@@ -130,9 +130,8 @@ stow karabiner
 
 ## iTerm2
 
-`General > Preferences > Browse`
-
-Select `$DOTFILES_HOME/iterm`
+* `General > Preferences > Browse > $DOTFILES_HOME/iterm`
+* `Profiles > Other Actions... > Import JSON Profiles...`
 
 ## zsh
 
