@@ -16,3 +16,5 @@
     undo = reset HEAD~
 [diff "sopsdiffer"]
     textconv = sops -d
+[hub]
+	protocol = ssh

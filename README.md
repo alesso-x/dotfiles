@@ -102,7 +102,7 @@ asdf global ruby (asdf latest ruby)
 python -m pip install --user pipx
 pipx install soundscrape
 gem install cocoapods
-npm install --global git-open
+npm install -g git-open
 ```
 
 ## poetry
