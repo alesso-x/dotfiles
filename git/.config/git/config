@@ -4,16 +4,15 @@
     name = Alessandro DiMarco
     email = axdimarco@gmail.com
 [alias]
-    br = branch
-    co = checkout
-    s = switch
-    con = log origin/master ^master
-    # Show changes that have been staged
-    diffc = diff --cached
-    # list aliases
-    ll = "!git config -l | grep alias | cut -c 7-"
-    lk = log --oneline --graph --decorate
+    b = branch
+    c = checkout
+    diff-origin = diff master origin/master
+    diff-staged = diff --cached
+    log-graph = log --oneline --graph --decorate
+    log-origin = log origin/master ^master
+    ls-alias = "!git config -l | grep alias | cut -c 7-"
     publish = "!git push -u origin $(git branch-name)"
+    s = switch
     undo = reset HEAD~
 [diff "sopsdiffer"]
     textconv = sops -d
