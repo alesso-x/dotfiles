@@ -40,6 +40,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
+  "python.jediEnabled": false,
   "python.languageServer": "Microsoft",
   "python.linting.prospectorEnabled": true,
   "python.linting.pylintEnabled": false,
@@ -103,5 +104,5 @@
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
-  }
+  },
 }
