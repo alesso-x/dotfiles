@@ -21,6 +21,7 @@ if status --is-interactive
     abbr --add --global d docker
     abbr --add --global dm docker-compose
     abbr --add --global h hist_delete
+    abbr --add --global l ls
 end
 
 # django completions

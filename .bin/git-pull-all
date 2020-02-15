@@ -2,7 +2,6 @@
 
 CYAN='\033[0;36m'
 NC='\033[0m' # No Color
-
 function print() {
   echo -e "${CYAN}==> $1${NC}"
 }
