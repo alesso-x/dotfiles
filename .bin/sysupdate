@@ -1,0 +1,21 @@
+#!/bin/bash
+
+CYAN='\033[0;36m'
+NC='\033[0m' # No Color
+function print() {
+  echo -e "${CYAN}==> $1${NC}"
+}
+
+print 'updating homebrew'
+brew update
+brew upgrade
+brew cleanup
+
+print 'updating fish shell'
+fish -c fisher
+fish -c fish_update_completions
+
+print 'checking Apple Updates'
+softwareupdate -ia
+
+exit 0
