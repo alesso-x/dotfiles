@@ -11,9 +11,12 @@ brew update
 brew upgrade
 brew cleanup
 
+print 'updating asdf'
+asdf plugin update --all
+
 print 'updating fish shell'
 fish -c fisher
-fish -c fish_update_completions
+# fish -c fish_update_completions
 
 print 'checking Apple Updates'
 softwareupdate -ia
