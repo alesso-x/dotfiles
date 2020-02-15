@@ -70,6 +70,8 @@ ln -sf $DOTFILES_HOME/vscode/settings.json $VSCODE_HOME/settings.json
 ln -sf $DOTFILES_HOME/vscode/keybindings.json $VSCODE_HOME/keybindings.json
 ln -sf $DOTFILES_HOME/vscode/snippets/javascript.json $VSCODE_HOME/snippets/javascript.json
 ln -sf $DOTFILES_HOME/vscode/snippets/typescriptreact.json $VSCODE_HOME/snippets/typescriptreact.json
+
+# Command Pallet... > Shell Command: Install 'code' command in PATH
 ```
 
 ## asdf
@@ -133,6 +135,10 @@ stow karabiner
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "$DOTFILES_HOME/iterm"
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 ```
+
+## DataGrip
+
+`Tools > Create Command-line Launcher...`
 
 ## zsh
 
