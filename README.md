@@ -36,17 +36,13 @@ bash $DOTFILES_HOME/macOS/dock.sh
 echo "$(command -v fish)" | sudo tee -a /etc/shells
 chsh -s "$(command -v fish)"
 
-# omf
-curl -L https://get.oh-my.fish | fish
+# fisher
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+fisher
 
 # configuration
 mkdir $HOME/.config/fish/functions
-rm $HOME/.config/omf/bundle
-
 stow fish
-omf install
-omf channel dev  # https://github.com/oh-my-fish/oh-my-fish/issues/646 fzf keybindings
-omf update
 
 bash $DOTFILES_HOME/macOS/config_dirs.sh
 ```

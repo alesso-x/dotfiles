@@ -37,3 +37,6 @@ source $ASDF_DATA_DIR/plugins/java/set-java-home.fish  # JAVA_HOME
 
 # pipx completions
 register-python-argcomplete --shell fish pipx | .
+
+# Enable AWS CLI autocompletion: https://github.com/aws/aws-cli/issues/1079#issuecomment-541997810
+complete --command aws --no-files --arguments '(begin; set --local --export COMP_SHELL fish; set --local --export COMP_LINE (commandline); aws_completer | sed \'s/ $//\'; end)'

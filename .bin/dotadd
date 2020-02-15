@@ -14,18 +14,33 @@
 
 # Usage
 #
-# dotadd vim ~/.vimrc
+# dotadd vim $HOME/.vimrc
 
 folder=$1
 path=$2
 
+if [ -z "$folder" ]; then
+  echo "\$folder is empty"
+  echo "Usage: dotadd <folder> <path>"
+  echo "Example: dotadd vim $HOME/.vimrc"
+  exit 1
+fi
+
+if [ -z "$path" ]; then
+  echo "\$path is empty"
+  echo "Usage: dotadd <folder> <path>"
+  echo "Example: dotadd vim $HOME/.vimrc"
+  exit 1
+fi
+
 if [[ ! "$path" == *"$HOME"* ]]; then
-  echo "File path must be absolute from home directory"
+  echo "File path must use \$HOME"
   exit 1
 fi
 
 dotfile_path=$DOTFILES_HOME/$folder/${path#$HOME/}
 echo "Adding $path to dotfiles in $folder"
-mkdir -p $(dirname "$dotfile_path"); touch $dotfile_path
+mkdir -p $(dirname "$dotfile_path")
+touch $dotfile_path
 
 stow --dir=$DOTFILES_HOME --adopt $folder
