@@ -1,8 +1,6 @@
 export DOTFILES_HOME=$HOME/dotfiles
 
 source $DOTFILES_HOME/.environment_vars.sh
-source $DOTFILES_HOME/.xdg_environment_vars.sh
-source $DOTFILES_HOME/_private/vars.sh
 source $DOTFILES_HOME/.aliases.sh
 export HISTFILE=$XDG_DATA_HOME/bash/history
 
