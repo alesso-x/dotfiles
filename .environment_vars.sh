@@ -1,8 +1,3 @@
-# GCloud
-# https://cloud.google.com/sdk/docs/quickstart-macos
-# gcloud topic startup
-export CLOUDSDK_PYTHON=/usr/bin/python
-
 # fzf
 # https://github.com/jethrokuan/fzf#commands
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
