@@ -1,10 +1,10 @@
-set -x DOTFILES_HOME $HOME/dotfiles
-
-fenv source $DOTFILES_HOME/.environment_vars.sh
-fenv source $DOTFILES_HOME/.xdg_environment_vars.sh
-fenv source $DOTFILES_HOME/_private/vars.sh
-bass source $DOTFILES_HOME/.aliases.sh
 set fish_greeting  # Disable fish greeting
+set -gx DOTFILES_HOME $HOME/dotfiles
+
+source $DOTFILES_HOME/.environment_vars.sh
+source $DOTFILES_HOME/.xdg_environment_vars.sh
+source $DOTFILES_HOME/_private/vars.sh
+source $DOTFILES_HOME/.aliases.sh
 
 # path
 set --prepend PATH \
@@ -22,6 +22,7 @@ if status --is-interactive
     abbr --add --global k kubectl
     abbr --add --global d docker
     abbr --add --global dm docker-compose
+    abbr --add --global h hist_delete
 end
 
 # django completions
