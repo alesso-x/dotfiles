@@ -45,6 +45,8 @@ rm $HOME/.config/omf/bundle
 
 stow fish
 omf install
+omf channel dev  # https://github.com/oh-my-fish/oh-my-fish/issues/646 fzf keybindings
+omf update
 
 bash $DOTFILES_HOME/macOS/config_dirs.sh
 ```
