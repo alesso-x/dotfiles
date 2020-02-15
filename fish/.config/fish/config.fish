@@ -35,6 +35,3 @@ source $ASDF_DATA_DIR/plugins/java/set-java-home.fish  # JAVA_HOME
 
 # pipx completions
 register-python-argcomplete --shell fish pipx | .
-
-# Google cloud sdk: https://stackoverflow.com/a/53603913/5054458
-source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
