@@ -1,0 +1,58 @@
+{
+  "docker-compose backend": {
+    "prefix": "docker-backend",
+    "body": [
+      "  backend:",
+      "\t\tbuild:",
+      "\t\t\tcontext: .",
+      "\t\t\tdockerfile: ./config/backend.Dockerfile",
+      "\t\tcommand: $1",
+      "\t\tenv_file:",
+      "\t\t\t- ./.env.local",
+      "\t\tvolumes:",
+      "\t\t\t- .:/code",
+      "\t\t\t- /code/node_modules/",
+      "\t\tports: ['4000:4000']",
+      "\t\tdepends_on:",
+      "\t\t\t- db",
+      "$0",
+    ],
+    "description": "docker-compose backend"
+  },
+  "docker-compose frontend": {
+    "prefix": "docker-frontend",
+    "body": [
+      "  frontend:",
+      "\t\tbuild:",
+      "\t\t\tcontext: .",
+      "\t\t\tdockerfile: ./config/frontend.Dockerfile",
+      "\t\tcommand: $1",
+      "\t\tenv_file:",
+      "\t\t\t- ./.env.local",
+      "\t\tvolumes:",
+      "\t\t\t- .:/code",
+      "\t\t\t- /code/node_modules/",
+      "\t\tports: ['3000:3000']",
+      "$0",
+    ],
+    "description": "docker-compose frontend"
+  },
+  "docker-compose db": {
+    "prefix": "docker-db",
+    "body": [
+      "  db:",
+      "\t\timage: postgres",
+      "\t\tports: ['5432:5432']",
+      "\t\tvolumes:",
+      "\t\t\t- pgdata:/var/lib/postgresql/data",
+      "\t\tenvironment:",
+      "\t\t\tPOSTGRES_USER: 'pguser'",
+      "\t\t\tPOSTGRES_PASSWORD: 'pgpass'",
+      "\t\t\tPOSTGRES_DB: '$1'",
+      "$0",
+      "volumes:",
+      "\tpgdata:",
+    ],
+    "description": "docker-compose db"
+  },
+}
