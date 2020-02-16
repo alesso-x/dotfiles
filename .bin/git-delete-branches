@@ -3,7 +3,7 @@
 git checkout -q master && git pull
 
 # delete merged branches
-git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d
+git branch --merged | grep -v "\\*" | xargs -n 1 git branch -d
 
 # delete squashed branches
 # https://github.com/not-an-aardvark/git-delete-squashed
