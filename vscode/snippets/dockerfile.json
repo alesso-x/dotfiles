@@ -1,0 +1,21 @@
+{
+  "dockerfile node": {
+    "prefix": "dockerfile-node",
+    "body": [
+      "FROM node:lts",
+      "",
+      "WORKDIR /usr/src/app",
+      "",
+      "COPY package.json ./",
+      "COPY yarn.lock ./",
+      "",
+      "RUN yarn",
+      "",
+      "COPY . .",
+      "",
+      "EXPOSE 4000",
+      "CMD [ \"yarn\", \"start\" ]",
+    ],
+    "description": "dockerfile node"
+  }
+}
