@@ -60,6 +60,7 @@ ln -sf $DOTFILES_HOME/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode
 ## vscode
 
 ```bash
+# Command Pallet... > Shell Command: Install 'code' command in PATH
 cat $DOTFILES_HOME/vscode/extensions | xargs -L 1 echo code --install-extension | sh
 
 # for vscode vim
@@ -71,8 +72,6 @@ ln -sf $DOTFILES_HOME/vscode/settings.json $VSCODE_HOME/settings.json
 ln -sf $DOTFILES_HOME/vscode/keybindings.json $VSCODE_HOME/keybindings.json
 ln -sf $DOTFILES_HOME/vscode/snippets/javascript.json $VSCODE_HOME/snippets/javascript.json
 ln -sf $DOTFILES_HOME/vscode/snippets/typescriptreact.json $VSCODE_HOME/snippets/typescriptreact.json
-
-# Command Pallet... > Shell Command: Install 'code' command in PATH
 ```
 
 ## asdf
