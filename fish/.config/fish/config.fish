@@ -25,7 +25,6 @@ if status --is-interactive
 end
 
 # django completions
-# https://github.com/Duncaen/fish-django-completions
 __fish_complete_django django-admin.py
 __fish_complete_django manage.py
 
