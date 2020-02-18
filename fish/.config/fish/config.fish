@@ -25,7 +25,7 @@ if status --is-interactive
 end
 
 # django completions
-__fish_complete_django django-admin.py
+__fish_complete_django django-admin
 __fish_complete_django manage.py
 
 # direnv, asdf
