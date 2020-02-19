@@ -42,6 +42,7 @@ plugins=(
     git
     shrink-path
     z
+    history-substring-search
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
