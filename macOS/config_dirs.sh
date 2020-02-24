@@ -5,6 +5,10 @@ mkdir $HOME/.config           # XDG_CONFIG_HOME
 mkdir $HOME/.cache            # XDG_CACHE_HOME
 mkdir -p $HOME/.local/share   # XDG_DATA_HOME
 
+# dotfiles
+mkdir $DOTFILES/_backup
+mkdir $DOTFILES/_private
+
 # AWS
 mkdir -p $(dirname "$AWS_CONFIG_FILE")
 
