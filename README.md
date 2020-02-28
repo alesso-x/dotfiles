@@ -53,6 +53,7 @@ bash $DOTFILES_HOME/macOS/config_dirs.sh
 # Set Xcode developer tools as the active developer directory
 xcode-select -s /Applications/Xcode.app/Contents/Developer/
 
+ln -sf $DOTFILES_HOME/xcode/com.apple.dt.Xcode.plist $HOME/Library/Preferences/com.apple.dt.Xcode.plist
 ln -sf $DOTFILES_HOME/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
 # Preferences > Text Editing > Editing > Including whitespace-ony lines
 ```
