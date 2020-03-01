@@ -33,6 +33,7 @@ brew "nss"
 brew "pgcli"
 brew "postgresql"
 brew "python-yq"
+brew "redis"
 brew "speedtest-cli"
 brew "stow"
 brew "swiftlint"
@@ -43,6 +44,7 @@ brew "tree"
 brew "vim"
 brew "watchman"
 brew "yarn"
+brew "zsh"
 brew "github/gh/gh"
 cask "android-studio"
 cask "appcleaner"
@@ -77,6 +79,7 @@ mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
+mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Next Meeting", id: 1017470484

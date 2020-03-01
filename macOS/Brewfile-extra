@@ -12,7 +12,6 @@ brew "bat"
 brew "bench"
 brew "calc"
 brew "cowsay"
-brew "deno"
 brew "fd"
 brew "figlet"
 brew "fortune"
@@ -20,17 +19,13 @@ brew "htop"
 brew "httpie"
 brew "lolcat"
 brew "make"
-brew "node"
 brew "pstree"
 brew "rabbitmq"
-brew "redis"
 brew "ripgrep"
 brew "rlwrap"
-brew "ruby", link: true
 brew "sl"
 brew "sops"
 brew "tldr"
-brew "zsh"
 brew "johanhaleby/kubetail/kubetail"
 brew "weaveworks/tap/eksctl"
 cask "1password-cli"
@@ -65,7 +60,6 @@ cask "colindean/fonts-nonfree/font-microsoft-office"
 mas "Dark Reader for Safari", id: 1438243180
 mas "iStat Menus", id: 1319778037
 mas "Medis", id: 1063631769
-mas "Microsoft Outlook", id: 985367838
 mas "Pixelmator", id: 407963104
 mas "Quiver", id: 866773894
 mas "Reeder", id: 880001334
