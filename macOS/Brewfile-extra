@@ -16,13 +16,11 @@ brew "deno"
 brew "fd"
 brew "figlet"
 brew "fortune"
-brew "grpc"
 brew "htop"
 brew "httpie"
 brew "lolcat"
 brew "make"
 brew "node"
-brew "protobuf"
 brew "pstree"
 brew "rabbitmq"
 brew "redis"
@@ -57,23 +55,17 @@ cask "safari-technology-preview"
 cask "shuttle"
 cask "signal"
 cask "sloth"
-cask "spotify"
 cask "sql-power-architect-jdbc"
 cask "steam"
 cask "taskexplorer"
 cask "transmission"
 cask "transmit"
 cask "visual-studio-code-insiders"
-cask "wireshark"
-cask "workflowy"
 cask "colindean/fonts-nonfree/font-microsoft-office"
 mas "Dark Reader for Safari", id: 1438243180
 mas "iStat Menus", id: 1319778037
 mas "Medis", id: 1063631769
-mas "Microsoft Excel", id: 462058435
 mas "Microsoft Outlook", id: 985367838
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Word", id: 462054704
 mas "Pixelmator", id: 407963104
 mas "Quiver", id: 866773894
 mas "Reeder", id: 880001334
