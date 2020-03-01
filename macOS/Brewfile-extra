@@ -32,7 +32,6 @@ brew "ruby", link: true
 brew "sl"
 brew "sops"
 brew "tldr"
-brew "tree"
 brew "zsh"
 brew "johanhaleby/kubetail/kubetail"
 brew "weaveworks/tap/eksctl"
