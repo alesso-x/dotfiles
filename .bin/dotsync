@@ -1,5 +1,19 @@
 #!/bin/bash
-print 'syncing brew '
+
+CYAN='\033[0;36m'
+NC='\033[0m' # No Color
+function print() {
+  echo -e "${CYAN}==> $1${NC}"
+}
+
+print 'syncing brew'
+brew bundle install --file=$DOTFILES_HOME/macOS/Brewfile
+brew bundle dump --force --no-restart --file=$DOTFILES_HOME/macOS/Brewfile
 
 print 'syncing vscode extensions'
 cat $DOTFILES_HOME/vscode/extensions | xargs -L 1 echo code --install-extension | sh
+code --list-extensions > $DOTFILES_HOME/vscode/extensions
+
+print 'backing up files'
+cp $HOME/.local/share/fish/fish_history $DOTFILES_HOME/_backup/
+echo "iTerm Profiles > Other Actions... > Save Profile as JSON..."
