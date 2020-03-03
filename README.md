@@ -80,13 +80,13 @@ ln -sf $DOTFILES_HOME/vscode/snippets/typescriptreact.json $VSCODE_HOME/snippets
 ```bash
 # python
 asdf plugin-add python
-asdf install python (asdf latest python)
+asdf install python latest
 asdf global python (asdf latest python)
 
 # nodejs
 asdf plugin-add nodejs
 bash $ASDF_DATA_DIR/plugins/nodejs/bin/import-release-team-keyring
-asdf install nodejs (asdf latest nodejs)
+asdf install nodejs latest
 asdf global nodejs (asdf latest nodejs)
 
 # java
@@ -96,7 +96,7 @@ asdf global java [version]
 
 # ruby
 asdf plugin-add ruby
-asdf install ruby (asdf latest ruby)
+asdf install ruby latest
 asdf global ruby (asdf latest ruby)
 
 # lang dependencies
