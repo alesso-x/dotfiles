@@ -21,7 +21,4 @@ fish -c fisher
 print 'checking Apple Updates'
 softwareupdate -ia
 
-print 'updating vscode extensions'
-cat $DOTFILES_HOME/vscode/extensions | xargs -L 1 echo code --install-extension | sh
-
 exit 0
