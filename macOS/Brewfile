@@ -29,6 +29,7 @@ brew "kubernetes-cli"
 brew "mas"
 brew "mint"
 brew "mkcert"
+brew "netlify-cli"
 brew "nss"
 brew "pgcli"
 brew "postgresql"
@@ -55,6 +56,7 @@ cask "discord"
 cask "docker"
 cask "figma"
 cask "firefox"
+cask "flipper"
 cask "google-chrome"
 cask "google-cloud-sdk"
 cask "insomnia"
@@ -74,6 +76,7 @@ mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
 mas "Bear", id: 1091189122
 mas "DaisyDisk", id: 411643860
+mas "GIF Brewery 3", id: 1081413713
 mas "Icon Set Creator", id: 939343785
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
@@ -89,5 +92,6 @@ mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
 mas "Slack", id: 803453959
 mas "ToothFairy", id: 1191449274
+mas "Twitter", id: 1482454543
 mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
