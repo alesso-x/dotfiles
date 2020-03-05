@@ -6,6 +6,16 @@ function print() {
   echo -e "${CYAN}==> $1${NC}"
 }
 
+print 'pulling latest changes'
+git -C $DOTFILES_HOME pull
+
+ret=$?
+if ! test "$ret" -eq 0
+then
+    echo >&2 "git pull failed with exit status $ret"
+    exit 1
+fi
+
 print 'syncing brew'
 # Microsoft Excel Microsoft Outlook Microsoft PowerPoint Microsoft Word
 export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote Xcode 462058435 985367838 462062816 462054704"
