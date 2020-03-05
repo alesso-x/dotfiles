@@ -74,6 +74,7 @@ cask "wireshark"
 cask "workflowy"
 mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
+mas "Bad North", id: 1441005816
 mas "Bear", id: 1091189122
 mas "DaisyDisk", id: 411643860
 mas "GIF Brewery 3", id: 1081413713
