@@ -16,6 +16,6 @@ print 'syncing vscode extensions'
 cat $DOTFILES_HOME/vscode/extensions | xargs -L 1 echo code --install-extension | sh
 code --list-extensions > $DOTFILES_HOME/vscode/extensions
 
-print 'backing up files'
+print 'backing up files fish_history, iTerm Profile'
 cp $HOME/.local/share/fish/fish_history $DOTFILES_HOME/_backup/
 echo "iTerm Profiles > Other Actions... > Save Profile as JSON..."
