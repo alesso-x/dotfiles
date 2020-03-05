@@ -19,7 +19,7 @@ chmod +x $DOTFILES_HOME/.bin/*
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-set -x HOMEBREW_BUNDLE_MAS_SKIP Keynote 462058435 462062816 462054704 Numbers Pages Xcode
+set -x HOMEBREW_BUNDLE_MAS_SKIP "Pages Numbers Keynote Xcode 462058435 985367838 462062816 462054704"
 brew bundle --file=$DOTFILES_HOME/macOS/Brewfile
 ```
 
