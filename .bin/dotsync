@@ -23,9 +23,13 @@ brew bundle install --file=$DOTFILES_HOME/macOS/Brewfile
 brew bundle dump --force --no-restart --file=$DOTFILES_HOME/macOS/Brewfile
 
 print 'syncing vscode extensions'
-cat $DOTFILES_HOME/vscode/extensions | xargs -L 1 echo code --install-extension | sh
+NEW_EXTENSIONS=$(comm -13  <(sort <(code --list-extensions)) <(sort $DOTFILES_HOME/vscode/extensions))
+echo "New extensions: $(echo $NEW_EXTENSIONS | tr "\n" " ")"
+echo $NEW_EXTENSIONS | xargs -L 1 echo code --install-extension | sh
 code --list-extensions > $DOTFILES_HOME/vscode/extensions
 
 print 'backing up files fish_history, iTerm Profile'
 cp $HOME/.local/share/fish/fish_history $DOTFILES_HOME/_backup/
 echo "iTerm Profiles > Other Actions... > Save Profile as JSON..."
+
+git -C $DOTFILES_HOME status
