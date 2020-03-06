@@ -11,7 +11,7 @@
         "revision": "a408b1e42097b451a7e8de114225c9fb3574ade5"
       },
       "homebrew/core": {
-        "revision": "7490b455fc9eadcf8550b429ff5c6c793a0eab42"
+        "revision": "c06e0a6d0522c795dfe429dc1f9aedf288b9c50c"
       },
       "github/gh": {
         "revision": "d13edfac4e600b4f73d3499bd71f6d5c90fa9b66"
@@ -956,6 +956,31 @@
             }
           }
         }
+      },
+      "findutils": {
+        "version": "4.7.0",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/findutils-4.7.0.catalina.bottle.tar.gz",
+              "sha256": "f9ba06f4d48275e8cab659450b05e77873e909f31104df450201a83d465ed1ca"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/findutils-4.7.0.mojave.bottle.tar.gz",
+              "sha256": "3c609b729a1dc859459282a856ff6c164cd8388e531dad4e58c8d4c7acb670fb"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/findutils-4.7.0.high_sierra.bottle.tar.gz",
+              "sha256": "996a9fe2b1829fdf7b7257bead0ef0c4315832e9ba21b149779abeb59dcbde30"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/findutils-4.7.0.sierra.bottle.tar.gz",
+              "sha256": "4b66ce398f2d5f5c65bf0b05fcc55334398e75cb965a17d781d7c3a15a4bba61"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -1200,6 +1225,10 @@
       "Twitter": {
         "id": "1482454543",
         "version": "8.11"
+      },
+      "Fantastical": {
+        "id": "975937182",
+        "version": "3.0.7"
       }
     }
   },
@@ -1208,7 +1237,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.9",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "7490b455fc9eadcf8550b429ff5c6c793a0eab42",
+        "Homebrew/homebrew-core": "c06e0a6d0522c795dfe429dc1f9aedf288b9c50c",
         "CLT": "11.0.33.16",
         "Xcode": "11.3.1",
         "macOS": "10.15.3"

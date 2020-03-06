@@ -14,6 +14,7 @@ brew "docker-completion"
 brew "docker-compose-completion"
 brew "dockutil"
 brew "doctl"
+brew "findutils"
 brew "fish"
 brew "fzf"
 brew "git"
@@ -77,6 +78,7 @@ mas "AdGuard for Safari", id: 1440147259
 mas "Bad North", id: 1441005816
 mas "Bear", id: 1091189122
 mas "DaisyDisk", id: 411643860
+mas "Fantastical", id: 975937182
 mas "GIF Brewery 3", id: 1081413713
 mas "Icon Set Creator", id: 939343785
 mas "Keynote", id: 409183694
