@@ -10,25 +10,27 @@ print 'pulling latest changes'
 git -C $DOTFILES_HOME pull
 
 ret=$?
-if ! test "$ret" -eq 0
-then
-    echo >&2 "git pull failed with exit status $ret"
-    exit 1
+if ! test "$ret" -eq 0; then
+  echo >&2 "git pull failed with exit status $ret"
+  exit 1
 fi
 
 print 'syncing brew'
-# Microsoft Excel, Outlook, PowerPoint, Word
-export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote Xcode 462058435 985367838 462062816 462054704"
-brew bundle install --file=$DOTFILES_HOME/macOS/Brewfile
+brew bundle check --file=$DOTFILES_HOME/macOS/Brewfile
+if ! test "$?" -eq 0; then
+  # Microsoft Excel, Outlook, PowerPoint, Word
+  export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote Xcode 462058435 985367838 462062816 462054704"
+  brew bundle install --file=$DOTFILES_HOME/macOS/Brewfile
+fi
 brew bundle dump --force --file=$DOTFILES_HOME/macOS/Brewfile
 
 print 'syncing vscode extensions'
-NEW_EXTENSIONS=$(comm -13  <(sort <(code --list-extensions)) <(sort $DOTFILES_HOME/vscode/extensions))
+NEW_EXTENSIONS=$(comm -13 <(sort <(code --list-extensions)) <(sort $DOTFILES_HOME/vscode/extensions))
 echo "New extensions: $(echo $NEW_EXTENSIONS | tr "\n" " ")"
 echo $NEW_EXTENSIONS | xargs -L 1 echo code --install-extension | sh
-code --list-extensions > $DOTFILES_HOME/vscode/extensions
+code --list-extensions >$DOTFILES_HOME/vscode/extensions
 
-print 'backing up files fish_history, iTerm Profile'
+print 'backing up files: fish_history, iTerm Profile'
 cp $HOME/.local/share/fish/fish_history $DOTFILES_HOME/_backup/
 echo "iTerm Profiles > Other Actions... > Save Profile as JSON..."
 
