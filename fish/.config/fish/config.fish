@@ -6,12 +6,13 @@ source $DOTFILES_HOME/.aliases.sh
 
 # path
 set --prepend PATH \
-    /usr/local/opt/sqlite/bin
-
-set --append PATH \
+    /usr/local/opt/sqlite/bin \
     /usr/local/opt/coreutils/libexec/gnubin \
+    /usr/local/opt/findutils/libexec/gnubin \
     /usr/local/opt/gnu-getopt/bin \
     /usr/local/opt/gnu-sed/libexec/gnubin \
+
+set --append PATH \
     $HOME/.local/bin \
     $DOTFILES_HOME/.bin
 
