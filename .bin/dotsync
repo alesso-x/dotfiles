@@ -26,8 +26,10 @@ brew bundle dump --force --file=$DOTFILES_HOME/macOS/Brewfile
 
 print 'syncing vscode extensions'
 NEW_EXTENSIONS=$(comm -13 <(sort <(code --list-extensions)) <(sort $DOTFILES_HOME/vscode/extensions))
-echo "New extensions: $(echo $NEW_EXTENSIONS | tr "\n" " ")"
-echo $NEW_EXTENSIONS | xargs -L 1 echo code --install-extension | sh
+if ! test -z "$NEW_EXTENSIONS"; then
+  echo "New extensions: $(echo $NEW_EXTENSIONS)"
+  echo $NEW_EXTENSIONS | xargs -d " " -n 1 echo code --install-extension | sh
+fi
 code --list-extensions >$DOTFILES_HOME/vscode/extensions
 
 print 'backing up files: fish_history, iTerm Profile'
