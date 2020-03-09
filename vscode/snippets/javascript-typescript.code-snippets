@@ -27,7 +27,7 @@
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "pprint",
     "body": [
-      "console.log(JSON.stringify($1, null, 2));$2"
+      "console.log(${1:'==>'}, JSON.stringify($2, null, 2));$3"
     ],
     "description": "Pretty print object to console"
   }

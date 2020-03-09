@@ -71,8 +71,7 @@ defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 set -x VSCODE_HOME $HOME/Library/Application\ Support/Code/User
 ln -sf $DOTFILES_HOME/vscode/settings.json $VSCODE_HOME/settings.json
 ln -sf $DOTFILES_HOME/vscode/keybindings.json $VSCODE_HOME/keybindings.json
-ln -sf $DOTFILES_HOME/vscode/snippets/javascript.json $VSCODE_HOME/snippets/javascript.json
-ln -sf $DOTFILES_HOME/vscode/snippets/typescriptreact.json $VSCODE_HOME/snippets/typescriptreact.json
+ln -sf $DOTFILES_HOME/vscode/snippets/* $VSCODE_HOME/snippets/
 ```
 
 ## asdf
@@ -151,4 +150,11 @@ stow zsh
 git clone https://github.com/zsh-users/zsh-history-substring-search $ZSH_CUSTOM/plugins/zsh-history-substring-search
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+```
+
+## helm
+
+```bash
+# Add Helm stable charts repository
+helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 ```
