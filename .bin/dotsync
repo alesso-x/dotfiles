@@ -30,7 +30,7 @@ if ! test -z "$NEW_EXTENSIONS"; then
   echo "New extensions: $(echo $NEW_EXTENSIONS)"
   echo $NEW_EXTENSIONS | xargs -d " " -n 1 echo code --install-extension | sh
 fi
-code --list-extensions >$DOTFILES_HOME/vscode/extensions
+code --list-extensions > $DOTFILES_HOME/vscode/extensions
 
 print 'backing up files: fish_history, iTerm Profile'
 cp $HOME/.local/share/fish/fish_history $DOTFILES_HOME/_backup/
