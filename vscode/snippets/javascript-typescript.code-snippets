@@ -19,7 +19,7 @@
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "clg",
     "body": [
-      "console.log('$1');$2"
+      "console.log($1);$2"
     ],
     "description": "Log output to console"
   },
@@ -27,8 +27,38 @@
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "pprint",
     "body": [
-      "console.log(${1:'==>'}, JSON.stringify($2, null, 2));$3"
+      "console.log('==>', JSON.stringify($1, null, 2));$2"
     ],
     "description": "Pretty print object to console"
+  },
+  "graphql query": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "gq",
+    "body": [
+      "export const $1 = gql`",
+			"\t${2|query,mutation|} $1 {",
+			"\t\t$3 {",
+			"\t\t\tid$4",
+			"\t\t}",
+			"\t}",
+			"`;",
+			"$0"
+    ],
+    "description": "graphql query"
+  },
+  "graphql query with params": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "gqp",
+    "body": [
+      "export const $1 = gql`",
+			"\t${2|query,mutation|} $1(\\$id: Int!) {",
+			"\t\t$3(id: \\$id) {",
+			"\t\t\tid$4",
+			"\t\t}",
+			"\t}",
+			"`;",
+			"$0"
+    ],
+    "description": "graphql query with params"
   }
 }
