@@ -8,13 +8,16 @@
         "revision": "50a4435475f1022242c41d4191f0b4789f67abc8"
       },
       "homebrew/cask": {
-        "revision": "a408b1e42097b451a7e8de114225c9fb3574ade5"
+        "revision": "23b169385e1fb2c64ba02dfcfb6f41bef849f82b"
       },
       "homebrew/core": {
-        "revision": "c06e0a6d0522c795dfe429dc1f9aedf288b9c50c"
+        "revision": "47b4e4ad0b2bf937226599a7b731dc88f71c1d74"
       },
       "github/gh": {
         "revision": "d13edfac4e600b4f73d3499bd71f6d5c90fa9b66"
+      },
+      "homebrew/cask-versions": {
+        "revision": "01ac9603991ea17a2d8ba289d04bfdda93d0ad88"
       }
     },
     "brew": {
@@ -98,22 +101,22 @@
         }
       },
       "coreutils": {
-        "version": "8.31",
+        "version": "8.32",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/coreutils-8.31.catalina.bottle.1.tar.gz",
-              "sha256": "7262e4c76483ea796454db828c25955be1e6b2bc8e056ba1dd6e92bfe1118da5"
+              "url": "https://homebrew.bintray.com/bottles/coreutils-8.32.catalina.bottle.tar.gz",
+              "sha256": "67a4452d75a1882bd7fb977b384204edfa2758276d66290e595487922368e093"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/coreutils-8.31.mojave.bottle.1.tar.gz",
-              "sha256": "05ae58c26a53c2dfa2d9d45943b9d21753eea59609f0a48caa59713d6f6392d7"
+              "url": "https://homebrew.bintray.com/bottles/coreutils-8.32.mojave.bottle.tar.gz",
+              "sha256": "5da6cb9dbc0a8144480dde2fb78eb0a5a1710490afc3697174f7e261ec69763f"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/coreutils-8.31.high_sierra.bottle.1.tar.gz",
-              "sha256": "5cba7394f1995fad0f6215a7618f65983dcf84b93b076af18d09354051320fb2"
+              "url": "https://homebrew.bintray.com/bottles/coreutils-8.32.high_sierra.bottle.tar.gz",
+              "sha256": "caa8cd8965727d0e805eccdc3e306cd0599720cdd0d5417cfcca03bead670663"
             }
           }
         }
@@ -534,22 +537,22 @@
         }
       },
       "terraform": {
-        "version": "0.12.21",
+        "version": "0.12.23",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.21.catalina.bottle.tar.gz",
-              "sha256": "9a87e29f9418b49edc7a70a30f29e569dd3dbb7c259304b87db48cf556b0efbd"
+              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.23.catalina.bottle.tar.gz",
+              "sha256": "28e6b6a9a1a536285aed20f7db5793afa7da8cd21bb33be6ab3a8a38cce9f2f4"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.21.mojave.bottle.tar.gz",
-              "sha256": "dcf535db420f75c478d616be09da733a0ebedbbdbb1a35853acfbe3c3568ff18"
+              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.23.mojave.bottle.tar.gz",
+              "sha256": "5a457cf5473f4b6a1d5adacc9cfe3a66dbc07b442725db86c561888c98b66cb6"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.21.high_sierra.bottle.tar.gz",
-              "sha256": "1e6a06b503baf84d70ba84a03609ee100e0fc2065853c8d211215b1fe27f9dd3"
+              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.23.high_sierra.bottle.tar.gz",
+              "sha256": "64378d7139315e7a8e2c8aae27b56e0d91448a31f3a9e15bb5790033ae383d49"
             }
           }
         }
@@ -911,7 +914,7 @@
         }
       },
       "yarn": {
-        "version": "1.22.0",
+        "version": "1.22.1",
         "bottle": false
       },
       "zsh": {
@@ -1136,6 +1139,12 @@
         "options": {
           "full_name": "flipper"
         }
+      },
+      "visual-studio-code-insiders": {
+        "version": "1.44.0,1df23554b2e3d5f1efc6fbc76ee61d3f7f186c6d",
+        "options": {
+          "full_name": "visual-studio-code-insiders"
+        }
       }
     },
     "mas": {
@@ -1145,7 +1154,7 @@
       },
       "AdGuard for Safari": {
         "id": "1440147259",
-        "version": "1.6.4"
+        "version": "1.7.1"
       },
       "Bear": {
         "id": "1091189122",
@@ -1153,7 +1162,7 @@
       },
       "DaisyDisk": {
         "id": "411643860",
-        "version": "4.9"
+        "version": "4.10"
       },
       "Keynote": null,
       "Kindle": {
@@ -1228,7 +1237,7 @@
       },
       "Fantastical": {
         "id": "975937182",
-        "version": "3.0.7"
+        "version": "3.0.8"
       },
       "Screen Snake": {
         "id": "463770977",
@@ -1241,7 +1250,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.9",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "c06e0a6d0522c795dfe429dc1f9aedf288b9c50c",
+        "Homebrew/homebrew-core": "47b4e4ad0b2bf937226599a7b731dc88f71c1d74",
         "CLT": "11.0.33.16",
         "Xcode": "11.3.1",
         "macOS": "10.15.3"

@@ -15,6 +15,7 @@ brew "docker-completion"
 brew "docker-compose-completion"
 brew "dockutil"
 brew "doctl"
+brew "faas-cli"
 brew "findutils"
 brew "fish"
 brew "fzf"
@@ -97,7 +98,9 @@ mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
 mas "Screen Snake", id: 463770977
 mas "Slack", id: 803453959
+mas "Telegram", id: 747648890
 mas "ToothFairy", id: 1191449274
 mas "Twitter", id: 1482454543
+mas "Webull", id: 1334590352
 mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
