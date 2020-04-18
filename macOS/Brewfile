@@ -11,6 +11,7 @@ brew "awscli"
 brew "bash-completion"
 brew "diffutils"
 brew "direnv"
+brew "dive"
 brew "docker-completion"
 brew "docker-compose-completion"
 brew "dockutil"
@@ -65,6 +66,7 @@ cask "google-cloud-sdk"
 cask "insomnia"
 cask "iterm2"
 cask "karabiner-elements"
+cask "keycastr"
 cask "microsoft-edge"
 cask "postman"
 cask "react-native-debugger"
@@ -94,6 +96,7 @@ mas "Microsoft Word", id: 462054704
 mas "Next Meeting", id: 1017470484
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Pixelmator Pro", id: 1289583905
 mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
 mas "Screen Snake", id: 463770977
