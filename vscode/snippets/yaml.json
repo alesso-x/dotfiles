@@ -2,7 +2,7 @@
   "docker-compose init": {
     "prefix": "docker-init",
     "body": [
-      "version: '3.8'\n",
+      "version: \"3.8\"\n",
       "services:",
       "\t$0\n",
       "volumes:",
