@@ -19,6 +19,8 @@ set --append PATH \
 # abbreviations -> abbr --list
 if status --is-interactive
     abbr --add --global k kubectl
+    abbr --add --global kx kubectx
+    abbr --add --global kn kubens
     abbr --add --global d docker
     abbr --add --global dm docker-compose
     abbr --add --global h hist_delete
