@@ -122,11 +122,11 @@
     "command": "workbench.action.terminal.split",
     "when": "terminalFocus"
   },
-  {
-    "key": "cmd+w",
-    "command": "workbench.action.terminal.kill",
-    "when": "terminalFocus"
-  },
+  // {
+  //   "key": "cmd+w",
+  //   "command": "workbench.action.terminal.kill",
+  //   "when": "terminalFocus"
+  // },
   {
     "key": "alt+cmd+n",
     "command": "editor.action.revealDefinition",
@@ -144,5 +144,10 @@
   {
     "key": "shift+cmd+'",
     "command": "workbench.action.showPreviousWindowTab"
+  },
+  { "key": "cmd+shift+j", "command": "workbench.action.terminal.focusNext" },
+  {
+    "key": "cmd+shift+k",
+    "command": "workbench.action.terminal.focusPrevious"
   }
 ]
