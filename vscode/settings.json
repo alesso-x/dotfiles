@@ -37,6 +37,7 @@
   "gitlens.currentLine.enabled": false,
   "githubNotificationsBell.oauthToken": "${env:GITHUB_NOTIFICATIONS_TOKEN}",
 
+  "jest.autoEnable": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
