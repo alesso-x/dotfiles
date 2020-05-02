@@ -6,6 +6,7 @@ dockutil --add /System/Applications/Mail.app
 dockutil --add /System/Applications/Calendar.app
 dockutil --add /System/Applications/Messages.app
 dockutil --add /Applications/WhatsApp.app
+dockutil --add /Applications/Discord.app
 dockutil --add /Applications/Slack.app
 dockutil --add /System/Applications/News.app
 dockutil --add /System/Applications/Music.app
