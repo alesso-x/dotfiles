@@ -53,6 +53,7 @@ bash $DOTFILES_HOME/macOS/config_dirs.sh
 
 ```bash
 # Set Xcode developer tools as the active developer directory
+# Check with `xcode-select --print-path`
 xcode-select -s /Applications/Xcode.app/Contents/Developer/
 
 ln -sf $DOTFILES_HOME/xcode/com.apple.dt.Xcode.plist $HOME/Library/Preferences/com.apple.dt.Xcode.plist
