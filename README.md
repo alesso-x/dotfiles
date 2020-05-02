@@ -24,13 +24,6 @@ export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote Xcode 462058435 985367838
 brew bundle --file=$DOTFILES_HOME/macOS/Brewfile
 ```
 
-## macOS
-
-```bash
-bash $DOTFILES_HOME/macOS/defaults.sh
-bash $DOTFILES_HOME/macOS/dock.sh
-```
-
 ## fish shell
 
 ```bash
@@ -49,18 +42,6 @@ stow fish
 bash $DOTFILES_HOME/macOS/config_dirs.sh
 ```
 
-## xcode
-
-```bash
-# Set Xcode developer tools as the active developer directory
-# Check with `xcode-select --print-path`
-xcode-select -s /Applications/Xcode.app/Contents/Developer/
-
-ln -sf $DOTFILES_HOME/xcode/com.apple.dt.Xcode.plist $HOME/Library/Preferences/com.apple.dt.Xcode.plist
-ln -sf $DOTFILES_HOME/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
-# Preferences > Text Editing > Editing > Including whitespace-ony lines
-```
-
 ## vscode
 
 ```bash
@@ -75,6 +56,25 @@ set -x VSCODE_HOME $HOME/Library/Application\ Support/Code/User
 ln -sf $DOTFILES_HOME/vscode/settings.json $VSCODE_HOME/settings.json
 ln -sf $DOTFILES_HOME/vscode/keybindings.json $VSCODE_HOME/keybindings.json
 ln -sf $DOTFILES_HOME/vscode/snippets/* $VSCODE_HOME/snippets/
+```
+
+## macOS
+
+```bash
+bash $DOTFILES_HOME/macOS/defaults.sh
+bash $DOTFILES_HOME/macOS/dock.sh
+```
+
+## xcode
+
+```bash
+# Set Xcode developer tools as the active developer directory
+# Check with `xcode-select --print-path`
+xcode-select -s /Applications/Xcode.app/Contents/Developer/
+
+ln -sf $DOTFILES_HOME/xcode/com.apple.dt.Xcode.plist $HOME/Library/Preferences/com.apple.dt.Xcode.plist
+ln -sf $DOTFILES_HOME/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode/UserData/KeyBindings/Default.idekeybindings
+# Preferences > Text Editing > Editing > Including whitespace-ony lines
 ```
 
 ## asdf
