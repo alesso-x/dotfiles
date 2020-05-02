@@ -60,5 +60,26 @@
 			"$0"
     ],
     "description": "graphql query with params"
+	},
+	"typeScriptArrowFunctionalComponent": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "tsrfa",
+    "body": [
+      "import React from 'react';",
+      "",
+      "interface Props {}",
+      "",
+      "const ${1:${TM_FILENAME_BASE}}: React.FC<Props> = () => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t);",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      ""
+    ],
+    "description": "Creates a React Arrow Functional Component with TypeScript interface"
   }
 }
