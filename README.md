@@ -42,7 +42,8 @@ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fi
 fisher
 
 # configuration
-mkdir $HOME/.config/fish/functions
+# mkdir $HOME/.config/fish/functions
+rm ~/.config/fish/fishfile
 stow fish
 
 bash $DOTFILES_HOME/macOS/config_dirs.sh

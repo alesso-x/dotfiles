@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # XDG
-mkdir $HOME/.config           # XDG_CONFIG_HOME
-mkdir $HOME/.cache            # XDG_CACHE_HOME
+# mkdir $HOME/.config           # XDG_CONFIG_HOME
+# mkdir $HOME/.cache            # XDG_CACHE_HOME
 mkdir -p $HOME/.local/share   # XDG_DATA_HOME
 
 # dotfiles
 mkdir $DOTFILES/_backup
-mkdir $DOTFILES/_private
+mkdir $DOTFILES/_private && toucn $DOTFILES/_private/vars.sh
 
 # AWS
 mkdir -p $(dirname "$AWS_CONFIG_FILE")
