@@ -101,18 +101,14 @@ asdf plugin-add ruby
 asdf install ruby latest
 asdf global ruby (asdf latest ruby)
 
-# lang dependencies
+# cli
+gem install cocoapods
+
 python -m pip install --user pipx
 pipx install soundscrape
-gem install cocoapods
-```
 
-## poetry
-
-```bash
+# poetry
 pipx install poetry
-
-mkdir ~/.config/fish/completions
 poetry completions fish > ~/.config/fish/completions/poetry.fish
 ```
 
