@@ -52,7 +52,7 @@ cat $DOTFILES_HOME/vscode/extensions | xargs -L 1 echo code --install-extension 
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 # Manually link files until https://github.com/microsoft/vscode/issues/3884
-set -x VSCODE_HOME $HOME/Library/Application\ Support/Code/User
+export VSCODE_HOME="$HOME/Library/Application Support/Code/User"
 ln -sf $DOTFILES_HOME/vscode/settings.json $VSCODE_HOME/settings.json
 ln -sf $DOTFILES_HOME/vscode/keybindings.json $VSCODE_HOME/keybindings.json
 ln -sf $DOTFILES_HOME/vscode/snippets/* $VSCODE_HOME/snippets/
