@@ -11,7 +11,7 @@
         "revision": "0aca05482ee36c28335b3a98c58aaba7f5a5cbf8"
       },
       "homebrew/core": {
-        "revision": "433cedc2bd5e83f07ea826fefc90685dbb11a4b6"
+        "revision": "b5c3e88e122274ca52c74374b4b9001e1ddfa5cb"
       },
       "github/gh": {
         "revision": "56f2fc5e57e4b1439bdec1e6bb2fd3b3ad51540d"
@@ -1007,22 +1007,22 @@
         }
       },
       "faas-cli": {
-        "version": "0.12.3",
+        "version": "0.12.4",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/faas-cli-0.12.3.catalina.bottle.tar.gz",
-              "sha256": "73cd970daf6ef4193809d27ce0ef01977c091d89c1b7d7345a4c4ec38bc9b91a"
+              "url": "https://homebrew.bintray.com/bottles/faas-cli-0.12.4.catalina.bottle.tar.gz",
+              "sha256": "984de15cf26b76a91c02ef55d73afc61bae3b57371af780df4cf6b7838ed4716"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/faas-cli-0.12.3.mojave.bottle.tar.gz",
-              "sha256": "6d015bdb405838728bbf486c8f075bbfd9c4792c9b22bc8748debd92e084f2ca"
+              "url": "https://homebrew.bintray.com/bottles/faas-cli-0.12.4.mojave.bottle.tar.gz",
+              "sha256": "59b5d952e1cfe35b7f976ff6d669fc17ac578f8ada96e41ee0803b22f1104bd1"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/faas-cli-0.12.3.high_sierra.bottle.tar.gz",
-              "sha256": "c4274089aa7219259a6bd59b1e93938ed977883d56f6b6b2decf441410520701"
+              "url": "https://homebrew.bintray.com/bottles/faas-cli-0.12.4.high_sierra.bottle.tar.gz",
+              "sha256": "4a244f5068a294b36429dfb6f2d60b2e7823c2ab815b10df8a86c5a50e1b9c96"
             }
           }
         }
@@ -1197,12 +1197,18 @@
         "options": {
           "full_name": "keycastr"
         }
+      },
+      "steam": {
+        "version": "latest",
+        "options": {
+          "full_name": "steam"
+        }
       }
     },
     "mas": {
       "1Password 7": {
         "id": "1333542190",
-        "version": "7.4.4"
+        "version": "7.5"
       },
       "AdGuard for Safari": {
         "id": "1440147259",
@@ -1210,13 +1216,16 @@
       },
       "Bear": {
         "id": "1091189122",
-        "version": "1.7.11"
+        "version": "1.7.13"
       },
       "DaisyDisk": {
         "id": "411643860",
         "version": "4.10"
       },
-      "Keynote": null,
+      "Keynote": {
+        "id": "409183694",
+        "version": "10.0"
+      },
       "Kindle": {
         "id": "405399194",
         "version": "1.28.0"
@@ -1229,8 +1238,14 @@
         "id": "1017470484",
         "version": "2.3"
       },
-      "Numbers": null,
-      "Pages": null,
+      "Numbers": {
+        "id": "409203825",
+        "version": "10.0"
+      },
+      "Pages": {
+        "id": "409201541",
+        "version": "10.0"
+      },
       "Pocket": {
         "id": "568494494",
         "version": "1.8.5"
@@ -1249,11 +1264,11 @@
       },
       "WhatsApp": {
         "id": "1147396723",
-        "version": "0.4.2089"
+        "version": "2.2017.6"
       },
       "Xcode": {
         "id": "497799835",
-        "version": "11.3.1"
+        "version": "11.4.1"
       },
       "Icon Set Creator": {
         "id": "939343785",
@@ -1261,19 +1276,19 @@
       },
       "Microsoft Excel": {
         "id": "462058435",
-        "version": "16.34"
+        "version": "16.36"
       },
       "Microsoft Outlook": {
         "id": "985367838",
-        "version": "16.34"
+        "version": "16.36.1"
       },
       "Microsoft PowerPoint": {
         "id": "462062816",
-        "version": "16.34"
+        "version": "16.36"
       },
       "Microsoft Word": {
         "id": "462054704",
-        "version": "16.34"
+        "version": "16.36"
       },
       "Bad North": {
         "id": "1441005816",
@@ -1285,11 +1300,11 @@
       },
       "Twitter": {
         "id": "1482454543",
-        "version": "8.18"
+        "version": "8.18.1"
       },
       "Fantastical": {
         "id": "975937182",
-        "version": "3.0.12"
+        "version": "3.0.13"
       },
       "Screen Snake": {
         "id": "463770977",
@@ -1297,11 +1312,11 @@
       },
       "Pixelmator Pro": {
         "id": "1289583905",
-        "version": "1.6.1"
+        "version": "1.6.2"
       },
       "Telegram": {
         "id": "747648890",
-        "version": "6.1.2"
+        "version": "6.1.4"
       },
       "Webull": {
         "id": "1334590352",
@@ -1314,6 +1329,26 @@
       "The Jackbox Party Pack 4": {
         "id": "1281679696",
         "version": "1.0.0"
+      },
+      "CleanMyMac X": {
+        "id": "1339170533",
+        "version": "4.6.2"
+      },
+      "GarageBand": {
+        "id": "682658836",
+        "version": "10.3.4"
+      },
+      "Houseparty": {
+        "id": "1381523962",
+        "version": "1.14.7"
+      },
+      "iMovie": {
+        "id": "408981434",
+        "version": "10.1.14"
+      },
+      "Shazam": {
+        "id": "897118787",
+        "version": "2.10.0"
       }
     }
   },
@@ -1322,7 +1357,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.14",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "433cedc2bd5e83f07ea826fefc90685dbb11a4b6",
+        "Homebrew/homebrew-core": "b5c3e88e122274ca52c74374b4b9001e1ddfa5cb",
         "CLT": "11.4.1.0.1.1586360307",
         "Xcode": "11.4.1",
         "macOS": "10.15.4"
