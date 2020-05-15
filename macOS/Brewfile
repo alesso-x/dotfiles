@@ -75,6 +75,7 @@ cask "rocket"
 cask "sf-symbols"
 cask "shimo"
 cask "spotify"
+cask "steam"
 cask "visual-studio-code"
 cask "visual-studio-code-insiders"
 cask "wireshark"
@@ -85,8 +86,11 @@ mas "Bad North", id: 1441005816
 mas "Bear", id: 1091189122
 mas "DaisyDisk", id: 411643860
 mas "Fantastical", id: 975937182
+mas "GarageBand", id: 682658836
 mas "GIF Brewery 3", id: 1081413713
+mas "Houseparty", id: 1381523962
 mas "Icon Set Creator", id: 939343785
+mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Magnet", id: 441258766
@@ -100,8 +104,10 @@ mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
 mas "Pixelmator Pro", id: 1289583905
 mas "Pocket", id: 568494494
+mas "Reeder", id: 1449412482
 mas "Save to Pocket", id: 1477385213
 mas "Screen Snake", id: 463770977
+mas "Shazam", id: 897118787
 mas "Slack", id: 803453959
 mas "Telegram", id: 747648890
 mas "The Jackbox Party Pack 4", id: 1281679696
