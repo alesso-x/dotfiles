@@ -33,7 +33,7 @@
   },
   "graphql query": {
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
-    "prefix": "gq",
+    "prefix": "gql-query",
     "body": [
       "export const $1 = gql`",
 			"\t${2|query,mutation|} $1 {",
@@ -48,7 +48,7 @@
   },
   "graphql query with params": {
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
-    "prefix": "gqp",
+    "prefix": "gql-query-params",
     "body": [
       "export const $1 = gql`",
 			"\t${2|query,mutation|} $1(\\$id: Int!) {",
