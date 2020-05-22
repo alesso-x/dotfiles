@@ -1211,6 +1211,12 @@
         "options": {
           "full_name": "notion"
         }
+      },
+      "1password-cli": {
+        "version": "0.10.0",
+        "options": {
+          "full_name": "1password-cli"
+        }
       }
     },
     "mas": {
