@@ -61,6 +61,24 @@
     ],
     "description": "graphql query with params"
 	},
+  "apollo useQuery": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "useQuery-apollo",
+    "body": [
+      "const { loading, error, data } = useQuery($1);",
+			"$0"
+    ],
+    "description": "apollo useQuery"
+	},
+  "apollo useMutation": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "useMutation-apollo",
+    "body": [
+      "const [add$2, { loading, error, data }] = useMutation($1);",
+			"$0"
+    ],
+    "description": "apollo useQuery"
+	},
 	"typeScriptArrowFunctionalComponent": {
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "tsrfa",
