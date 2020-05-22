@@ -72,10 +72,6 @@
     "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
   {
-    "key": "cmd+'",
-    "command": "workbench.action.showNextWindowTab"
-  },
-  {
     "key": "alt+9",
     "command": "cursorWordPartLeft",
     "when": "textInputFocus"
@@ -140,6 +136,10 @@
   {
     "key": "alt+tab",
     "command": "workbench.action.quickSwitchWindow"
+  },
+  {
+    "key": "cmd+'",
+    "command": "workbench.action.showNextWindowTab"
   },
   {
     "key": "shift+cmd+'",
