@@ -15,6 +15,7 @@ print 'updating asdf'
 asdf plugin update --all
 
 print 'updating fish shell'
+fish -c fisher self-update
 fish -c fisher
 # fish -c fish_update_completions
 
