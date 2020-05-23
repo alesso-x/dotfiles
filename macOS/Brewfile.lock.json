@@ -8,16 +8,16 @@
         "revision": "36df2d1bcf321bc041c0bf34cdf301ab3ad8affb"
       },
       "homebrew/cask": {
-        "revision": "a77025bfa6ff6726ece679673cfbeafa8f73e5f0"
+        "revision": "d592a6c9ee25e142da28c56c215dd14c121ce356"
       },
       "homebrew/core": {
-        "revision": "c87dfa9aacd0624257bdb0226cd7683deeceff68"
+        "revision": "8395d17ac95987864a988eea4f8217c25957e814"
       },
       "github/gh": {
         "revision": "23b38b7c95cea21ec621d6546a18b291830d6260"
       },
       "homebrew/cask-versions": {
-        "revision": "a3e61c31853364e674a94ae0f25dd5a317a694da"
+        "revision": "0bf353335632ec3d6b9a7f12039d7a8e55d35cd2"
       }
     },
     "brew": {
@@ -717,22 +717,22 @@
         }
       },
       "protobuf": {
-        "version": "3.12.0",
+        "version": "3.12.1",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/protobuf-3.12.0.catalina.bottle.tar.gz",
-              "sha256": "d95a476eeb9c256b420889b412d996e1dc4f9d4ba52bbf92ae382bf8b4983ec2"
+              "url": "https://homebrew.bintray.com/bottles/protobuf-3.12.1.catalina.bottle.tar.gz",
+              "sha256": "6b13b089c2754bb9df99f2621ea0fd0fd5feccca601aaca10dc6982927c6fc3a"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/protobuf-3.12.0.mojave.bottle.tar.gz",
-              "sha256": "9276a2418353f096787944c470ae7046987cf212284a2b187d20b3d296a47cd4"
+              "url": "https://homebrew.bintray.com/bottles/protobuf-3.12.1.mojave.bottle.tar.gz",
+              "sha256": "b09bdcad4bde73a6d9f5675979da6f10b16b9620a26b5bc6a7639d03e3b7fccb"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/protobuf-3.12.0.high_sierra.bottle.tar.gz",
-              "sha256": "765bdd2b1735d09a288cd7087e146e9d611ee0dac788ca8224dbac780ba1c867"
+              "url": "https://homebrew.bintray.com/bottles/protobuf-3.12.1.high_sierra.bottle.tar.gz",
+              "sha256": "af2d9b9bc381ef83a030cef3960a5e72bd1007e5ae34d5b8a9f3b7901cdfdd19"
             }
           }
         }
@@ -1213,7 +1213,7 @@
         }
       },
       "1password-cli": {
-        "version": "0.10.0",
+        "version": "1.0.0",
         "options": {
           "full_name": "1password-cli"
         }
@@ -1387,9 +1387,9 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.17",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "c87dfa9aacd0624257bdb0226cd7683deeceff68",
+        "Homebrew/homebrew-core": "8395d17ac95987864a988eea4f8217c25957e814",
         "CLT": "11.5.0.0.1.1588476445",
-        "Xcode": "11.4.1",
+        "Xcode": "11.5",
         "macOS": "10.15.4"
       }
     }

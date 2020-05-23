@@ -19,7 +19,7 @@ print 'syncing brew'
 brew bundle check --file=$DOTFILES_HOME/macOS/Brewfile
 if ! test "$?" -eq 0; then
   # Microsoft Excel, Outlook, PowerPoint, Word
-  export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote iMovie GarageBand Xcode 462058435 985367838 462062816 462054704"
+  export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote iMovie GarageBand Xcode 462058435 462062816 462054704"
   brew bundle install --file=$DOTFILES_HOME/macOS/Brewfile
 fi
 brew bundle dump --force --file=$DOTFILES_HOME/macOS/Brewfile

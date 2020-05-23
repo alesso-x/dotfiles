@@ -19,7 +19,7 @@ chmod +x $DOTFILES_HOME/.bin/*
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote iMovie GarageBand Xcode 462058435 985367838 462062816 462054704"
+export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote iMovie GarageBand Xcode 462058435 462062816 462054704"
 
 brew bundle --file=$DOTFILES_HOME/macOS/Brewfile
 ```
