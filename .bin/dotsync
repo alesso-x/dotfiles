@@ -22,7 +22,7 @@ if ! test "$?" -eq 0; then
   export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote iMovie GarageBand Xcode 462058435 462062816 462054704"
   brew bundle install --file=$DOTFILES_HOME/macOS/Brewfile
 fi
-brew bundle dump --force --file=$DOTFILES_HOME/macOS/Brewfile
+brew bundle dump --force --no-lock --file=$DOTFILES_HOME/macOS/Brewfile
 
 print 'syncing vscode extensions'
 NEW_EXTENSIONS=$(comm -13 <(sort <(code --list-extensions)) <(sort $DOTFILES_HOME/vscode/extensions))
