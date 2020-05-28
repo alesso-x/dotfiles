@@ -8,6 +8,7 @@ codezombiech.gitignore
 cybai.yaml-key-viewer
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
+denoland.vscode-deno
 dnicolson.binary-plist
 dsznajder.es7-react-js-snippets
 dunstontc.viml
@@ -24,7 +25,6 @@ GitHub.vscode-pull-request-github
 googlecloudtools.cloudcode
 hediet.vscode-drawio
 ivory-lab.jenkinsfile-support
-justjavac.vscode-deno
 karigari.chat
 Kasik96.swift
 L13RARY.l13-diff
