@@ -2,6 +2,7 @@ adamhartford.vscode-base64
 akamud.vscode-theme-onedark
 alefragnani.Bookmarks
 apollographql.vscode-apollo
+bmalehorn.vscode-fish
 bungcip.better-toml
 coddx.coddx-alpha
 codezombiech.gitignore
@@ -21,6 +22,7 @@ firefox-devtools.vscode-firefox-debug
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 foxundermoon.shell-format
+GitHub.vscode-codeql
 GitHub.vscode-pull-request-github
 googlecloudtools.cloudcode
 hediet.vscode-drawio
@@ -58,7 +60,6 @@ ritwickdey.LiveServer
 RLNT.keep-a-changelog
 Rubymaniac.vscode-direnv
 ryu1kn.partial-diff
-skyapps.fish-vscode
 VisualStudioExptTeam.vscodeintellicode
 vknabel.vscode-swiftformat
 vscodevim.vim
