@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git checkout -q master && git pull
+git checkout -q master && git pull --ff-only
 
 # delete merged branches
 git branch --merged | grep -v "\\*" | xargs --no-run-if-empty -n 1 git branch -d
