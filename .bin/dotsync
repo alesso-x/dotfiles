@@ -7,7 +7,7 @@ function print() {
 }
 
 print 'pulling latest changes'
-git -C $DOTFILES_HOME pull
+git -C $DOTFILES_HOME pull --ff-only
 
 ret=$?
 if ! test "$ret" -eq 0; then
