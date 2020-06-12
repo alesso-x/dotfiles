@@ -28,7 +28,6 @@ brew "sops"
 brew "tldr"
 brew "johanhaleby/kubetail/kubetail"
 brew "weaveworks/tap/eksctl"
-cask "1password-cli"
 cask "adguard"
 cask "alfred"
 cask "balsamiq-mockups"
@@ -51,15 +50,12 @@ cask "shuttle"
 cask "signal"
 cask "sloth"
 cask "sql-power-architect-jdbc"
-cask "steam"
 cask "taskexplorer"
 cask "transmission"
 cask "transmit"
 cask "visual-studio-code-insiders"
 cask "colindean/fonts-nonfree/font-microsoft-office"
 mas "Dark Reader for Safari", id: 1438243180
-mas "iStat Menus", id: 1319778037
 mas "Medis", id: 1063631769
 mas "Pixelmator", id: 407963104
 mas "Quiver", id: 866773894
-mas "Reeder", id: 880001334
