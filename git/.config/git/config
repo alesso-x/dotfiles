@@ -18,3 +18,5 @@
     textconv = sops -d
 [hub]
 	protocol = ssh
+[pull]
+	ff = only
