@@ -41,8 +41,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
-  "python.jediEnabled": false,
-  "python.languageServer": "Microsoft",
+  "python.languageServer": "Pylance",
   "python.linting.prospectorEnabled": true,
   "python.linting.pylintEnabled": false,
   "python.linting.pycodestyleEnabled": false,
