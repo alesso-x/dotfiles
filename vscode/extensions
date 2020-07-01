@@ -3,6 +3,7 @@ akamud.vscode-theme-onedark
 alefragnani.Bookmarks
 apollographql.vscode-apollo
 bmalehorn.vscode-fish
+bradlc.vscode-tailwindcss
 bungcip.better-toml
 coddx.coddx-alpha
 codezombiech.gitignore
@@ -16,6 +17,7 @@ dunstontc.viml
 eamodio.gitlens
 EditorConfig.EditorConfig
 eg2.vscode-npm-script
+ericadamski.carbon-now-sh
 esbenp.prettier-vscode
 fabiospampinato.vscode-github-notifications-bell
 firefox-devtools.vscode-firefox-debug
@@ -31,12 +33,12 @@ karigari.chat
 Kasik96.swift
 L13RARY.l13-diff
 mariomatheu.syntax-project-pbxproj
-mauve.terraform
 mechatroner.rainbow-csv
 mgesbert.python-path
 mikestead.dotenv
 mrmlnc.vscode-duplicate
 ms-azuretools.vscode-docker
+ms-edgedevtools.vscode-edge-devtools
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
 ms-python.vscode-pylance
