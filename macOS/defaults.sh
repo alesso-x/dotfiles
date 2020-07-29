@@ -126,7 +126,6 @@ defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/
 # App Store —> Free Downloads —> Save password
 # Accessibility -> Zoom -> Use scroll gesture with modifier keys to zoom
 # Desktop -> Sort by -> Snap to Grid
-# iTunes —> Preferences —> Devices —> Prevent iPods, iPhones, and iPads from syncing automatically
 # Keyboard —> Modifier Keys —> Caps lock escape key
 # Mouse --> Swipe between pages
 # Mail --> Composing --> Send new messages from
