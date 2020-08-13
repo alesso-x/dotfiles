@@ -2,6 +2,7 @@
   "autoDocstring.docstringFormat": "google",
   "autoDocstring.startOnNewLine": true,
 
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.fontSize": 14,
   "editor.renderWhitespace": "boundary",
   "editor.suggest.localityBonus": true,
@@ -41,7 +42,10 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
+  "liveshare.presence": true,
+
   "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
   "python.linting.prospectorEnabled": true,
   "python.linting.flake8Enabled": false,
   "python.linting.pylintEnabled": false,
@@ -71,6 +75,7 @@
 
   "vim.useSystemClipboard": true,
   "vim.visualModeKeyBindings": [{ "before": ["x"], "after": ["\"", "_", "x"] }],
+  // "editor.semanticHighlighting.enabled": false,
 
   "window.restoreWindows": "all",
   "window.nativeTabs": true,
@@ -83,6 +88,9 @@
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "Atom One Dark",
 
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -109,4 +117,7 @@
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
+  "[proto3]": {
+    "editor.defaultFormatter": "zxh404.vscode-proto3"
+  }
 }
