@@ -149,5 +149,17 @@
   {
     "key": "cmd+shift+k",
     "command": "workbench.action.terminal.focusPrevious"
+  },
+  {
+    "key": "shift+cmd+i shift+cmd+a",
+    "command": "workbench.view.debug"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "-workbench.view.debug"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.addSelectionToPreviousFindMatch"
   }
 ]
