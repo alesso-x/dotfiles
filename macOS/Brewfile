@@ -21,6 +21,7 @@ brew "findutils"
 brew "fish"
 brew "fzf"
 brew "git"
+brew "git-trim"
 brew "gnu-getopt"
 brew "gnu-sed"
 brew "gnupg"
@@ -107,6 +108,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "Pocket", id: 568494494
+mas "Poolside FM", id: 1514817810
 mas "Presentify", id: 1507246666
 mas "Reeder", id: 1449412482
 mas "Save to Pocket", id: 1477385213
