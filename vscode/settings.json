@@ -44,6 +44,7 @@
 
   "liveshare.presence": true,
 
+  "python.showStartPage": false,
   "python.languageServer": "Pylance",
   "python.analysis.typeCheckingMode": "basic",
   "python.linting.prospectorEnabled": true,
