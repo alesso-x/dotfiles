@@ -16,9 +16,12 @@
     undo = reset HEAD~
 [diff "sopsdiffer"]
     textconv = sops -d
-[hub]
-	protocol = ssh
 [pull]
-	ff = only
+    ff = only
 [init]
-	defaultBranch = main
+    defaultBranch = main
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true

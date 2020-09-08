@@ -124,6 +124,7 @@ curl -sLf https://spacevim.org/install.sh | bash
 ```bash
 stow bash
 stow git
+git lfs install
 stow karabiner
 ```
 
