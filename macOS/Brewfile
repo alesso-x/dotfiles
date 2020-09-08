@@ -1,4 +1,3 @@
-tap "github/gh"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -20,6 +19,7 @@ brew "faas-cli"
 brew "findutils"
 brew "fish"
 brew "fzf"
+brew "gh"
 brew "git"
 brew "git-trim"
 brew "gnu-getopt"
@@ -51,7 +51,6 @@ brew "vim"
 brew "watchman"
 brew "yarn"
 brew "zsh"
-brew "github/gh/gh"
 cask "1password-cli"
 cask "android-studio"
 cask "appcleaner"
@@ -116,7 +115,6 @@ mas "Screen Snake", id: 463770977
 mas "Shazam", id: 897118787
 mas "Slack", id: 803453959
 mas "Telegram", id: 747648890
-mas "The Jackbox Party Pack 4", id: 1281679696
 mas "ToothFairy", id: 1191449274
 mas "Twitter", id: 1482454543
 mas "WhatsApp", id: 1147396723

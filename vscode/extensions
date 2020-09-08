@@ -17,6 +17,7 @@ dunstontc.viml
 eamodio.gitlens
 EditorConfig.EditorConfig
 eg2.vscode-npm-script
+emmanuelbeziat.vscode-great-icons
 ericadamski.carbon-now-sh
 esbenp.prettier-vscode
 fabiospampinato.vscode-github-notifications-bell
@@ -28,6 +29,7 @@ GitHub.vscode-codeql
 GitHub.vscode-pull-request-github
 googlecloudtools.cloudcode
 hediet.vscode-drawio
+heybourn.headwind
 ivory-lab.jenkinsfile-support
 karigari.chat
 Kasik96.swift
@@ -50,6 +52,7 @@ ms-vsliveshare.vsliveshare
 ms-vsliveshare.vsliveshare-audio
 ms-vsliveshare.vsliveshare-pack
 msjsdiag.debugger-for-chrome
+msjsdiag.debugger-for-edge
 msjsdiag.vscode-react-native
 njpwerner.autodocstring
 Orta.vscode-jest

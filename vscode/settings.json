@@ -88,6 +88,7 @@
   "workbench.commandPalette.preserveInput": true,
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "vscode-great-icons",
 
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
