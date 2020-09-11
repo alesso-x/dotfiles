@@ -4,7 +4,7 @@
 
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.fontSize": 14,
-  "editor.renderWhitespace": "boundary",
+  "editor.renderWhitespace": "trailing",
   "editor.suggest.localityBonus": true,
   "editor.tabSize": 2,
   "explorer.autoReveal": false,
@@ -88,7 +88,6 @@
   "workbench.commandPalette.preserveInput": true,
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "Atom One Dark",
-  "workbench.iconTheme": "vscode-great-icons",
 
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
