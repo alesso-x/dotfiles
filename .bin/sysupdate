@@ -9,6 +9,7 @@ function print() {
 print 'updating homebrew'
 brew update
 brew upgrade
+brew upgrade --casks
 brew cleanup
 
 print 'updating asdf'
