@@ -28,6 +28,7 @@ foxundermoon.shell-format
 GitHub.vscode-codeql
 GitHub.vscode-pull-request-github
 googlecloudtools.cloudcode
+GraphQL.vscode-graphql
 hediet.vscode-drawio
 heybourn.headwind
 ivory-lab.jenkinsfile-support
@@ -58,7 +59,6 @@ njpwerner.autodocstring
 Orta.vscode-jest
 pnp.polacode
 Prisma.prisma
-Prisma.vscode-graphql
 quicktype.quicktype
 redhat.vscode-yaml
 richie5um2.vscode-sort-json
