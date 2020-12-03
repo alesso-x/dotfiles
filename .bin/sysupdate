@@ -10,7 +10,7 @@ print 'updating homebrew'
 brew update
 brew upgrade
 brew upgrade --casks
-brew cleanup
+brew cleanup -s
 
 print 'updating asdf'
 asdf plugin update --all
