@@ -68,7 +68,14 @@
     "backgroundColor": "none",
     "color": "#A8C023"
   },
-  "todohighlight.keywords": ["TODO", "TODO:", "NOTE", "NOTE:", "FIXME", "FIXME:"],
+  "todohighlight.keywords": [
+    "TODO",
+    "TODO:",
+    "NOTE",
+    "NOTE:",
+    "FIXME",
+    "FIXME:"
+  ],
 
   // vsintellicode
   "editor.suggestSelection": "first",
