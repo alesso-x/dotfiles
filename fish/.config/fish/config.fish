@@ -36,6 +36,7 @@ __fish_complete_django manage.py
 eval (direnv hook fish)
 source /usr/local/opt/asdf/asdf.fish
 source $ASDF_DATA_DIR/plugins/java/set-java-home.fish  # JAVA_HOME
+source $ASDF_DATA_DIR/plugins/dotnet-core/set-dotnet-home.fish  # DOTNET_ROOT
 
 # pipx completions
 register-python-argcomplete --shell fish pipx | .
