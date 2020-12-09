@@ -14,7 +14,8 @@ set --prepend PATH \
 
 set --append PATH \
     $HOME/.local/bin \
-    $DOTFILES_HOME/.bin
+    $DOTFILES_HOME/.bin \
+    $HOME/go/bin/
 
 # abbreviations -> abbr --list
 if status --is-interactive
@@ -39,4 +40,6 @@ source $ASDF_DATA_DIR/plugins/java/set-java-home.fish  # JAVA_HOME
 source $ASDF_DATA_DIR/plugins/dotnet-core/set-dotnet-home.fish  # DOTNET_ROOT
 
 # pipx completions
-register-python-argcomplete --shell fish pipx | .
+register-python-argcomplete --shell fish pipx | source
+
+source $DOTFILES_HOME/_private/work_config.fish
