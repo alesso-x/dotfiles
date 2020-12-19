@@ -3,6 +3,7 @@
   "autoDocstring.startOnNewLine": true,
 
   "diffEditor.ignoreTrimWhitespace": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontSize": 14,
   "editor.renderWhitespace": "trailing",
   "editor.suggest.localityBonus": true,
@@ -97,29 +98,6 @@
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "Atom One Dark",
 
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
