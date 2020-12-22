@@ -93,8 +93,8 @@ asdf global nodejs (asdf latest nodejs)
 
 # java
 asdf plugin-add java
-asdf install java [versoin]  # i.e. adopt-openjdk-13.0.2+8
-asdf global java [version]
+asdf install java (asdf latest java openjdk)
+asdf global java (asdf latest java openjdk)
 
 # ruby
 asdf plugin-add ruby
