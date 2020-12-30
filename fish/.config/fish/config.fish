@@ -34,7 +34,7 @@ __fish_complete_django django-admin
 __fish_complete_django manage.py
 
 # direnv
-eval (direnv hook fish)
+direnv hook fish | source
 
 # asdf
 source /usr/local/opt/asdf/asdf.fish
