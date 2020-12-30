@@ -106,6 +106,7 @@ gem install cocoapods
 
 python -m pip install --user pipx
 pipx install soundscrape
+pipx install ytmdl
 
 # poetry
 pipx install poetry
