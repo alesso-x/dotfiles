@@ -3,6 +3,7 @@ set -gx DOTFILES_HOME $HOME/dotfiles
 
 source $DOTFILES_HOME/.environment_vars.sh
 source $DOTFILES_HOME/.aliases.sh
+source $DOTFILES_HOME/_private/work_config.fish
 
 # path
 set --prepend PATH \
@@ -43,5 +44,3 @@ source $ASDF_DATA_DIR/plugins/dotnet-core/set-dotnet-home.fish  # DOTNET_ROOT
 
 # pipx completions
 register-python-argcomplete --shell fish pipx | source
-
-source $DOTFILES_HOME/_private/work_config.fish
