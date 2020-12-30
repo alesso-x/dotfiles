@@ -33,8 +33,10 @@ end
 __fish_complete_django django-admin
 __fish_complete_django manage.py
 
-# direnv, asdf
+# direnv
 eval (direnv hook fish)
+
+# asdf
 source /usr/local/opt/asdf/asdf.fish
 source $ASDF_DATA_DIR/plugins/java/set-java-home.fish  # JAVA_HOME
 source $ASDF_DATA_DIR/plugins/dotnet-core/set-dotnet-home.fish  # DOTNET_ROOT
