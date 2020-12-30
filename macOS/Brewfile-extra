@@ -57,5 +57,6 @@ cask "visual-studio-code-insiders"
 cask "colindean/fonts-nonfree/font-microsoft-office"
 mas "Dark Reader for Safari", id: 1438243180
 mas "Medis", id: 1063631769
+mas "iStat Menus", id: 1319778037
 mas "Pixelmator", id: 407963104
 mas "Quiver", id: 866773894
