@@ -1,6 +1,5 @@
 evanlucas/fish-kubectl-completions
 decors/fish-colored-man
-jethrokuan/fzf
 edc/bass
 jethrokuan/z
 brgmnn/fish-docker-compose
@@ -9,3 +8,5 @@ nju33/fish-age
 aliz-ai/google-cloud-sdk-fish-completion
 oh-my-fish/plugin-aws
 laughedelic/pisces
+jorgebucaran/fisher
+PatrickF1/fzf.fish

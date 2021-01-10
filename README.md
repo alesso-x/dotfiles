@@ -31,8 +31,8 @@ echo "$(command -v fish)" | sudo tee -a /etc/shells
 chsh -s "$(command -v fish)"
 
 # fisher
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
-fisher
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+fisher update
 
 # configuration
 # mkdir $HOME/.config/fish/functions

@@ -32,8 +32,7 @@ asdf install ruby latest
 asdf global ruby $(asdf latest ruby)
 
 print 'updating fish shell'
-fish -c fisher self-update
-fish -c fisher
+fish -c "fisher update"
 # fish -c fish_update_completions
 
 print 'checking Apple Updates'
