@@ -67,4 +67,4 @@ bashcompinit
 eval "$(register-python-argcomplete pipx)"
 
 # asdf java
-. $ASDF_DATA_DIR/plugins/java/set-java-home.sh # JAVA_HOME
+. $ASDF_DATA_DIR/plugins/java/set-java-home.zsh # JAVA_HOME
