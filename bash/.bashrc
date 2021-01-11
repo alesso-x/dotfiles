@@ -31,6 +31,6 @@ fi
 # direnv, asdf
 eval "$(direnv hook bash)"
 source /usr/local/opt/asdf/asdf.sh
-. $ASDF_DATA_DIR/plugins/java/set-java-home.sh # JAVA_HOME
+. $ASDF_DATA_DIR/plugins/java/set-java-home.bash # JAVA_HOME
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
