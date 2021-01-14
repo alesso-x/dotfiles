@@ -103,12 +103,8 @@ asdf global ruby (asdf latest ruby)
 
 # cli
 gem install cocoapods
-
-python -m pip install --user pipx
 pipx install soundscrape
 pipx install ytmdl
-
-# poetry
 pipx install poetry
 poetry completions fish > ~/.config/fish/completions/poetry.fish
 ```
