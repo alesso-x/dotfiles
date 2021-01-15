@@ -5,6 +5,9 @@ source $DOTFILES_HOME/.environment_vars.sh
 source $DOTFILES_HOME/.aliases.sh
 source $DOTFILES_HOME/_private/work_config.fish
 
+# prompt
+starship init fish | source
+
 # path
 set --prepend PATH \
     /usr/local/opt/sqlite/bin \

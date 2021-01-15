@@ -1,0 +1,31 @@
+[aws]
+disabled = true
+
+[directory]
+truncation_length = 1
+fish_style_pwd_dir_length = 1
+
+[gcloud]
+disabled = true
+
+[git_branch]
+symbol = ""
+truncation_length = 4
+format = "\\[[$symbol$branch]($style)"
+
+[git_status]
+style = 'white'
+conflicted = "✖"
+ahead = "↑${count}"
+behind = "↓${count}"
+diverged = "⇕"
+untracked = "…"
+stashed = "\\$"
+modified = "✚${count}"
+staged = '[●$count](green)'
+renamed = "»"
+deleted = "✘"
+format = '(|[$all_status$ahead_behind\]]($style)) '
+
+[line_break]
+disabled = true
