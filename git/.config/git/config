@@ -4,6 +4,7 @@
     name = Alessandro DiMarco
     email = 8059120+alesso-x@users.noreply.github.com
 [alias]
+    append = commit --amend --no-edit
     b = branch
     c = checkout
     diff-origin = diff master origin/master
