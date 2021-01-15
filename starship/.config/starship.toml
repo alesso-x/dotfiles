@@ -31,3 +31,10 @@ format = '(|[$all_status$ahead_behind}]($style)) '
 
 [line_break]
 disabled = true
+
+[package]
+disabled=true
+
+[python]
+format = '[\(${symbol}${pyenv_prefix}${version}(|$virtualenv)\)]($style) '
+symbol = "🐍"
