@@ -32,6 +32,10 @@ format = '(|[$all_status$ahead_behind\)]($style)) '
 [line_break]
 disabled = true
 
+[nodejs]
+symbol = "⬢ "
+format = "[\\($symbol$version\\)](bold green) "
+
 [package]
 disabled=true
 
