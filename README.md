@@ -105,8 +105,6 @@ asdf global ruby (asdf latest ruby)
 gem install cocoapods
 pipx install soundscrape
 pipx install ytmdl
-pipx install poetry
-poetry completions fish > ~/.config/fish/completions/poetry.fish
 ```
 
 ## vim
