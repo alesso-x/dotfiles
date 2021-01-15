@@ -53,10 +53,12 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 #
 
+# prompt
+eval "$(starship init zsh)"
 # path with shrink-path
-setopt prompt_subst
-PS1='%{$fg[cyan]%}$(shrink_path --fish) $(git_prompt_info)'
-PS1+='%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜)%{$reset_color%}'
+# setopt prompt_subst
+# PS1='%{$fg[cyan]%}$(shrink_path --fish) $(git_prompt_info)'
+# PS1+='%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜)%{$reset_color%}'
 
 # direnv
 eval "$(direnv hook zsh)"

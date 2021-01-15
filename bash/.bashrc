@@ -4,7 +4,9 @@ source $DOTFILES_HOME/.environment_vars.sh
 source $DOTFILES_HOME/.aliases.sh
 export HISTFILE=$XDG_DATA_HOME/bash/history
 
-PS1="\[\e[0;31m\]\u \[\e[0;33m\]\W \[\e[0;32m\]$ \[\e[0m\]"
+# prompt
+eval "$(starship init bash)"
+# PS1="\[\e[0;31m\]\u \[\e[0;33m\]\W \[\e[0;32m\]$ \[\e[0m\]"
 
 # terminal colors
 export CLICOLOR=1
