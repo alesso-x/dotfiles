@@ -18,5 +18,5 @@ for i in */.git; do (
     exit 1
   fi
 
-  git -C $i/.. delete-branches
+  git -C $i/.. p
 ); done
