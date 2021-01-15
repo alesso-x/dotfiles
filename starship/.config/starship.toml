@@ -11,7 +11,7 @@ fish_style_pwd_dir_length = 1
 disabled = true
 
 [git_branch]
-symbol = ""
+symbol = "🌱"
 truncation_length = 4
 format = "{[$symbol$branch]($style)"
 
