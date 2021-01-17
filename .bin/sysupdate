@@ -15,10 +15,6 @@ brew cleanup -s
 print 'updating asdf'
 asdf plugin update --all
 
-print 'updating deno'
-asdf install deno latest
-asdf global deno $(asdf latest deno)
-
 print 'updating nodejs'
 asdf install nodejs latest
 asdf global nodejs $(asdf latest nodejs)
@@ -26,10 +22,6 @@ asdf global nodejs $(asdf latest nodejs)
 print 'updating python'
 asdf install python latest
 asdf global python $(asdf latest python)
-
-print 'updating ruby'
-asdf install ruby latest
-asdf global ruby $(asdf latest ruby)
 
 print 'updating fish shell'
 fish -c "fisher update"
