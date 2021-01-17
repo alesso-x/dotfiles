@@ -12,6 +12,9 @@ brew upgrade
 brew upgrade --casks
 brew cleanup -s
 
+print 'pipx packages'
+pipx upgrade-all
+
 print 'updating asdf'
 asdf plugin update --all
 
