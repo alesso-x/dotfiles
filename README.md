@@ -96,13 +96,7 @@ asdf plugin-add java
 asdf install java (asdf latest java openjdk)
 asdf global java (asdf latest java openjdk)
 
-# ruby
-asdf plugin-add ruby
-asdf install ruby latest
-asdf global ruby (asdf latest ruby)
-
 # cli
-gem install cocoapods
 pipx install soundscrape
 pipx install ytmdl
 ```
