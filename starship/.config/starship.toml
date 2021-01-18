@@ -12,7 +12,7 @@ disabled = true
 
 [git_branch]
 symbol = "🌱 "
-truncation_length = 4
+truncation_length = 6
 format = "[on $symbol$branch]($style)"
 
 [git_status]
