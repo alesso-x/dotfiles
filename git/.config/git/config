@@ -13,7 +13,7 @@
     log-origin = log origin/master ^master
     ls-alias = "!git config -l | grep alias | cut -c 7-"
     p = pull-clean
-    pall = pull-clean-all
+    p-all = pull-clean-all
     publish = "!git push -u origin $(git branch-name)"
     s = switch
     undo = reset HEAD~
