@@ -11,9 +11,9 @@ fish_style_pwd_dir_length = 1
 disabled = true
 
 [git_branch]
-symbol = "🌱"
+symbol = "🌱 "
 truncation_length = 4
-format = "\\([$symbol$branch]($style)"
+format = "[on $symbol$branch]($style)"
 
 [git_status]
 style = 'white'
@@ -27,7 +27,7 @@ modified = "✚${count}"
 staged = '[●$count](green)'
 renamed = "»"
 deleted = "✘"
-format = '(|[$all_status$ahead_behind\)]($style)) '
+format = '(|[$all_status$ahead_behind]($style)) '
 
 [line_break]
 disabled = true
