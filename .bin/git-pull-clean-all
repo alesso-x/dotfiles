@@ -18,5 +18,5 @@ for i in */.git; do (
     exit 1
   fi
 
-  git -C $i/.. p
+  git -C $i/.. pc
 ); done
