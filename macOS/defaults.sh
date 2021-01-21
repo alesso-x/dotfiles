@@ -127,7 +127,7 @@ defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/
 # Accessibility -> Zoom -> Use scroll gesture with modifier keys to zoom
 # Desktop -> Sort by -> Snap to Grid
 # Keyboard —> Modifier Keys —> Caps lock escape key
-# Keyboard —> Shortcuts —> Mission Control -> Show Notification Center -> ctrl + 0
+# Keyboard —> Shortcuts —> Mission Control -> Show Notification Center -> `option + s`
 # Mouse --> Swipe between pages
 # Mail --> Composing --> Send new messages from
 # Mail --> Viewing --> Show most recent message at the top
