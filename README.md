@@ -87,7 +87,6 @@ asdf global python (asdf latest python)
 
 # nodejs
 asdf plugin-add nodejs
-bash $ASDF_DATA_DIR/plugins/nodejs/bin/import-release-team-keyring
 asdf install nodejs latest
 asdf global nodejs (asdf latest nodejs)
 
