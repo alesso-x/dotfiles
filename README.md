@@ -88,6 +88,7 @@ asdf global python (asdf latest python)
 # nodejs
 asdf plugin-add nodejs
 asdf install nodejs latest
+asdf install nodejs lts
 asdf global nodejs (asdf latest nodejs)
 
 # java
