@@ -97,6 +97,7 @@ asdf install java (asdf latest java openjdk)
 asdf global java (asdf latest java openjdk)
 
 # cli
+# rm -rf ~/.local/pipx/ after upgrading python
 pipx install soundscrape
 pipx install ytmdl
 ```
@@ -112,9 +113,10 @@ curl -sLf https://spacevim.org/install.sh | bash
 
 ```bash
 stow bash
+stow karabiner
+stow starship
 stow git
 git lfs install
-stow karabiner
 ```
 
 ## iTerm2
