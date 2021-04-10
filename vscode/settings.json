@@ -3,7 +3,6 @@
   "autoDocstring.startOnNewLine": true,
 
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontSize": 14,
   "editor.renderWhitespace": "trailing",
   "editor.suggest.localityBonus": true,
@@ -100,7 +99,28 @@
   "workbench.commandPalette.preserveInput": true,
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "Atom One Dark",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
 
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
