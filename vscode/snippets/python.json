@@ -17,5 +17,11 @@
 			"\t\tself.assertEqual(0, 0)$0"
 		],
 		"description": "Django Test Case"
+	},
+	"ipdb": {
+		"prefix": "ipdb",
+		"body": [
+			"import ipdb; ipdb.set_trace()"
+		]
 	}
 }
