@@ -5,9 +5,11 @@ apollographql.vscode-apollo
 bmalehorn.vscode-fish
 bradlc.vscode-tailwindcss
 bungcip.better-toml
+clinyong.vscode-css-modules
 coddx.coddx-alpha
 codezombiech.gitignore
 cssho.vscode-svgviewer
+csstools.postcss
 cybai.yaml-key-viewer
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
@@ -64,6 +66,7 @@ msjsdiag.debugger-for-edge
 msjsdiag.vscode-react-native
 njpwerner.autodocstring
 Orta.vscode-jest
+planbcoding.vscode-react-refactor
 pnp.polacode
 Prisma.prisma
 quicktype.quicktype
@@ -81,6 +84,8 @@ vknabel.vscode-swiftformat
 vscodevim.vim
 vsmobile.vscode-appcenter
 wayou.vscode-todo-highlight
+wix.glean
+wix.vscode-import-cost
 wmaurer.change-case
 yzhang.markdown-all-in-one
 zenghongtu.vscode-asciiflow2
