@@ -105,6 +105,7 @@ mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
 mas "Bad North", id: 1441005816
 mas "Bear", id: 1091189122
+mas "com.pixelmatorteam.pixelmator.x", id: 1289583905
 mas "DaisyDisk", id: 411643860
 mas "Developer", id: 640199958
 mas "GarageBand", id: 682658836
@@ -122,7 +123,6 @@ mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Pixelmator Pro", id: 1289583905
 mas "Poolside FM", id: 1514817810
 mas "Presentify", id: 1507246666
 mas "Reeder", id: 1529448980
