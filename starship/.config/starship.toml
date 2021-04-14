@@ -11,7 +11,8 @@ fish_style_pwd_dir_length = 1
 disabled = true
 
 [git_branch]
-symbol = "🌱 "
+# symbol = "🌱 "
+symbol = ""
 truncation_length = 6
 format = "[on $symbol$branch]($style)"
 
@@ -40,5 +41,6 @@ format = "[\\($symbol$version\\)](bold green) "
 disabled=true
 
 [python]
+# symbol = "🐍"
+symbol = ""
 format = '[\(${symbol}${pyenv_prefix}${version}(|$virtualenv)\)]($style) '
-symbol = "🐍"
