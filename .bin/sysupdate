@@ -10,7 +10,7 @@ print 'updating homebrew'
 brew update
 brew upgrade
 brew upgrade --casks
-brew cleanup -s
+brew cleanup -s --prune=all -v
 
 print 'pipx packages'
 pipx upgrade-all
