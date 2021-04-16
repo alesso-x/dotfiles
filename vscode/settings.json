@@ -98,7 +98,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.commandPalette.preserveInput": true,
   "workbench.settings.editor": "json",
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "GitHub Dark Dimmed",
   "workbench.editorAssociations": [
     {
       "viewType": "jupyter.notebook.ipynb",
