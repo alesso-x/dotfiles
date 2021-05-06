@@ -33,7 +33,6 @@
 
   "git.autofetch": true,
   "git.confirmSync": false,
-  "gitlens.advanced.telemetry.enabled": false,
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
   "githubNotificationsBell.oauthToken": "${env:GITHUB_NOTIFICATIONS_TOKEN}",
