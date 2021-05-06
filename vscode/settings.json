@@ -66,7 +66,6 @@
   "telemetry.enableTelemetry": false,
   "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.scrollback": 10000,
-  "terminal.integrated.defaultProfile.osx": "/usr/local/bin/fish",
   "terminal.external.osxExec": "iTerm.app",
 
   "todohighlight.defaultStyle": {
