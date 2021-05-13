@@ -14,9 +14,6 @@ touch /Applications/Insomnia.app
 # cp $DOTFILES_HOME/icons/Poolside_FM.icns /Applications/Poolside\ FM.app/Contents/Resources/AppIcon.icns
 # touch /Applications/Poolside\ FM.app
 
-cp $DOTFILES_HOME/icons/Postman.icns /Applications/Postman.app/Contents/Resources/postman.icns
-touch /Applications/Postman.app
-
 cp $DOTFILES_HOME/icons/Spotify.icns /Applications/Spotify.app/Contents/Resources/Icon.icns
 touch /Applications/Spotify.app
 
