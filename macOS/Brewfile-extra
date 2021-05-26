@@ -38,7 +38,6 @@ cask "gitter"
 cask "google-chrome-canary"
 cask "graphql-playground"
 cask "launchcontrol"
-cask "loom"
 cask "notable"
 cask "onyx"
 cask "open-in-code"
@@ -56,7 +55,6 @@ cask "colindean/fonts-nonfree/font-microsoft-office"
 mas "Dark Reader for Safari", id: 1438243180
 mas "iStat Menus", id: 1319778037
 mas "Medis", id: 1063631769
-mas "Next Meeting", id: 1017470484
 mas "Pixelmator", id: 407963104
 mas "Pocket", id: 568494494
 mas "Quiver", id: 866773894
