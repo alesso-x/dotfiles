@@ -7,7 +7,10 @@
     append = commit --amend --no-edit
     b = branch
     c = checkout
-    diff-origin = diff master origin/master
+    diff-origin = diff origin/master...
+    diff-origin-files = diff --name-status origin/master
+    diff-origin-main = diff origin/main...
+    diff-origin-main-files = diff --name-status origin/main
     diff-staged = diff --cached
     log-graph = log --oneline --graph --decorate
     log-origin = log origin/master ^master
