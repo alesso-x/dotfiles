@@ -7,6 +7,9 @@ disabled = true
 truncation_length = 1
 fish_style_pwd_dir_length = 1
 
+[docker_context]
+disabled = true
+
 [gcloud]
 disabled = true
 
