@@ -98,6 +98,12 @@ defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 defaults write com.apple.Safari AlwaysRestoreSessionAtLaunch -bool true
 defaults write com.apple.Safari OpenPrivateWindowWhenNotRestoringSessionAtLaunch -bool false
 
+#
+# Mail
+#
+
+# Mail --> Viewing --> Show most recent message at the top
+defaults write com.apple.mail ConversationViewSortDescending -bool true
 
 #
 # Misc
@@ -130,7 +136,6 @@ defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/
 # Keyboard —> Shortcuts —> Mission Control -> Show Notification Center -> `option + s`
 # Mouse --> Swipe between pages
 # Mail --> Composing --> Send new messages from
-# Mail --> Viewing --> Show most recent message at the top
 # Photos —> Optimize for mac storage
 # Security & Privacy —> General —> Require password 5 secs
 # Security & Privacy —> General —> Allow your Apple Watch to unlock your Mac
