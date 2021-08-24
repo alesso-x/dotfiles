@@ -17,7 +17,4 @@ touch /Applications/Insomnia.app
 cp $DOTFILES_HOME/icons/Spotify.icns /Applications/Spotify.app/Contents/Resources/Icon.icns
 touch /Applications/Spotify.app
 
-# cp $DOTFILES_HOME/icons/WhatsApp.icns /Applications/WhatsApp.app/Contents/Resources/electron.icns
-# touch /Applications/WhatsApp.app
-
 sudo killall Finder && sudo killall Dock
