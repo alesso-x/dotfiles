@@ -96,12 +96,9 @@
   "workbench.commandPalette.preserveInput": true,
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "GitHub Dark Dimmed",
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
 
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
