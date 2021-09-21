@@ -1,9 +1,11 @@
+42Crunch.vscode-openapi
 adamhartford.vscode-base64
 akamud.vscode-theme-onedark
 alefragnani.Bookmarks
 apollographql.vscode-apollo
 bmalehorn.vscode-fish
 bradlc.vscode-tailwindcss
+bufbuild.vscode-buf
 bungcip.better-toml
 clinyong.vscode-css-modules
 coddx.coddx-alpha
@@ -46,6 +48,7 @@ liviuschera.noctis
 mariomatheu.syntax-project-pbxproj
 mechatroner.rainbow-csv
 mgesbert.python-path
+mhutchie.git-graph
 mikestead.dotenv
 mrmlnc.vscode-duplicate
 ms-azuretools.vscode-docker
@@ -55,6 +58,7 @@ ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
@@ -70,7 +74,10 @@ planbcoding.vscode-react-refactor
 pnp.polacode
 Prisma.prisma
 quicktype.quicktype
+redhat.vscode-commons
+redhat.vscode-xml
 redhat.vscode-yaml
+ria.elastic
 richie5um2.vscode-sort-json
 ritwickdey.LiveServer
 RLNT.keep-a-changelog
