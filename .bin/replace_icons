@@ -11,8 +11,8 @@ touch /Applications/Firefox.app
 cp $DOTFILES_HOME/icons/Insomnia.icns /Applications/Insomnia.app/Contents/Resources/Insomnia.icns
 touch /Applications/Insomnia.app
 
-# cp $DOTFILES_HOME/icons/Poolside_FM.icns /Applications/Poolside\ FM.app/Contents/Resources/AppIcon.icns
-# touch /Applications/Poolside\ FM.app
+# cp $DOTFILES_HOME/icons/Poolsuite_FM.icns /Applications/Poolsuite\ FM.app/Contents/Resources/AppIcon.icns
+# touch /Applications/Poolsuite\ FM.app
 
 cp $DOTFILES_HOME/icons/Spotify.icns /Applications/Spotify.app/Contents/Resources/Icon.icns
 touch /Applications/Spotify.app
