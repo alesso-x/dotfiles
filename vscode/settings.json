@@ -43,7 +43,6 @@
 
   "liveshare.presence": true,
 
-  "python.showStartPage": false,
   "python.analysis.typeCheckingMode": "basic",
   "python.linting.prospectorEnabled": true,
   "python.linting.flake8Enabled": false,
