@@ -40,6 +40,10 @@ rm ~/.config/fish/fishfile
 stow fish
 
 bash $DOTFILES_HOME/macOS/config_dirs.sh
+
+# docker completion
+/bin/ln -shi /Applications/Docker.app/Contents/Resources/etc/docker.fish-completion ~/.config/fish/completions/docker.fish
+/bin/ln -shi /Applications/Docker.app/Contents/Resources/etc/docker-compose.fish-completion ~/.config/fish/completions/docker-compose.fish
 ```
 
 ## vscode
