@@ -23,7 +23,9 @@
 [diff "sopsdiffer"]
     textconv = sops -d
 [pull]
-    ff = only
+    rebase = false  # defult
+    # rebase = true
+    # ff = only
 [init]
     defaultBranch = main
 [filter "lfs"]
