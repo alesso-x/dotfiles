@@ -2,15 +2,22 @@
 
 ## Getting Started
 
+Install command line developer tools
+
 ```bash
-# Install command line developer tools
 xcode-select --install
+```
 
-# set dotfiles location
+Clone Dotfiles
+
+```bash
 export DOTFILES_HOME=$HOME/dotfiles
-
-# Clone dotfiles to $HOME dir
 git clone git@github.com:alesso-x/dotfiles.git $DOTFILES_HOME
+```
+
+Make programs executable
+
+```bash
 chmod +x $DOTFILES_HOME/.bin/*
 ```
 
