@@ -6,8 +6,9 @@
 mkdir -p $HOME/.local/share   # XDG_DATA_HOME
 
 # dotfiles
-mkdir $DOTFILES/_backup
-mkdir $DOTFILES/_private && toucn $DOTFILES/_private/vars.sh
+mkdir $DOTFILES_HOME/_backup
+mkdir $DOTFILES_HOME/_private && touch $DOTFILES_HOME/_private/vars.sh
+touch $DOTFILES_HOME/_private/work_config.fish
 
 # AWS
 mkdir -p $(dirname "$AWS_CONFIG_FILE")
