@@ -2,25 +2,37 @@
 
 ## Getting Started
 
+Install command line developer tools
+
 ```bash
-# Install command line developer tools
 xcode-select --install
+```
 
-# set dotfiles location
+Clone Dotfiles
+
+```bash
 export DOTFILES_HOME=$HOME/dotfiles
-
-# Clone dotfiles to $HOME dir
 git clone git@github.com:alesso-x/dotfiles.git $DOTFILES_HOME
+```
+
+Make programs executable
+
+```bash
 chmod +x $DOTFILES_HOME/.bin/*
 ```
 
 ## brew
 
+Install [Brew](https://brew.sh)
+
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
+Install Apps
+
+```bash
 export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote iMovie GarageBand Xcode 462058435 462062816 462054704"
-
 brew bundle --file=$DOTFILES_HOME/macOS/Brewfile
 ```
 
