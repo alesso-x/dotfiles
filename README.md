@@ -10,7 +10,7 @@ xcode-select --install
 export DOTFILES_HOME=$HOME/dotfiles
 
 # Clone dotfiles to $HOME dir
-git clone git@github.com:alessod/dotfiles.git $DOTFILES_HOME
+git clone git@github.com:alesso-x/dotfiles.git $DOTFILES_HOME
 chmod +x $DOTFILES_HOME/.bin/*
 ```
 
