@@ -10,6 +10,9 @@ export FZF_CD_WITH_HIDDEN_COMMAND='ag --hidden --ignore .git -g ""'
 # https://github.com/b4b4r07/enhancd#configurations
 export ENHANCD_DISABLE_DOT=1
 
+# BREW
+export HOMEBREW_PREFIX=/opt/homebrew
+
 #
 # XDG
 #

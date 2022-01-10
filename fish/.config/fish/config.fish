@@ -9,14 +9,15 @@ source $DOTFILES_HOME/_private/work_config.fish
 starship init fish | source
 
 # path
-set --prepend PATH \
-    /usr/local/opt/sqlite/bin \
-    /usr/local/opt/coreutils/libexec/gnubin \
-    /usr/local/opt/findutils/libexec/gnubin \
-    /usr/local/opt/gnu-getopt/bin \
-    /usr/local/opt/gnu-sed/libexec/gnubin
+# echo $fish_user_paths or echo $PATH
+fish_add_path --prepend \
+    $HOMEBREW_PREFIX/bin \
+    $HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin \
+    $HOMEBREW_PREFIX/opt/findutils/libexec/gnubin \
+    $HOMEBREW_PREFIX/opt/gnu-getopt/bin \
+    $HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin
 
-set --append PATH \
+fish_add_path --append \
     $HOME/.local/bin \
     $DOTFILES_HOME/.bin \
     $HOME/go/bin/
@@ -42,7 +43,7 @@ __fish_complete_django manage.py
 direnv hook fish | source
 
 # asdf
-source /usr/local/opt/asdf/asdf.fish
+source $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.fish
 source $ASDF_DATA_DIR/plugins/java/set-java-home.fish  # JAVA_HOME
 source $ASDF_DATA_DIR/plugins/dotnet-core/set-dotnet-home.fish  # DOTNET_ROOT
 

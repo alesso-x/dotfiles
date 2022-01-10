@@ -7,9 +7,9 @@ export HISTFILE="$XDG_DATA_HOME"/zsh/history
 # path
 path=(
     $path
-    /usr/local/opt/coreutils/libexec/gnubin \
-    /usr/local/opt/gnu-getopt/bin \
-    /usr/local/opt/gnu-sed/libexec/gnubin \
+    $HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin \
+    $HOMEBREW_PREFIX/opt/gnu-getopt/bin \
+    $HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin \
     $HOME/.local/bin \
     $DOTFILES_HOME/.bin
 )
