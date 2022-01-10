@@ -35,9 +35,9 @@ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 fisher update
 
 # configuration
-# mkdir $HOME/.config/fish/functions
+rm ~/.config/fish/config.fish
 rm ~/.config/fish/fishfile
-stow fish
+stow --adopt fish
 
 bash $DOTFILES_HOME/macOS/config_dirs.sh
 
