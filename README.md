@@ -128,6 +128,7 @@ curl -sLf https://spacevim.org/install.sh | bash
 ## stow
 
 ```bash
+stow asdf
 stow bash
 stow karabiner
 stow starship
