@@ -1,5 +1,3 @@
-source $DOTFILES_HOME/_private/vars.sh
-
 # fzf
 # https://github.com/jethrokuan/fzf#commands
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
@@ -42,3 +40,5 @@ export ASDF_DEFAULT_TOOL_VERSIONS_FILENAME=$XDG_CONFIG_HOME/asdf/.tool-versions
 
 # Docker
 # export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
+
+source $DOTFILES_HOME/_private/vars.sh
