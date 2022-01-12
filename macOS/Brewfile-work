@@ -1,0 +1,39 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "mongodb/brew"
+brew "ansible"
+brew "coreutils"
+brew "asdf"
+brew "awscli"
+brew "cocoapods"
+brew "direnv"
+brew "findutils"
+brew "fish"
+brew "fzf"
+brew "gnu-getopt"
+brew "gnu-sed"
+brew "mas"
+brew "node"
+brew "redis", restart_service: true
+brew "starship"
+brew "stow"
+brew "vim"
+brew "watchman"
+brew "yarn"
+brew "zsh"
+brew "mongodb/brew/mongodb-community"
+cask "android-studio"
+cask "clipy"
+cask "iterm2"
+cask "karabiner-elements"
+cask "notion"
+cask "visual-studio-code"
+mas "Bear", id: 1091189122
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Next Meeting", id: 1017470484
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
