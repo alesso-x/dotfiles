@@ -124,6 +124,7 @@ defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextr
 # Save screenshots to folder
 defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Screenshots"
 # defaults write com.apple.screencapture location "$HOME/Library/CloudStorage/iCloud Drive/Screenshots"
+# defaults write com.apple.screencapture location $HOME/Pictures/Screenshots
 
 #
 # TODO:
