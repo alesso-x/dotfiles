@@ -53,6 +53,7 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
+  "redhat.telemetry.enabled": false,
 
   "search.exclude": {
     "**/node_modules": true,
