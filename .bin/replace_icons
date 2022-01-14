@@ -11,6 +11,9 @@ touch /Applications/Firefox.app
 cp $DOTFILES_HOME/icons/Insomnia.icns /Applications/Insomnia.app/Contents/Resources/Insomnia.icns
 touch /Applications/Insomnia.app
 
+cp $DOTFILES_HOME/icons/Notion.icns /Applications/Notion.app/Contents/Resources/electron.icns
+touch /Applications/Notion.app
+
 # cp $DOTFILES_HOME/icons/Poolsuite_FM.icns /Applications/Poolsuite\ FM.app/Contents/Resources/AppIcon.icns
 # touch /Applications/Poolsuite\ FM.app
 
