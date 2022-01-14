@@ -12,28 +12,40 @@ brew "direnv"
 brew "findutils"
 brew "fish"
 brew "fzf"
+brew "gh"
 brew "gnu-getopt"
 brew "gnu-sed"
+brew "jq"
 brew "mas"
-brew "node"
 brew "redis", restart_service: true
 brew "starship"
 brew "stow"
+brew "the_silver_searcher"
 brew "vim"
 brew "watchman"
 brew "yarn"
+brew "yq"
 brew "zsh"
 brew "mongodb/brew/mongodb-community"
 cask "android-studio"
 cask "clipy"
+cask "datagrip"
+cask "figma"
 cask "iterm2"
 cask "karabiner-elements"
 cask "notion"
+cask "postman"
 cask "visual-studio-code"
+mas "AdGuard for Safari", id: 1440147259
 mas "Bear", id: 1091189122
+mas "DaftCloud", id: 1320450034
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
+mas "Medis", id: 1579200037
+mas "Micro Snitch", id: 972028355
 mas "Next Meeting", id: 1017470484
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Poolsuite FM", id: 1514817810
+mas "Reeder", id: 1529448980
 mas "Xcode", id: 497799835
