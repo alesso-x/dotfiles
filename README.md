@@ -8,7 +8,13 @@ Install command line developer tools
 xcode-select --install
 ```
 
-Clone Dotfiles
+Generate a new SSH Key
+
+1. [Generating a new SSH key - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+2. `brew install gh`
+3. `gh auth login`
+
+Clone Dotfiles repo
 
 ```bash
 export DOTFILES_HOME=$HOME/dotfiles
