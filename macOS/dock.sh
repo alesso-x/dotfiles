@@ -13,7 +13,7 @@ dockutil --add /Applications/Spotify.app
 dockutil --add /Applications/Poolsuite\ FM.app
 dockutil --add /Applications/DaftCloud.app
 dockutil --add /Applications/Bear.app
-dockutil --add /Applications/Reeder.localized/Reeder.app
+dockutil --add /Applications/Reeder.app
 dockutil --add /Applications/iTerm.app
 dockutil --add /Applications/Visual\ Studio\ Code.app
 dockutil --add /Applications/DataGrip.app
