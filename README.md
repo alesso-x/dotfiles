@@ -57,15 +57,14 @@ echo "$(command -v fish)" | sudo tee -a /etc/shells
 chsh -s "$(command -v fish)"
 
 # fisher
+# open fish shell before next step
+fish_add_path /opt/homebrew/bin
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
-fisher update
 
 # configuration
 rm ~/.config/fish/config.fish
-rm ~/.config/fish/fishfile
 stow --adopt fish
-
-bash $DOTFILES_HOME/macOS/config_dirs.sh
+fisher update
 
 # docker completion
 /bin/ln -shi /Applications/Docker.app/Contents/Resources/etc/docker.fish-completion ~/.config/fish/completions/docker.fish
