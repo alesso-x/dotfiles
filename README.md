@@ -71,11 +71,22 @@ fisher update
 /bin/ln -shi /Applications/Docker.app/Contents/Resources/etc/docker-compose.fish-completion ~/.config/fish/completions/docker-compose.fish
 ```
 
+## stow
+
+```bash
+stow asdf
+stow bash
+stow karabiner
+stow starship
+stow git
+git lfs install
+```
+
 ## vscode
 
 ```bash
 # Command Pallet... > Shell Command: Install 'code' command in PATH
-cat $DOTFILES_HOME/vscode/extensions | xargs -L 1 echo code --install-extension | sh
+# cat $DOTFILES_HOME/vscode/extensions | xargs -L 1 echo code --install-extension | sh
 
 # for vscode vim
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
@@ -138,17 +149,6 @@ stow vim
 curl -sLf https://spacevim.org/install.sh | bash
 ```
 
-## stow
-
-```bash
-stow asdf
-stow bash
-stow karabiner
-stow starship
-stow git
-git lfs install
-```
-
 ## iTerm2
 
 ```bash
@@ -157,13 +157,10 @@ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "$DOTFILES_
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 ```
 
-## DataGrip
-
-`Tools > Create Command-line Launcher...`
-
 ## zsh
 
 ```bash
+# open zsh before running these commands
 export ZSH=$XDG_DATA_HOME/oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 stow zsh
@@ -171,11 +168,4 @@ stow zsh
 git clone https://github.com/zsh-users/zsh-history-substring-search $ZSH_CUSTOM/plugins/zsh-history-substring-search
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-```
-
-## helm
-
-```bash
-# Add Helm stable charts repository
-helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 ```
