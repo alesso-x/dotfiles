@@ -15,6 +15,14 @@ export DOTFILES_HOME=$HOME/dotfiles
 git clone git@github.com:alesso-x/dotfiles.git $DOTFILES_HOME
 ```
 
+Configure Dirs
+
+```bash
+mkdir $DOTFILES_HOME/_private
+touch $DOTFILES_HOME/_private/vars.sh
+touch $DOTFILES_HOME/_private/work_config.fish
+```
+
 Make programs executable
 
 ```bash

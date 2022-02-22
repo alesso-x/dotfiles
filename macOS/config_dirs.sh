@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Dotfiles home: $DOTFILES_HOME"
+
 # XDG
 # mkdir $HOME/.config           # XDG_CONFIG_HOME
 # mkdir $HOME/.cache            # XDG_CACHE_HOME
