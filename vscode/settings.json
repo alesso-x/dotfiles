@@ -4,6 +4,7 @@
 
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.fontSize": 14,
+  "editor.linkedEditing": true,
   "editor.renderWhitespace": "trailing",
   "editor.suggest.localityBonus": true,
   "editor.tabSize": 2,
@@ -114,5 +115,5 @@
   },
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
-  }
+  },
 }
