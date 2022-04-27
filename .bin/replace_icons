@@ -17,6 +17,9 @@ touch /Applications/Insomnia.app
 cp $DOTFILES_HOME/icons/Miro.icns /Applications/Miro.app/Contents/Resources/electron.icns
 touch /Applications/Miro.app
 
+cp $DOTFILES_HOME/icons/MongoDB_Compass.icns /Applications/MongoDB\ Compass.app/Contents/Resources/electron.icns
+touch /Applications/MongoDB\ Compass.app
+
 cp $DOTFILES_HOME/icons/Notion.icns /Applications/Notion.app/Contents/Resources/electron.icns
 touch /Applications/Notion.app
 
