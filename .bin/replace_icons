@@ -11,6 +11,9 @@ touch /Applications/Docker.app
 cp $DOTFILES_HOME/icons/Firefox.icns /Applications/Firefox.app/Contents/Resources/firefox.icns
 touch /Applications/Firefox.app
 
+cp $DOTFILES_HOME/icons/Flipper.icns /Applications/Flipper.app/Contents/Resources/icon.icns
+touch /Applications/Flipper.app
+
 cp $DOTFILES_HOME/icons/Insomnia.icns /Applications/Insomnia.app/Contents/Resources/icon.icns
 touch /Applications/Insomnia.app
 
