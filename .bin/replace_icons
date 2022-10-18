@@ -8,9 +8,6 @@ touch /Applications/DataGrip.app
 cp $DOTFILES_HOME/icons/Docker.icns /Applications/Docker.app/Contents/Resources/AppIcon.icns
 touch /Applications/Docker.app
 
-cp $DOTFILES_HOME/icons/Firefox.icns /Applications/Firefox.app/Contents/Resources/firefox.icns
-touch /Applications/Firefox.app
-
 cp $DOTFILES_HOME/icons/Flipper.icns /Applications/Flipper.app/Contents/Resources/icon.icns
 touch /Applications/Flipper.app
 
