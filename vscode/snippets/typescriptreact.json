@@ -7,7 +7,7 @@
       "",
       "type ${TM_FILENAME_BASE}Props = {};",
       "",
-      "function ${1:${TM_FILENAME_BASE}}({}: ${TM_FILENAME_BASE}Props): JSX.Element {",
+      "function ${1:${TM_FILENAME_BASE}}(props: ${TM_FILENAME_BASE}Props): JSX.Element {",
       "\treturn (",
       "\t\t<View>",
       "\t\t\t<Text>$0</Text>",
