@@ -20,6 +20,8 @@
     publish = "!git push -u origin $(git branch-name)"
     s = switch
     undo = reset HEAD~
+    up = !git fetch && git rebase origin/master --autostash
+    up-main = !git fetch && git rebase origin/main --autostash
 [init]
     defaultBranch = main
 [push]
