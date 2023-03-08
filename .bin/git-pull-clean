@@ -2,15 +2,19 @@
 
 default_branch=$(git remote show origin | grep "HEAD branch" | sed 's/.*: //')
 
+echo 'Pulling 1/5'
 git checkout -q $default_branch && git pull --ff-only
 
-# delete merged branches
+echo 'Deleting merged branches 2/5'
 git branch --merged | grep -v "\\*" | xargs --no-run-if-empty -n 1 git branch -d
 
-# delete squashed branches
+echo 'Deleting squashed branches 3/5'
 # https://github.com/not-an-aardvark/git-delete-squashed
 git for-each-ref refs/heads/ "--format=%(refname:short)" | while read branch; do mergeBase=$(git merge-base $default_branch $branch) &&
   [[ $(git cherry $default_branch $(git commit-tree $(git rev-parse $branch^{tree}) -p $mergeBase -m _)) == "-"* ]] &&
   git branch -D $branch; done
 
+echo 'Pruning origin 4/5'
 git remote prune origin
+
+echo 'Done 5/5'
