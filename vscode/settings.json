@@ -43,8 +43,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
-  "liveshare.presence": true,
-
   "python.analysis.typeCheckingMode": "basic",
   "python.linting.prospectorEnabled": true,
   "python.linting.flake8Enabled": false,
