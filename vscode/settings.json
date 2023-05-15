@@ -2,7 +2,6 @@
   "telemetry.telemetryLevel": "off",
   "terminal.external.osxExec": "iTerm.app",
 
-  "window.restoreWindows": "all",
   "window.nativeTabs": true,
 
   "[dockerfile]": {
