@@ -36,7 +36,6 @@
   "git.confirmSync": false,
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
-  "githubNotificationsBell.oauthToken": "${env:GITHUB_NOTIFICATIONS_TOKEN}",
   "githubPullRequests.pullBranch": "never",
   "githubPullRequests.createOnPublishBranch": "never",
 
