@@ -1,118 +1,26 @@
 {
-  "autoDocstring.docstringFormat": "google",
-  "autoDocstring.startOnNewLine": true,
-
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.fontSize": 14,
-  "editor.linkedEditing": true,
-  "editor.renderWhitespace": "trailing",
-  "editor.suggest.localityBonus": true,
-  "editor.tabSize": 2,
-  "explorer.autoReveal": false,
-  "extensions.ignoreRecommendations": false,
-
-  "files.associations": {
-    "**/.ebextensions/*.*": "yaml",
-    "*.conf": "ini",
-    "*.js": "javascript",
-    "*.vscode.json": "jsonc",
-    ".env*": "dotenv",
-    "Brewfile*": "ruby",
-    "Jenkinsfile": "jenkinsfile",
-    "nginx.conf": "NGINX",
-    "Dockerfile*": "dockerfile"
-  },
-  "files.autoSave": "onFocusChange",
-  "files.exclude": {
-    "**/.git": true,
-    "**/.DS_Store": true,
-    "**/*.pyc": true,
-    "**/__pycache__": true
-  },
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "gitlens.codeLens.enabled": false,
-  "gitlens.currentLine.enabled": false,
-  "githubPullRequests.pullBranch": "never",
-  "githubPullRequests.createOnPublishBranch": "never",
-
-  "jest.autoRun": "off",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-
-  "python.analysis.typeCheckingMode": "basic",
-  "python.linting.prospectorEnabled": true,
-  "python.linting.flake8Enabled": false,
-  "python.linting.pylintEnabled": false,
-  "python.linting.pycodestyleEnabled": false,
-  "python.testing.autoTestDiscoverOnSaveEnabled": false,
-  "python.formatting.provider": "black",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
-  },
-  "redhat.telemetry.enabled": false,
-
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/.vscode": true,
-    "**/.pytest*": true,
-    "**/.venv*": true
-  },
   "telemetry.telemetryLevel": "off",
-  "terminal.integrated.scrollback": 10000,
   "terminal.external.osxExec": "iTerm.app",
-
-  "todohighlight.defaultStyle": {
-    "backgroundColor": "none",
-    "color": "#A8C023"
-  },
-  "todohighlight.keywords": [
-    "TODO",
-    "TODO:",
-    "NOTE",
-    "NOTE:",
-    "FIXME",
-    "FIXME:"
-  ],
-
-  // vsintellicode
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-
-  "vim.useSystemClipboard": true,
-  "vim.visualModeKeyBindings": [{ "before": ["x"], "after": ["\"", "_", "x"] }],
-  // "editor.semanticHighlighting.enabled": false,
 
   "window.restoreWindows": "all",
   "window.nativeTabs": true,
-  "window.zoomLevel": -0.5,
-  "window.title": "${rootName}${separator}${activeEditorShort}",
 
-  "workbench.editor.enablePreview": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.commandPalette.preserveInput": true,
-  "workbench.settings.editor": "json",
-  "workbench.colorTheme": "GitHub Dark Dimmed",
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
-  },
-
-  "[javascript][javascriptreact][typescript][typescriptreact][json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
+  "[javascript][javascriptreact][typescript][typescriptreact][json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }
