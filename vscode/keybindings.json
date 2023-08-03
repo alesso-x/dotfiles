@@ -102,14 +102,6 @@
     "when": "textInputFocus && !editorReadonly"
   },
   {
-    "key": "shift+alt+l",
-    "command": "python.viewTestOutput"
-  },
-  {
-    "key": "shift+alt+k",
-    "command": "python.viewOutput"
-  },
-  {
     "key": "ctrl+cmd+w",
     "command": "-workbench.action.toggleTabsVisibility"
   },
@@ -145,14 +137,13 @@
     "key": "shift+cmd+'",
     "command": "workbench.action.showPreviousWindowTab"
   },
-  { "key": "cmd+shift+j", "command": "workbench.action.terminal.focusNext" },
+  {
+    "key": "cmd+shift+j",
+    "command": "workbench.action.terminal.focusNext"
+  },
   {
     "key": "cmd+shift+k",
     "command": "workbench.action.terminal.focusPrevious"
-  },
-  {
-    "key": "shift+cmd+i shift+cmd+a",
-    "command": "workbench.view.debug"
   },
   {
     "key": "shift+cmd+d",
