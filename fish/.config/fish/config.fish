@@ -25,15 +25,16 @@ fish_add_path --append \
 
 # abbreviations -> abbr --list
 if status --is-interactive
-    abbr --add --global d docker
-    abbr --add --global dm docker-compose
-    abbr --add --global do doctl
+    # abbr --add --global d docker
+    # abbr --add --global dm docker-compose
+    # abbr --add --global do doctl
     abbr --add --global g git
     abbr --add --global h hist_delete
-    abbr --add --global k kubectl
-    abbr --add --global kc kubectx
-    abbr --add --global kn kubens
+    # abbr --add --global k kubectl
+    # abbr --add --global kc kubectx
+    # abbr --add --global kn kubens
     abbr --add --global l ls
+    abbr --add --global p pnpm
 end
 
 # django completions
