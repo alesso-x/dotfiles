@@ -5,19 +5,4 @@
 cp $DOTFILES_HOME/icons/DataGrip.icns /Applications/DataGrip.app/Contents/Resources/datagrip.icns
 touch /Applications/DataGrip.app
 
-cp $DOTFILES_HOME/icons/Docker.icns /Applications/Docker.app/Contents/Resources/AppIcon.icns
-touch /Applications/Docker.app
-
-cp $DOTFILES_HOME/icons/Flipper.icns /Applications/Flipper.app/Contents/Resources/icon.icns
-touch /Applications/Flipper.app
-
-cp $DOTFILES_HOME/icons/Notion.icns /Applications/Notion.app/Contents/Resources/electron.icns
-touch /Applications/Notion.app
-
-# cp $DOTFILES_HOME/icons/Poolsuite_FM.icns /Applications/Poolsuite\ FM.app/Contents/Resources/AppIcon.icns
-# touch /Applications/Poolsuite\ FM.app
-
-cp $DOTFILES_HOME/icons/Spotify.icns /Applications/Spotify.app/Contents/Resources/Icon.icns
-touch /Applications/Spotify.app
-
 sudo killall Finder && sudo killall Dock
