@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# https://superuser.com/questions/618501/changing-an-applications-icon-from-the-terminal-osx
-
-cp $DOTFILES_HOME/icons/DataGrip.icns /Applications/DataGrip.app/Contents/Resources/datagrip.icns
-touch /Applications/DataGrip.app
-
-sudo killall Finder && sudo killall Dock
