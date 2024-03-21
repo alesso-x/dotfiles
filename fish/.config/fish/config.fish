@@ -47,6 +47,3 @@ direnv hook fish | source
 # asdf
 source $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.fish
 source $ASDF_DATA_DIR/plugins/java/set-java-home.fish  # JAVA_HOME
-
-# pipx completions
-register-python-argcomplete --shell fish pipx | source
