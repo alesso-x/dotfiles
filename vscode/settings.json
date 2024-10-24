@@ -1,8 +1,13 @@
 {
+  "editor.inlineSuggest.enabled": true,
   "telemetry.telemetryLevel": "off",
-  "terminal.external.osxExec": "iTerm.app",
-
   "window.nativeTabs": true,
+  "window.titleBarStyle": "native",
+
+  "workbench.settings.applyToAllProfiles": [
+    "window.zoomLevel"
+  ],
+  "window.zoomLevel": -0.5,
 
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
