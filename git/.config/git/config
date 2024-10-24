@@ -5,6 +5,7 @@
     email = 8059120+alesso-x@users.noreply.github.com
 [alias]
     append = commit --amend --no-edit
+    edit-message = commit --amend
     b = branch
     c = checkout
     diff-origin = diff origin/master...
