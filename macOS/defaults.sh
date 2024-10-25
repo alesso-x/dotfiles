@@ -31,6 +31,19 @@ defaults write -app Bear NSUserKeyEquivalents -dict-add "Shift Left" -string "@~
 defaults write -app Bear NSUserKeyEquivalents -dict-add "Shift Right" -string "@~k"
 
 #
+# Mac Tiling
+#
+
+# 'Window->Fill' '^~↩'
+defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Fill' '~^\\U21a9'
+
+# 'Window->Move & Resize->Left' '^~←'
+defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Move & Resize\033Left' '~^\\U2190'
+
+# 'Window->Move & Resize->Right' '^~→'
+defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Move & Resize\033Right' '~^\\U2192'
+
+#
 # Dock
 #
 
