@@ -39,9 +39,14 @@ defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Fill' '~^\\U21a9
 
 # 'Window->Move & Resize->Left' '^~←'
 defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Move & Resize\033Left' '~^\\U2190'
-
-# 'Window->Move & Resize->Right' '^~→'
 defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Move & Resize\033Right' '~^\\U2192'
+defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Move & Resize\033Top' '~^\\U2191'
+defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Move & Resize\033Bottom' '~^\\U2193'
+
+defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Move & Resize\033Top Left' '~^u'
+defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Move & Resize\033Bottom Left' '~^j'
+defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Move & Resize\033Top Right' '~^i'
+defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Move & Resize\033Bottom Right' '~^k'
 
 #
 # Dock
