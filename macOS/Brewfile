@@ -40,6 +40,7 @@ brew "yq"
 brew "zsh"
 cask "android-studio"
 cask "appcleaner"
+cask "cursor"
 cask "datagrip"
 cask "discord"
 cask "docker"
@@ -58,6 +59,7 @@ cask "sf-symbols"
 cask "spotify"
 cask "visual-studio-code"
 mas "AdGuard for Safari", id: 1440147259
+mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
 mas "Clocker", id: 1056643111
 mas "DaftCloud", id: 1320450034
