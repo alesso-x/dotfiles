@@ -31,8 +31,12 @@ export XDG_CACHE_HOME=$HOME/.cache       # $HOME/Library/Caches
 # export AWS_SHARED_CREDENTIALS_FILE=$XDG_CONFIG_HOME/aws/credentials
 
 # ASDF XDG
+# defaults to $HOME/.asdfrc
 export ASDF_CONFIG_FILE=$XDG_CONFIG_HOME/asdf/.asdfrc
-export ASDF_DATA_DIR=$XDG_DATA_HOME/asdf
+
+# messes up asdf local and global commands
+# defaults to $HOME/.asdf
+# export ASDF_DATA_DIR=$XDG_DATA_HOME/asdf
 
 # GnuPG
 # export GNUPGHOME=$XDG_DATA_HOME/gnupg
