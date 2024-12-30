@@ -33,13 +33,8 @@ if status --is-interactive
     # abbr --add --global k kubectl
     # abbr --add --global kc kubectx
     # abbr --add --global kn kubens
-    abbr --add --global l ls
     abbr --add --global p pnpm
 end
-
-# django completions
-__fish_complete_django django-admin
-__fish_complete_django manage.py
 
 # direnv
 direnv hook fish | source

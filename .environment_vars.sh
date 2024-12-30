@@ -23,20 +23,13 @@ export XDG_CONFIG_HOME=$HOME/.config     # $HOME/Library/Preferences (helm)  $HO
 export XDG_DATA_HOME=$HOME/.local/share  # $HOME/Library
 export XDG_CACHE_HOME=$HOME/.cache       # $HOME/Library/Caches
 
-# AWS XDG
-# https://github.com/aws/aws-cli/issues/2433#issuecomment-532208981
-# https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
-# AWS Amplify does not support these variables
-# export AWS_CONFIG_FILE=$XDG_CONFIG_HOME/aws/config
-# export AWS_SHARED_CREDENTIALS_FILE=$XDG_CONFIG_HOME/aws/credentials
-
 # ASDF XDG
 # defaults to $HOME/.asdfrc
 export ASDF_CONFIG_FILE=$XDG_CONFIG_HOME/asdf/.asdfrc
 
-# messes up asdf local and global commands
-# defaults to $HOME/.asdf
+# messes up asdf local and global commands, setting to the default for now
 # export ASDF_DATA_DIR=$XDG_DATA_HOME/asdf
+export ASDF_DATA_DIR=$HOME/.asdf
 
 # GnuPG
 # export GNUPGHOME=$XDG_DATA_HOME/gnupg
