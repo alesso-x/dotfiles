@@ -155,6 +155,7 @@ defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/
 # Keyboard —> Shortcuts —> Mission Control -> Show Notification Center -> `option + s`
 # Mouse --> Swipe between pages
 # Mail --> Composing --> Send new messages from
+# Mail --> Viewing --> Show message headers -> Custom -> Add x-envelope-from
 # Photos —> Optimize for mac storage
 # Security & Privacy —> General —> Require password 5 secs
 # Security & Privacy —> General —> Allow your Apple Watch to unlock your Mac
