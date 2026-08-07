@@ -7,7 +7,9 @@ function print() {
 }
 
 print 'dumping brew bundle'
-brew bundle dump --force --file=$DOTFILES_HOME/macOS/Brewfile
+# --no-vscode: brew bundle dump now emits `vscode` lines from the *default*
+# profile, which would fight with vscode/extensions dumped below.
+brew bundle dump --force --no-vscode --file=$DOTFILES_HOME/macOS/Brewfile
 
 print 'dumping vscode extensions'
 code --profile Personal --list-extensions > $DOTFILES_HOME/vscode/extensions

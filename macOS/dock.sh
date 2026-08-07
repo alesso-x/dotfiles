@@ -1,23 +1,25 @@
-dockutil --remove all
+#!/bin/bash
 
-dockutil --add /System/Applications/Launchpad.app
-dockutil --add /Applications/Safari.app
-dockutil --add /System/Applications/Mail.app
-dockutil --add /System/Applications/Calendar.app
-dockutil --add /System/Applications/Messages.app
-dockutil --add /Applications/WhatsApp.app
-dockutil --add /Applications/Slack.app
-dockutil --add /Applications/Twitter.app
-dockutil --add /System/Applications/Music.app
-dockutil --add /Applications/Spotify.app
-dockutil --add /Applications/Poolsuite\ FM.app
-dockutil --add /Applications/DaftCloud.app
-dockutil --add /Applications/Bear.app
-dockutil --add /Applications/Reeder.app
-dockutil --add /Applications/iTerm.app
-dockutil --add /Applications/Visual\ Studio\ Code.app
-dockutil --add /Applications/DataGrip.app
-dockutil --add /Applications/Insomnia.app
-dockutil --add /Applications/Lens.app
-dockutil --add "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Screenshots" --view grid --display stack --sort dateadded
-dockutil --add "$HOME/Downloads" --view grid --display stack --sort dateadded
+# Rebuilds the Dock from scratch. Run after `brew bundle`, since most of these
+# apps come from the Brewfile.
+
+dockutil --no-restart --remove all
+
+dockutil --no-restart --add /Applications/Safari.app
+dockutil --no-restart --add /System/Applications/Mail.app
+dockutil --no-restart --add /System/Applications/Calendar.app
+dockutil --no-restart --add /System/Applications/Messages.app
+dockutil --no-restart --add /System/Applications/Music.app
+dockutil --no-restart --add /Applications/Spotify.app
+dockutil --no-restart --add "/Applications/Poolsuite FM.app"
+dockutil --no-restart --add /Applications/DaftCloud.app
+dockutil --no-restart --add /Applications/Bear.app
+dockutil --no-restart --add /Applications/iTerm.app
+dockutil --no-restart --add "/Applications/Visual Studio Code.app"
+dockutil --no-restart --add /Applications/DataGrip.app
+dockutil --no-restart --add /Applications/Insomnia.app
+
+dockutil --no-restart --add "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Screenshots" --view grid --display stack --sort dateadded
+dockutil --no-restart --add "$HOME/Downloads" --view grid --display stack --sort dateadded
+
+killall Dock

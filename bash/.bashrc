@@ -6,7 +6,6 @@ export HISTFILE=$XDG_DATA_HOME/bash/history
 
 # prompt
 eval "$(starship init bash)"
-# PS1="\[\e[0;31m\]\u \[\e[0;33m\]\W \[\e[0;32m\]$ \[\e[0m\]"
 
 # terminal colors
 export CLICOLOR=1
@@ -25,14 +24,20 @@ man() {
     man "$@"
 }
 
-# bash completion
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-    . `brew --prefix`/etc/bash_completion
-fi
+# bash completion. bash-completion@2 (needs bash 4.2+, we run brew's bash 5.x);
+# the v1 formula uses etc/bash_completion instead.
+. "$HOMEBREW_PREFIX/etc/profile.d/bash_completion.sh"
 
-# direnv, asdf
+# direnv
 eval "$(direnv hook bash)"
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
-. $ASDF_DATA_DIR/plugins/java/set-java-home.bash # JAVA_HOME
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# fzf. `fzf --bash` replaces the old ~/.fzf.bash install method.
+eval "$(fzf --bash)"
+
+# directory jumping
+eval "$(zoxide init bash)"
+
+# asdf shims
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
+. $ASDF_DATA_DIR/plugins/java/set-java-home.bash # JAVA_HOME

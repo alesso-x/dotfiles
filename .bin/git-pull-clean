@@ -1,6 +1,8 @@
 #!/bin/bash
 
-default_branch=$(git remote show origin | grep "HEAD branch" | sed 's/.*: //')
+# Reads the local origin/HEAD ref rather than `git remote show origin`,
+# which hits the network on every invocation.
+default_branch=$(git default-branch)
 
 echo 'Pulling 1/5'
 git checkout -q $default_branch && git pull --ff-only

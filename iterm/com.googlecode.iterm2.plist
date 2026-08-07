@@ -30,6 +30,8 @@
 	<string>31561225-A3A2-4393-9366-11FEFBE410A3</string>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
+	<key>HideTab</key>
+	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>IRMemory</key>

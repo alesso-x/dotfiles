@@ -8,9 +8,12 @@ function print() {
 
 print 'updating homebrew'
 brew update
+# `brew upgrade` covers casks too since Homebrew 4, so no separate --casks pass.
 brew upgrade
-brew upgrade --casks
-brew cleanup -s --prune=all -v
+brew cleanup -s
+
+print 'updating Mac App Store apps'
+mas upgrade
 
 print 'pipx packages'
 pipx upgrade-all
@@ -18,17 +21,22 @@ pipx upgrade-all
 print 'updating asdf'
 asdf plugin update --all
 
-print 'updating nodejs'
-asdf install nodejs latest
-asdf set --home nodejs $(asdf latest nodejs)
-
-print 'updating python'
-asdf install python latest
-asdf set --home python $(asdf latest python)
+for tool in nodejs python java; do
+  asdf plugin list 2>/dev/null | grep -qx "$tool" || continue
+  print "updating $tool"
+  if [ "$tool" = java ]; then
+    version=$(asdf latest java openjdk)
+  else
+    version=$(asdf latest "$tool")
+  fi
+  asdf install "$tool" "$version"
+  asdf set --home "$tool" "$version"
+done
 
 print 'updating fish shell'
 fish -c "fisher update"
 # fish -c fish_update_completions
 
 print 'checking Apple Updates'
-softwareupdate -ia
+# -i installs; needs sudo to actually apply system updates.
+sudo softwareupdate -ia

@@ -35,13 +35,14 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+# Deliberately not loaded:
+#   asdf  - broken since asdf 0.16 (the Go rewrite ships no asdf.sh for it to
+#           source). Shims come from fish, which this shell is launched from.
+#   fzf   - replaced by `fzf --zsh` below, the method fzf documents now
+#   z     - replaced by zoxide below, shared with fish
 plugins=(
-    asdf
     colored-man-pages
-    fzf
     git
-    shrink-path
-    z
     history-substring-search
     zsh-autosuggestions
     zsh-syntax-highlighting
@@ -53,17 +54,23 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 #
 
+# This shell is always launched from fish, so PATH already carries Homebrew
+# and the asdf shims. Nothing below is guarded on purpose: if a tool goes
+# missing the error should be visible, not silently swallowed.
+
 # prompt
 eval "$(starship init zsh)"
-# path with shrink-path
-# setopt prompt_subst
-# PS1='%{$fg[cyan]%}$(shrink_path --fish) $(git_prompt_info)'
-# PS1+='%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜)%{$reset_color%}'
 
 # direnv
 eval "$(direnv hook zsh)"
 
-# pipx completions
+# fzf
+eval "$(fzf --zsh)"
+
+# directory jumping
+eval "$(zoxide init zsh)"
+
+# pipx completions (requires `pipx install argcomplete`)
 autoload -U bashcompinit
 bashcompinit
 eval "$(register-python-argcomplete pipx)"

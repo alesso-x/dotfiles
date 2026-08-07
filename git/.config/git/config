@@ -4,25 +4,28 @@
     name = Alessandro DiMarco
     email = 8059120+alesso-x@users.noreply.github.com
 [alias]
+    # Resolves the remote's default branch instead of assuming master or main,
+    # which is what the old -main alias duplicates were working around.
+    # Falls back to main when origin/HEAD is unset (`git remote set-head origin -a`).
+    default-branch = "!f() { b=$(git symbolic-ref --short refs/remotes/origin/HEAD 2>/dev/null); b=${b#origin/}; [ -n \"$b\" ] || b=main; echo \"$b\"; }; f"
+    branch-name = rev-parse --abbrev-ref HEAD
+
     append = commit --amend --no-edit
     edit-message = commit --amend
     b = branch
     c = checkout
-    diff-origin = diff origin/master...
-    diff-origin-files = diff --name-status origin/master
-    diff-origin-main = diff origin/main...
-    diff-origin-main-files = diff --name-status origin/main
+    diff-origin = "!git diff origin/$(git default-branch)..."
+    diff-origin-files = "!git diff --name-status origin/$(git default-branch)"
     diff-staged = diff --cached
     log-graph = log --oneline --graph --decorate
-    log-origin = log origin/master ^master
+    log-origin = "!d=$(git default-branch); git log origin/$d ^$d"
     ls-alias = "!git config -l | grep alias | cut -c 7-"
     pc = pull-clean
     pc-all = pull-clean-all
     publish = "!git push -u origin $(git branch-name)"
     s = switch
     undo = reset HEAD~
-    up = !git fetch && git rebase origin/master --autostash
-    up-main = !git fetch && git rebase origin/main --autostash
+    up = "!git fetch && git rebase origin/$(git default-branch) --autostash"
 [init]
     defaultBranch = main
 [push]

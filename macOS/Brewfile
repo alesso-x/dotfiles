@@ -1,9 +1,9 @@
-tap "homebrew/bundle"
-tap "homebrew/services"
 brew "coreutils"
 brew "asdf"
 brew "awk"
 brew "awscli"
+brew "bash"
+brew "bash-completion@2"
 brew "cocoapods"
 brew "curl"
 brew "diffutils"
@@ -28,30 +28,26 @@ brew "pipx"
 brew "poetry"
 brew "postgresql@16"
 brew "redis"
+brew "ripgrep"
 brew "starship"
 brew "stow"
-brew "terraform"
-brew "the_silver_searcher"
 brew "tree"
 brew "vim"
 brew "watchman"
 brew "yarn"
 brew "yq"
+brew "zoxide"
 brew "zsh"
 cask "android-studio"
 cask "appcleaner"
-cask "cursor"
 cask "datagrip"
 cask "discord"
-cask "docker"
+cask "docker-desktop"
 cask "firefox"
 cask "google-chrome"
 cask "insomnia"
 cask "iterm2"
-cask "linearmouse"
-cask "maccy"
 cask "mongodb-compass"
-cask "notion"
 cask "react-native-debugger"
 cask "rocket"
 cask "sf-symbols"
@@ -60,28 +56,17 @@ cask "visual-studio-code"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
-mas "Clocker", id: 1056643111
 mas "DaftCloud", id: 1320450034
 mas "DaisyDisk", id: 411643860
 mas "Developer", id: 640199958
 mas "GarageBand", id: 682658836
-mas "iBar", id: 6443843900
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 302584613
-mas "Magnet", id: 441258766
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Word", id: 462054704
-mas "MusicHarbor", id: 1440405750
-mas "Next Meeting", id: 1017470484
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "Poolsuite FM", id: 1514817810
-mas "Reeder", id: 1529448980
 mas "Shazam", id: 897118787
-mas "Slack", id: 803453959
 mas "Telegram", id: 747648890
-mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835

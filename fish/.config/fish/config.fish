@@ -3,7 +3,7 @@ set -gx DOTFILES_HOME $HOME/dotfiles
 
 source $DOTFILES_HOME/.environment_vars.sh
 source $DOTFILES_HOME/.aliases.sh
-source $DOTFILES_HOME/_private/work_config.fish
+source $DOTFILES_HOME/_private/local_config.fish  # per-machine, untracked
 
 # prompt
 starship init fish | source
@@ -54,3 +54,6 @@ end
 set --erase _asdf_shims
 
 source $ASDF_DATA_DIR/plugins/java/set-java-home.fish  # JAVA_HOME
+
+# directory jumping (replaces the archived jethrokuan/z fisher plugin)
+zoxide init fish | source

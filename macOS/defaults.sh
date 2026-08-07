@@ -56,13 +56,13 @@ defaults write -g NSUserKeyEquivalents -dict-add '\033Window\033Move & Resize\03
 defaults write com.apple.dock autohide -bool true
 
 # Change the auto-hiding Dock delay
-defaults write com.apple.Dock autohide-delay -float 0
+defaults write com.apple.dock autohide-delay -float 0
 
 # Make Hidden App Icons Translucent in the Dock
-defaults write com.apple.Dock showhidden -bool true
+defaults write com.apple.dock showhidden -bool true
 
 # Change minimize window animation
-defaults write com.apple.Dock mineffect -string "scale"
+defaults write com.apple.dock mineffect -string "scale"
 
 #
 # Mouse/Trackpad
@@ -77,7 +77,9 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 # Battery Percentage
 #
 
-defaults write com.apple.menuextra.battery ShowPercent -bool true
+# The menuextra domains stopped being read in Big Sur, when the menu bar moved
+# under Control Center.
+defaults write com.apple.controlcenter BatteryShowPercentage -bool true
 
 
 #
@@ -104,6 +106,10 @@ defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
 
 #
 # Safari
+#
+# Safari's preferences are sandboxed. These writes are no-ops unless the
+# terminal running this script has Full Disk Access granted in
+# System Settings > Privacy & Security. Set them by hand otherwise.
 #
 
 # Show developer tools
@@ -133,11 +139,18 @@ defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 # Use tabs
 defaults write NSGlobalDomain AppleWindowTabbingMode -string "always"
 
-# Show volume in the menu bar
-defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.volume" -bool true
+# Menu bar items. These moved from com.apple.systemuiserver to Control Center
+# in Big Sur. The module int is the "Show in Menu Bar" dropdown
+# (2 = menu bar, 8 = Control Center only); NSStatusItem Visible is what
+# actually toggles the icon.
 
-# Show Bluetooth in the menu bar
-defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.bluetooth" -int 1
+# Show volume
+defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
+defaults write com.apple.controlcenter Sound -int 2
+
+# Hide Bluetooth
+defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool false
+defaults write com.apple.controlcenter Bluetooth -int 8
 
 # Save screenshots to folder
 defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Screenshots"
@@ -145,17 +158,21 @@ defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/
 # defaults write com.apple.screencapture location $HOME/Pictures/Screenshots
 
 #
+# Apply
+#
+
+# Without this the writes above sit in the plists until the next logout.
+for app in Dock Finder SystemUIServer ControlCenter; do
+    killall "$app" >/dev/null 2>&1
+done
+echo "Done. Some settings still need a logout to take full effect."
+
+#
 # TODO:
 #
-# App Store —> Install macOS updates
-# App Store —> Free Downloads —> Save password
-# Accessibility -> Zoom -> Use scroll gesture with modifier keys to zoom
-# Desktop -> Sort by -> Snap to Grid
-# Keyboard —> Modifier Keys —> Caps lock escape key
-# Keyboard —> Shortcuts —> Mission Control -> Show Notification Center -> `option + s`
-# Mouse --> Swipe between pages
-# Mail --> Composing --> Send new messages from
-# Mail --> Viewing --> Show message headers -> Custom -> Add x-envelope-from
-# Photos —> Optimize for mac storage
-# Security & Privacy —> General —> Require password 5 secs
-# Security & Privacy —> General —> Allow your Apple Watch to unlock your Mac
+# General —> Software Update —> Install macOS updates
+# Desktop —> Show View Options —> Sort by —> Snap to Grid
+# Keyboard —> Keyboard Shortcuts… —> Modifier Keys —> Caps lock escape key
+# Mouse —> More Gestures —> Swipe between pages
+# Mail —> Settings —> Composing —> Send new messages from
+# Photos —> Settings —> iCloud —> Optimize Mac Storage

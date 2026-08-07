@@ -6,6 +6,10 @@ function print() {
   echo -e "${CYAN}==> $1${NC}"
 }
 
+# Extensions live in a named profile, not the default one. Both the diff and
+# the dump below must agree on it or every run reports the whole list as new.
+VSCODE_PROFILE=Personal
+
 print 'pulling latest changes'
 git -C $DOTFILES_HOME pull --ff-only
 
@@ -22,18 +26,22 @@ if ! test "$?" -eq 0; then
   export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote iMovie GarageBand Xcode 462058435 462062816 462054704"
   brew bundle install --file=$DOTFILES_HOME/macOS/Brewfile
 fi
-brew bundle dump --force --file=$DOTFILES_HOME/macOS/Brewfile
+# --no-vscode: brew bundle dump now emits `vscode` lines from the *default*
+# profile, which would fight with vscode/extensions maintained below.
+brew bundle dump --force --no-vscode --file=$DOTFILES_HOME/macOS/Brewfile
 
 print 'syncing vscode extensions'
-NEW_EXTENSIONS=$(comm -13 <(sort <(code --list-extensions)) <(sort $DOTFILES_HOME/vscode/extensions))
+NEW_EXTENSIONS=$(comm -13 \
+  <(code --profile $VSCODE_PROFILE --list-extensions | sort) \
+  <(sort $DOTFILES_HOME/vscode/extensions))
 if ! test -z "$NEW_EXTENSIONS"; then
-  echo "New extensions: $(echo $NEW_EXTENSIONS)"
-  echo $NEW_EXTENSIONS | xargs -d " " -n 1 echo code --install-extension | sh
+  echo "New extensions:"
+  echo "$NEW_EXTENSIONS"
+  echo "$NEW_EXTENSIONS" | xargs -n 1 code --profile $VSCODE_PROFILE --install-extension
 fi
-code --profile Personal --list-extensions > $DOTFILES_HOME/vscode/extensions
+code --profile $VSCODE_PROFILE --list-extensions > $DOTFILES_HOME/vscode/extensions
 
-print 'backing up files: fish_history, iTerm Profile'
+print 'backing up fish_history'
 cp $HOME/.local/share/fish/fish_history $DOTFILES_HOME/_backup/
-echo "iTerm Profiles > Other Actions... > Save Profile as JSON..."
 
 git -C $DOTFILES_HOME status
