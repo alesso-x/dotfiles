@@ -123,18 +123,18 @@ ln -sf $DOTFILES_HOME/xcode/Default.idekeybindings $HOME/Library/Developer/Xcode
 # python
 asdf plugin-add python
 asdf install python latest
-asdf global python (asdf latest python)
+asdf set --home python (asdf latest python)
 
 # nodejs
 asdf plugin-add nodejs
 asdf install nodejs latest
 asdf install nodejs lts
-asdf global nodejs (asdf latest nodejs)
+asdf set --home nodejs (asdf latest nodejs)
 
 # java
 asdf plugin-add java
 asdf install java (asdf latest java openjdk)
-asdf global java (asdf latest java openjdk)
+asdf set --home java (asdf latest java openjdk)
 
 # cli
 # rm -rf ~/.local/pipx/ after upgrading python

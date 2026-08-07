@@ -20,11 +20,11 @@ asdf plugin update --all
 
 print 'updating nodejs'
 asdf install nodejs latest
-asdf global nodejs $(asdf latest nodejs)
+asdf set --home nodejs $(asdf latest nodejs)
 
 print 'updating python'
 asdf install python latest
-asdf global python $(asdf latest python)
+asdf set --home python $(asdf latest python)
 
 print 'updating fish shell'
 fish -c "fisher update"
