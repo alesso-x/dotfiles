@@ -3,7 +3,6 @@ anthropic.claude-code
 apollographql.vscode-apollo
 bmalehorn.vscode-fish
 bradlc.vscode-tailwindcss
-clinyong.vscode-css-modules
 codezombiech.gitignore
 csstools.postcss
 cybai.yaml-key-viewer
@@ -14,7 +13,6 @@ dsznajder.es7-react-js-snippets
 dunstontc.viml
 eamodio.gitlens
 editorconfig.editorconfig
-ericadamski.carbon-now-sh
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
 foxundermoon.shell-format
@@ -26,7 +24,6 @@ golang.go
 graphql.vscode-graphql
 graphql.vscode-graphql-syntax
 hashicorp.terraform
-heybourn.headwind
 janisdd.vscode-edit-csv
 llvm-vs-code-extensions.lldb-dap
 mariomatheu.syntax-project-pbxproj
@@ -36,7 +33,6 @@ mhutchie.git-graph
 mikestead.dotenv
 mrmlnc.vscode-duplicate
 ms-azuretools.vscode-containers
-ms-azuretools.vscode-docker
 ms-dotnettools.csdevkit
 ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime
@@ -53,12 +49,10 @@ ms-vscode-remote.remote-ssh-edit
 ms-vscode.cpptools
 ms-vscode.remote-explorer
 ms-vscode.remote-repositories
-ms-vscode.test-adapter-converter
 msjsdiag.vscode-react-native
 njpwerner.autodocstring
 orta.vscode-jest
 pdconsec.vscode-print
-pnp.polacode
 prisma.prisma
 quicktype.quicktype
 redhat.vscode-commons

@@ -153,11 +153,6 @@
     "key": "shift+cmd+d",
     "command": "editor.action.addSelectionToPreviousFindMatch"
   },
-  {
-    "key": "shift+cmd+t",
-    "command": "-headwind.sortTailwindClasses",
-    "when": "editorFocus"
-  },
   // removed because using macOS tiling for these keys
   {
     "key": "ctrl+alt+left",

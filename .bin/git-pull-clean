@@ -8,7 +8,9 @@ echo 'Pulling 1/5'
 git checkout -q $default_branch && git pull --ff-only
 
 echo 'Deleting merged branches 2/5'
-git branch --merged | grep -v "\\*" | xargs --no-run-if-empty -n 1 git branch -d
+# -r rather than --no-run-if-empty: both BSD and GNU xargs accept the short
+# flag, so this still works when the script runs outside fish's PATH.
+git branch --merged | grep -v "\\*" | xargs -r -n 1 git branch -d
 
 echo 'Deleting squashed branches 3/5'
 # https://github.com/not-an-aardvark/git-delete-squashed

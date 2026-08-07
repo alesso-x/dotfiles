@@ -5,12 +5,17 @@ source $DOTFILES_HOME/.aliases.sh
 export HISTFILE="$XDG_DATA_HOME"/zsh/history
 
 # path
+# The GNU dirs go in *front*, the way fish orders them. Appending them after
+# $path, as this used to, meant sed/getopt/etc. still resolved to the BSD
+# copies in /usr/bin any time zsh built PATH itself rather than inheriting it.
+# -U dedupes, since launching from fish means most of these are already set.
+typeset -U path
 path=(
+    $HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin
+    $HOMEBREW_PREFIX/opt/gnu-getopt/bin
+    $HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin
     $path
-    $HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin \
-    $HOMEBREW_PREFIX/opt/gnu-getopt/bin \
-    $HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin \
-    $HOME/.local/bin \
+    $HOME/.local/bin
     $DOTFILES_HOME/.bin
 )
 

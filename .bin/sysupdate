@@ -37,6 +37,7 @@ print 'updating fish shell'
 fish -c "fisher update"
 # fish -c fish_update_completions
 
-print 'checking Apple Updates'
-# -i installs; needs sudo to actually apply system updates.
-sudo softwareupdate -ia
+# Left to you rather than run here: it needs sudo, and prompting for a password
+# at the end of a long unattended run means the script just sits there.
+print 'Apple Updates — run this yourself:'
+echo '    sudo softwareupdate -ia'

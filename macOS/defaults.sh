@@ -78,8 +78,9 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 #
 
 # The menuextra domains stopped being read in Big Sur, when the menu bar moved
-# under Control Center.
-defaults write com.apple.controlcenter BatteryShowPercentage -bool true
+# under Control Center. Control Center state is per-host, so it needs
+# -currentHost; without it the write lands in a domain nothing reads.
+defaults -currentHost write com.apple.controlcenter BatteryShowPercentage -bool true
 
 
 #
@@ -140,17 +141,22 @@ defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 defaults write NSGlobalDomain AppleWindowTabbingMode -string "always"
 
 # Menu bar items. These moved from com.apple.systemuiserver to Control Center
-# in Big Sur. The module int is the "Show in Menu Bar" dropdown
-# (2 = menu bar, 8 = Control Center only); NSStatusItem Visible is what
-# actually toggles the icon.
+# in Big Sur, and they live in the per-host domain, so every write needs
+# -currentHost. The module int is the "Show in Menu Bar" dropdown:
+#
+#   8  = don't show in the menu bar (Control Center only)
+#   9  = show when active
+#   18 = always show in the menu bar
+#
+# Don't write the `NSStatusItem Visible <module>` keys in the plain domain.
+# ControlCenter maintains those itself as a cache of the ints above — it has
+# no `NSStatusItem Visible Sound` at all, because Sound is driven by Sound=18.
 
 # Show volume
-defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
-defaults write com.apple.controlcenter Sound -int 2
+defaults -currentHost write com.apple.controlcenter Sound -int 18
 
 # Hide Bluetooth
-defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool false
-defaults write com.apple.controlcenter Bluetooth -int 8
+defaults -currentHost write com.apple.controlcenter Bluetooth -int 8
 
 # Save screenshots to folder
 defaults write com.apple.screencapture location "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Screenshots"

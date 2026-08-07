@@ -63,9 +63,3 @@ cask "visual-studio-code@insiders"
 cask "wireshark-app"
 cask "workflowy"
 cask "colindean/fonts-nonfree/font-microsoft-office"
-
-mas "Bad North", id: 1441005816
-mas "Dark Reader for Safari", id: 1438243180
-mas "GIPHY CAPTURE", id: 668208984
-mas "Medis", id: 1063631769
-mas "Presentify", id: 1507246666

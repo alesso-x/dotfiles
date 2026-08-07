@@ -59,7 +59,9 @@ Install [Brew](https://brew.sh)
 Install Apps
 
 ```bash
-export HOMEBREW_BUNDLE_MAS_SKIP="Pages Numbers Keynote iMovie GarageBand Xcode 462058435 462062816 462054704"
+# Skips apps macOS ships with, plus Xcode, which is better installed from the
+# App Store app than through mas.
+export HOMEBREW_BUNDLE_MAS_SKIP="Keynote Numbers Pages Xcode"
 brew bundle --file=$DOTFILES_HOME/macOS/Brewfile
 ```
 
