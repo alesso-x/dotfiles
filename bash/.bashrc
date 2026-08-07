@@ -32,7 +32,7 @@ fi
 
 # direnv, asdf
 eval "$(direnv hook bash)"
-source $HOMEBREW_PREFIX/opt/asdf/asdf.sh
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 . $ASDF_DATA_DIR/plugins/java/set-java-home.bash # JAVA_HOME
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
