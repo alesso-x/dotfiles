@@ -10,4 +10,4 @@ print 'dumping brew bundle'
 brew bundle dump --force --file=$DOTFILES_HOME/macOS/Brewfile
 
 print 'dumping vscode extensions'
-code --list-extensions > $DOTFILES_HOME/vscode/extensions
+code --profile Personal --list-extensions > $DOTFILES_HOME/vscode/extensions
