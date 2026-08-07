@@ -140,6 +140,7 @@ asdf set --home java (asdf latest java openjdk)
 # rm -rf ~/.local/pipx/ after upgrading python
 pipx install soundscrape
 pipx install ytmdl
+pipx install argcomplete # required by pipx completions in zsh/.zshrc
 ```
 
 ## vim
