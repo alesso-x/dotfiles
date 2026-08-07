@@ -1,0 +1,13 @@
+#!/bin/bash
+
+CYAN='\033[0;36m'
+NC='\033[0m' # No Color
+function print() {
+  echo -e "${CYAN}==> $1${NC}"
+}
+
+print 'dumping brew bundle'
+brew bundle dump --force --file=$DOTFILES_HOME/macOS/Brewfile
+
+print 'dumping vscode extensions'
+code --list-extensions > $DOTFILES_HOME/vscode/extensions
